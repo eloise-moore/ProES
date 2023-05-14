@@ -7,6 +7,7 @@ import os, ctypes
 import config
 import math
 from astropy.cosmology import Planck18
+import os.path as path
 
 # constants
 # eb = 1/12

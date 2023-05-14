@@ -8,6 +8,7 @@ from photons import Photons
 from protons import Protons
 from astropy.cosmology import Planck18
 import config
+import os.path as path
 
 """ Constants """
 c = 1

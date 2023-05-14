@@ -5,6 +5,7 @@ import math
 import matplotlib.pyplot as plt
 from astropy.cosmology import Planck18
 import config
+import os.path as path
 
 # constants
 c = 3e+5
