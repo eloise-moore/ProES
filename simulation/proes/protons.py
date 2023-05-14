@@ -1,6 +1,6 @@
 import sys
 sys.path.append('../lib')
-from lib.pysophia import *
+# from lib.pysophia import *
 from scipy.integrate import quad#, LowLevelCallable
 import numpy as np
 import os, ctypes
