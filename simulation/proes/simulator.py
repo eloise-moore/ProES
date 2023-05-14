@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 import math
 from astropy.cosmology import Planck18
 import config
+import os
 import os.path as path
 from os.path import exists
 import csv
