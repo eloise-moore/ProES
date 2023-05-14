@@ -157,43 +157,43 @@ class Protons():
         """
         return self.lm / 3e+5
 
-    def cross_sec_integ(self, E, e):
-        """
-        Helper function for determining the photohadronic loss timescale. This function provides the integral of the interaction cross sections of protons at a given energy. This function should not be called outside of the calculate_photohadronic_loss_timescale function. At this stage, I'm not sure how well this function is working, and so it is not called in the code at the moment.
+#     def cross_sec_integ(self, E, e):
+#         """
+#         Helper function for determining the photohadronic loss timescale. This function provides the integral of the interaction cross sections of protons at a given energy. This function should not be called outside of the calculate_photohadronic_loss_timescale function. At this stage, I'm not sure how well this function is working, and so it is not called in the code at the moment.
 
-        Parameters:
-            E:  the maximum proton energy (units: GeV)
+#         Parameters:
+#             E:  the maximum proton energy (units: GeV)
 
-            e:  the integration energies (units: GeV)
+#             e:  the integration energies (units: GeV)
 
-        Returns:
-            the result of the cross section integral
-        """
+#         Returns:
+#             the result of the cross section integral
+#         """
 
-        SI = SophiaInterface()
-        # test = quad(lambda er: er * SI.crossection(er, 3, 13), e_th, (2 * E * e) / m_p, limit=100)
-        #
-        # if config.ENABLE_LOGGING:
-        #     f = open(path.join(config.LOG_PATH, 'cross-sec.log'), 'a')
-        #     lines = [f"{test[0]}", " "]
-        #     f.write('\n'.join(lines))
-        #     f.close()
-        # # print(test[0])
-        # return test
-        return quad(lambda er: er * SI.crossection(er, 3, 13), e_th, (2 * E * e) / m_p, limit=100)
+#         SI = SophiaInterface()
+#         # test = quad(lambda er: er * SI.crossection(er, 3, 13), e_th, (2 * E * e) / m_p, limit=100)
+#         #
+#         # if config.ENABLE_LOGGING:
+#         #     f = open(path.join(config.LOG_PATH, 'cross-sec.log'), 'a')
+#         #     lines = [f"{test[0]}", " "]
+#         #     f.write('\n'.join(lines))
+#         #     f.close()
+#         # # print(test[0])
+#         # return test
+#         return quad(lambda er: er * SI.crossection(er, 3, 13), e_th, (2 * E * e) / m_p, limit=100)
 
-    def calculate_photohadronic_loss_timescale(self, E):
-        """
-        Calculates the photohadronic loss timescale for protons with a given energy. At this stage, I don't believe this function is working correctly, due to extremely large timescales being returned. Hence, this function is not called at any point in the code at the moment.
+#     def calculate_photohadronic_loss_timescale(self, E):
+#         """
+#         Calculates the photohadronic loss timescale for protons with a given energy. At this stage, I don't believe this function is working correctly, due to extremely large timescales being returned. Hence, this function is not called at any point in the code at the moment.
 
-        Parameters:
-            E:  The proton energy (units: erg)
+#         Parameters:
+#             E:  The proton energy (units: erg)
 
-        Returns:
-            the photohadronic loss timescale (units: s)
-        """
+#         Returns:
+#             the photohadronic loss timescale (units: s)
+#         """
 
-        return (1/2) * (m_p / E)**2 * quad(lambda e: (self.photons.generate_photon_spectrum(e * 1e+6) / e**2) * self.cross_sec_integ(E, e)[0], (e_th * m_p) / (2 * E), np.inf, limit=100)[0]
+#         return (1/2) * (m_p / E)**2 * quad(lambda e: (self.photons.generate_photon_spectrum(e * 1e+6) / e**2) * self.cross_sec_integ(E, e)[0], (e_th * m_p) / (2 * E), np.inf, limit=100)[0]
         # test = (1/2) * (m_p / E)**2 * quad(lambda e: (self.photons.generate_photon_spectrum(e * 1e+6) / e**2) * self.cross_sec_integ(E, e)[0], (e_th * m_p) / (2 * E), np.inf, limit=500)[0]
         # print(test)
         # if config.VERBOSE:
