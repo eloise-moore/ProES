@@ -102,7 +102,7 @@ class Simulator():
 
             # update simulation time to time of next collision
             st += self.emitter.next_collision_time
-            print(self.emitter.nshells)
+#             print(self.emitter.nshells)
             # store simulation time
             self.sim_time.append(st)
 
