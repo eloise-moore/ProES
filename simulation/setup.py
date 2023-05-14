@@ -25,7 +25,9 @@ setup(
         'math',
         'matplotlib',
         'astropy',
-        'random'
+        'random',
+        'os',
+        'path'
     ],
     classifiers=[
     # How mature is this project? Common values are
