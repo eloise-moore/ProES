@@ -27,7 +27,8 @@ setup(
         'astropy',
         'random',
         'os',
-        'path'
+        'path', 
+        'scipy'
     ],
     classifiers=[
     # How mature is this project? Common values are
