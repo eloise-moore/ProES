@@ -16,7 +16,7 @@ setup(
     version=__version__,
     author='Eloise Moore',
     author_email='22684463@student.uwa.edu.au'
-    url=''
+    # url=''
     license='MIT'
     description='Gamma-ray burst PROmpt Emission Simulator',
     packages=['proes'],
