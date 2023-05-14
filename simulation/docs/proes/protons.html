@@ -1,0 +1,984 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+<meta name="generator" content="pdoc 0.10.0" />
+<title>proes.protons API documentation</title>
+<meta name="description" content="" />
+<link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/sanitize.min.css" integrity="sha256-PK9q560IAAa6WVRRh76LtCaI8pjTJ2z11v0miyNNjrs=" crossorigin>
+<link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/typography.min.css" integrity="sha256-7l/o7C8jubJiy74VsKTidCy1yBkRtiUGbVkYBylBqUg=" crossorigin>
+<link rel="stylesheet preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/github.min.css" crossorigin>
+<style>:root{--highlight-color:#fe9}.flex{display:flex !important}body{line-height:1.5em}#content{padding:20px}#sidebar{padding:30px;overflow:hidden}#sidebar > *:last-child{margin-bottom:2cm}.http-server-breadcrumbs{font-size:130%;margin:0 0 15px 0}#footer{font-size:.75em;padding:5px 30px;border-top:1px solid #ddd;text-align:right}#footer p{margin:0 0 0 1em;display:inline-block}#footer p:last-child{margin-right:30px}h1,h2,h3,h4,h5{font-weight:300}h1{font-size:2.5em;line-height:1.1em}h2{font-size:1.75em;margin:1em 0 .50em 0}h3{font-size:1.4em;margin:25px 0 10px 0}h4{margin:0;font-size:105%}h1:target,h2:target,h3:target,h4:target,h5:target,h6:target{background:var(--highlight-color);padding:.2em 0}a{color:#058;text-decoration:none;transition:color .3s ease-in-out}a:hover{color:#e82}.title code{font-weight:bold}h2[id^="header-"]{margin-top:2em}.ident{color:#900}pre code{background:#f8f8f8;font-size:.8em;line-height:1.4em}code{background:#f2f2f1;padding:1px 4px;overflow-wrap:break-word}h1 code{background:transparent}pre{background:#f8f8f8;border:0;border-top:1px solid #ccc;border-bottom:1px solid #ccc;margin:1em 0;padding:1ex}#http-server-module-list{display:flex;flex-flow:column}#http-server-module-list div{display:flex}#http-server-module-list dt{min-width:10%}#http-server-module-list p{margin-top:0}.toc ul,#index{list-style-type:none;margin:0;padding:0}#index code{background:transparent}#index h3{border-bottom:1px solid #ddd}#index ul{padding:0}#index h4{margin-top:.6em;font-weight:bold}@media (min-width:200ex){#index .two-column{column-count:2}}@media (min-width:300ex){#index .two-column{column-count:3}}dl{margin-bottom:2em}dl dl:last-child{margin-bottom:4em}dd{margin:0 0 1em 3em}#header-classes + dl > dd{margin-bottom:3em}dd dd{margin-left:2em}dd p{margin:10px 0}.name{background:#eee;font-weight:bold;font-size:.85em;padding:5px 10px;display:inline-block;min-width:40%}.name:hover{background:#e0e0e0}dt:target .name{background:var(--highlight-color)}.name > span:first-child{white-space:nowrap}.name.class > span:nth-child(2){margin-left:.4em}.inherited{color:#999;border-left:5px solid #eee;padding-left:1em}.inheritance em{font-style:normal;font-weight:bold}.desc h2{font-weight:400;font-size:1.25em}.desc h3{font-size:1em}.desc dt code{background:inherit}.source summary,.git-link-div{color:#666;text-align:right;font-weight:400;font-size:.8em;text-transform:uppercase}.source summary > *{white-space:nowrap;cursor:pointer}.git-link{color:inherit;margin-left:1em}.source pre{max-height:500px;overflow:auto;margin:0}.source pre code{font-size:12px;overflow:visible}.hlist{list-style:none}.hlist li{display:inline}.hlist li:after{content:',\2002'}.hlist li:last-child:after{content:none}.hlist .hlist{display:inline;padding-left:1em}img{max-width:100%}td{padding:0 .5em}.admonition{padding:.1em .5em;margin-bottom:1em}.admonition-title{font-weight:bold}.admonition.note,.admonition.info,.admonition.important{background:#aef}.admonition.todo,.admonition.versionadded,.admonition.tip,.admonition.hint{background:#dfd}.admonition.warning,.admonition.versionchanged,.admonition.deprecated{background:#fd4}.admonition.error,.admonition.danger,.admonition.caution{background:lightpink}</style>
+<style media="screen and (min-width: 700px)">@media screen and (min-width:700px){#sidebar{width:30%;height:100vh;overflow:auto;position:sticky;top:0}#content{width:70%;max-width:100ch;padding:3em 4em;border-left:1px solid #ddd}pre code{font-size:1em}.item .name{font-size:1em}main{display:flex;flex-direction:row-reverse;justify-content:flex-end}.toc ul ul,#index ul{padding-left:1.5em}.toc > ul > li{margin-top:.5em}}</style>
+<style media="print">@media print{#sidebar h1{page-break-before:always}.source{display:none}}@media print{*{background:transparent !important;color:#000 !important;box-shadow:none !important;text-shadow:none !important}a[href]:after{content:" (" attr(href) ")";font-size:90%}a[href][title]:after{content:none}abbr[title]:after{content:" (" attr(title) ")"}.ir a:after,a[href^="javascript:"]:after,a[href^="#"]:after{content:""}pre,blockquote{border:1px solid #999;page-break-inside:avoid}thead{display:table-header-group}tr,img{page-break-inside:avoid}img{max-width:100% !important}@page{margin:0.5cm}p,h2,h3{orphans:3;widows:3}h1,h2,h3,h4,h5,h6{page-break-after:avoid}}</style>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js" integrity="sha256-Uv3H6lx7dJmRfRvH8TH6kJD1TSK1aFcwgx+mdg3epi8=" crossorigin></script>
+<script>window.addEventListener('DOMContentLoaded', () => hljs.initHighlighting())</script>
+</head>
+<body>
+<main>
+<article id="content">
+<header>
+<h1 class="title">Module <code>proes.protons</code></h1>
+</header>
+<section id="section-intro">
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">import sys
+sys.path.append(&#39;../lib&#39;)
+from lib.pysophia import *
+from scipy.integrate import quad#, LowLevelCallable
+import numpy as np
+import os, ctypes
+import config
+
+# constants
+eb = 1/12
+ee = 1/12
+ep = 5/6
+c = 3e+10        # cm/s
+e_charge = 4.803e-10   # Fr
+m_p = 0.938     # GeV
+e_th = 0.150    # GeV
+
+
+
+class Protons():
+    &#34;&#34;&#34;
+    A class to represent the prompt emission accelerated protons.
+
+    --------------------------------------------------------------------------------
+                                Parameters contained:
+    --------------------------------------------------------------------------------
+    e_prot:         the GRB energy injected into the protons (units: erg)
+
+    e_prot_gev:     the GRB energy injected into the protons (units: GeV)
+
+    mass:           the mass of the merged shell (units: GeV)
+
+    n_prot:         number of protons contained within the merged shell
+
+    e_prot_n_gev:   the energy per proton (units: GeV)
+
+    gamma_m:        the Lorentz factor of the merged shell
+
+    gamma_fs:       the Lorentz factor of the forward shock
+
+    bulk_gamma_fs:  the bulk Lorentz factor of the forward shock
+
+    e_gamma:        the GRB energy injected into the photons (units: erg)
+
+    rc:             the collision radius (units: km)
+
+    photons:        the photons object associated with the collision
+
+    emax:           the maximum proton energy calculated (units: GeV)
+
+    tsync:          the synchrotron loss timescale (units: s)
+
+    tdyn:           the dynamical loss timescale (units: s)
+
+    --------------------------------------------------------------------------------
+    &#34;&#34;&#34;
+    def __init__(self, e_prot, mass, gamma_m, gamma_fs, bulk_gamma_fs, e_gamma, rc, lm, photons):
+        &#34;&#34;&#34;
+        Initialises the protons.
+
+        Parameters:
+            e_prot:         the GRB energy injected into the protons (units: erg)
+
+            mass:           the mass of the merged shell (units: GeV)
+
+            gamma_m:        the Lorentz factor of the merged shell
+
+            gamma_fs:       the Lorentz factor of the forward shock
+
+            bulk_gamma_fs:  the bulk Lorentz factor of the forward shock
+
+            e_gamma:        the GRB energy injected into the photons (units: erg)
+
+            rc:             the collision radius (units: km)
+
+            lm:             the width of the merged shell (units: km)
+
+            photons:        the photons object associated with the collision
+        &#34;&#34;&#34;
+        self.e_prot = e_prot
+        self.e_prot_gev = e_prot * 624.15
+        self.mass = mass
+        self.n_prot = mass / m_p
+        self.e_prot_n_gev = self.e_prot_gev / self.n_prot
+        self.gamma_m = gamma_m
+        self.gamma_fs = gamma_fs
+        self.bulk_gamma_fs = bulk_gamma_fs
+        self.e_gamma = e_gamma
+        self.rc = rc
+        self.lm = lm
+        self.photons = photons
+        self.emax = 0
+        self.tsync = 0
+        self.tdyn = 0
+
+
+    def calculate_magnetic_field(self):
+        &#34;&#34;&#34;
+        Calculates the magnetic field associated with the merged shell.
+
+        Parameters:
+            none
+
+        Returns:
+            the magnetic field in kG
+
+        &#34;&#34;&#34;
+        return 44.7 * (self.gamma_m / (10**2.5))**(-1) * (eb / ee)**(1/2) * (self.e_gamma / 1e+50)**(1/2) * (self.rc / 1e+9)**(-1) * (self.lm / 1e+3)**(-1/2)
+
+    def calculate_acceleration_time(self, E, eff, b):
+        &#34;&#34;&#34;
+        Calculates the proton acceleration timescale for a given energy and magnetic field.
+
+        Parameters:
+            E:  the proton energy (erg)
+
+            b:  the input magnetic field (G)
+
+        Returns:
+            the acceleration time (units: s)
+        &#34;&#34;&#34;
+        return E / (eff * c * e_charge * b)
+
+    def calculate_synchrotron_loss_timescale(self, E, b):
+        &#34;&#34;&#34;
+        Calculates the synchrotron loss timescale for the protons being accelerated for a given energy and magnetic field.
+
+        Parameters:
+            E:  the energy of the protons (units: erg)
+
+            b:  the input magnetic field (units: G)
+
+        Returns:
+            the synchrotron loss timescale (units: s)
+        &#34;&#34;&#34;
+        return (9 * (m_p / 624.15)**4) / (4 * c * e_charge**4 * b**2 * E)
+
+    def calculate_dynamical_timescale(self):
+        &#34;&#34;&#34;
+        Calculates the dynamical loss timescale for the protons within the merged shell.
+
+        Parameters:
+            none
+
+        Returns:
+            the dynamical loss timescale (units: s)
+        &#34;&#34;&#34;
+        return self.lm / 3e+5
+
+    def cross_sec_integ(self, E, e):
+        &#34;&#34;&#34;
+        Helper function for determining the photohadronic loss timescale. This function provides the integral of the interaction cross sections of protons at a given energy. This function should not be called outside of the calculate_photohadronic_loss_timescale function. At this stage, I&#39;m not sure how well this function is working, and so it is not called in the code at the moment.
+
+        Parameters:
+            E:  the maximum proton energy (units: GeV)
+
+            e:  the integration energies (units: GeV)
+
+        Returns:
+            the result of the cross section integral
+        &#34;&#34;&#34;
+        SI = SophiaInterface()
+        test = quad(lambda er: er * SI.crossection(er, 3, 13), e_th, (2 * E * e) / m_p, limit=100)
+
+        if config.ENABLE_LOGGING:
+            f = open(path.join(config.LOG_PATH, &#39;cross-sec.log&#39;), &#39;a&#39;)
+            lines = [f&#34;{test[0]}&#34;, &#34; &#34;]
+            f.write(&#39;\n&#39;.join(lines))
+            f.close()
+        # print(test[0])
+        return test
+        # return quad(lambda er: er * SI.crossection(er, 3, 13), e_th, (2 * E * e) / m_p, limit=100)
+
+    def calculate_photohadronic_loss_timescale(self, E):
+        &#34;&#34;&#34;
+        Calculates the photohadronic loss timescale for protons with a given energy. At this stage, I don&#39;t believe this function is working correctly, due to extremely large timescales being returned. Hence, this function is not called at any point in the code at the moment.
+
+        Parameters:
+            E:  The proton energy (units: erg)
+
+        Returns:
+            the photohadronic loss timescale (units: s)
+        &#34;&#34;&#34;
+        # return (1/2) * (m_p / E)**2 * quad(lambda e: (self.photons.generate_photon_spectrum(e * 1e+6) / e**2) * self.cross_sec_integ(E, e)[0], (e_th * m_p) / (2 * E), np.inf, limit=100)[0]
+        test = (1/2) * (m_p / E)**2 * quad(lambda e: (self.photons.generate_photon_spectrum(e * 1e+6) / e**2) * self.cross_sec_integ(E, e)[0], (e_th * m_p) / (2 * E), np.inf, limit=500)[0]
+
+        if config.VERBOSE:
+            print(&#34;.-.-.-.-.-.-.-.-.-.-.-.-&#34;)
+            print(f&#34;Proton energy: {E:.4f}&#34;)
+            print(f&#34; second integ: {test:.4e}&#34;)
+            print(&#34;.-.-.-.-.-.-.-.-.-.-.-.-&#34;)
+        return test
+
+    # def cross_sec_integ(self, E, e):
+    #     lib = ctypes.CDLL(os.path.abspath(&#39;../lib/proton_integrator.so&#39;))
+    #
+    #     lib.cross_sec_integ.restype = ctypes.c_double
+    #     lib.cross_sec_integ.argtypes = (ctypes.POINTER(ctypes.c_double))
+    #
+    # def calculate_photohadronic_loss_timescale(self, E):
+    #     lib = ctypes.CDLL(os.path.abspath(&#39;../lib/proton_integrator.so&#39;))
+    #
+    #     lib.py_loss_timescale_integ.restype = ctypes.c_double
+    #     lib.py_loss_timescale_integ.argtypes = (ctypes.POINTER(ctypes.c_double))
+    #
+    #     parm =
+
+    def calculate_maximum_energy(self, eff):
+        &#34;&#34;&#34;
+        Calculates the maximum energy that the protons can obtain via Fermi acceleration in the shell configuration given the energy losses that may occur.
+
+        Parameters:
+            eff:    the acceleration efficiency
+
+        Returns:
+            The maximum proton energy (units: erg)
+        &#34;&#34;&#34;
+        b = self.calculate_magnetic_field() * 1e+3
+        e_p_max = e_charge * b * self.gamma_fs * self.bulk_gamma_fs * self.rc * 1e+5
+        self.emax = e_p_max * 624.15
+        t_dyn = self.calculate_dynamical_timescale()
+        t_syn = self.calculate_synchrotron_loss_timescale(e_p_max, b)
+        self.t_syn = t_syn
+        self.t_dyn = t_dyn
+        # t_py = self.calculate_photohadronic_loss_timescale(e_p_max * 624.15)
+        t_py = -1
+
+        if (t_py &lt; 0):
+            t_acc = min(t_dyn, t_syn)
+        else:
+            t_acc = min(t_dyn, t_syn, t_py)
+
+        if config.ENABLE_LOGGING:
+            f = open(path.join(config.LOG_PATH, &#39;protons.log&#39;), &#39;a&#39;)
+
+            if (t_acc == t_dyn):
+                lines = [&#34;------------------------------------------------------------&#34;, &#34;              PROTON PARAMETERS&#34;, &#34;------------------------------------------------------------&#34;, &#34; dominant loss mechanism: adiabatic loss due to expansion of shell&#34;, f&#34; loss timescale: {t_dyn}&#34;, f&#34; max proton energy: {t_acc * eff * c * e_charge * b}&#34;, &#34;------------------------------------------------------------&#34;, &#34; &#34;]
+                f.write(&#39;\n&#39;.join(lines))
+                f.close()
+
+            elif (t_acc == t_syn):
+                lines = [&#34;------------------------------------------------------------&#34;, &#34;              PROTON PARAMETERS&#34;, &#34;------------------------------------------------------------&#34;, &#34; dominant loss mechanism: synchrotron&#34;, f&#34; loss timescale: {t_syn}&#34;, f&#34; max proton energy: {t_acc * eff * c * e_charge * b}&#34;, &#34;------------------------------------------------------------&#34;, &#34; &#34;]
+                f.write(&#39;\n&#39;.join(lines))
+                f.close()
+
+            else:
+                lines = [&#34;------------------------------------------------------------&#34;, &#34;              PROTON PARAMETERS&#34;, &#34;------------------------------------------------------------&#34;, &#34; dominant loss mechanism: photohadronic losses&#34;, f&#34; loss timescale: {t_py}&#34;, f&#34; max proton energy: {t_acc * eff * c * e_charge * b}&#34;, &#34;------------------------------------------------------------&#34;, &#34; &#34;]
+                f.write(&#39;\n&#39;.join(lines))
+                f.close()
+
+        return t_acc * eff * c * e_charge * b
+
+    def generate_proton_spectrum(self):
+        &#34;&#34;&#34;
+        Generates a proton energy spectrum that can be obtained via Fermi acceleration within the shell collision.
+
+        Parameters:
+            none
+
+        Returns:
+            p:              a list containing the proton energies in the spectrum
+
+            n_p:            a list containing the number of protons accelerated to a given energy in list p
+
+            e_pmax:         the maximum proton energy used in the calculations (units: GeV)
+
+            e_prot_n_gev:   the original proton energy (units: GeV)
+
+        &#34;&#34;&#34;
+        C_p = (self.photons.e_iso / self.photons.v_iso) * (ep / ee)
+
+        e_pmax = self.calculate_maximum_energy(1) * 624.15
+        p = np.linspace(self.e_prot_n_gev, e_pmax, 50)
+        n_p = [C_p * (i)**(-2) * np.exp(-(i / e_pmax)**(2)) for i in p]
+        return p, n_p, e_pmax, self.e_prot_n_gev #self.e_prot_n_gev</code></pre>
+</details>
+</section>
+<section>
+</section>
+<section>
+</section>
+<section>
+</section>
+<section>
+<h2 class="section-title" id="header-classes">Classes</h2>
+<dl>
+<dt id="proes.protons.Protons"><code class="flex name class">
+<span>class <span class="ident">Protons</span></span>
+<span>(</span><span>e_prot, mass, gamma_m, gamma_fs, bulk_gamma_fs, e_gamma, rc, lm, photons)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>A class to represent the prompt emission accelerated protons.</p>
+<hr>
+<pre><code>                        Parameters contained:
+</code></pre>
+<hr>
+<p>e_prot:
+the GRB energy injected into the protons (units: erg)</p>
+<p>e_prot_gev:
+the GRB energy injected into the protons (units: GeV)</p>
+<p>mass:
+the mass of the merged shell (units: GeV)</p>
+<p>n_prot:
+number of protons contained within the merged shell</p>
+<p>e_prot_n_gev:
+the energy per proton (units: GeV)</p>
+<p>gamma_m:
+the Lorentz factor of the merged shell</p>
+<p>gamma_fs:
+the Lorentz factor of the forward shock</p>
+<p>bulk_gamma_fs:
+the bulk Lorentz factor of the forward shock</p>
+<p>e_gamma:
+the GRB energy injected into the photons (units: erg)</p>
+<p>rc:
+the collision radius (units: km)</p>
+<p>photons:
+the photons object associated with the collision</p>
+<p>emax:
+the maximum proton energy calculated (units: GeV)</p>
+<p>tsync:
+the synchrotron loss timescale (units: s)</p>
+<p>tdyn:
+the dynamical loss timescale (units: s)</p>
+<hr>
+<p>Initialises the protons.</p>
+<h2 id="parameters">Parameters</h2>
+<p>e_prot:
+the GRB energy injected into the protons (units: erg)</p>
+<p>mass:
+the mass of the merged shell (units: GeV)</p>
+<p>gamma_m:
+the Lorentz factor of the merged shell</p>
+<p>gamma_fs:
+the Lorentz factor of the forward shock</p>
+<p>bulk_gamma_fs:
+the bulk Lorentz factor of the forward shock</p>
+<p>e_gamma:
+the GRB energy injected into the photons (units: erg)</p>
+<p>rc:
+the collision radius (units: km)</p>
+<p>lm:
+the width of the merged shell (units: km)</p>
+<p>photons:
+the photons object associated with the collision</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">class Protons():
+    &#34;&#34;&#34;
+    A class to represent the prompt emission accelerated protons.
+
+    --------------------------------------------------------------------------------
+                                Parameters contained:
+    --------------------------------------------------------------------------------
+    e_prot:         the GRB energy injected into the protons (units: erg)
+
+    e_prot_gev:     the GRB energy injected into the protons (units: GeV)
+
+    mass:           the mass of the merged shell (units: GeV)
+
+    n_prot:         number of protons contained within the merged shell
+
+    e_prot_n_gev:   the energy per proton (units: GeV)
+
+    gamma_m:        the Lorentz factor of the merged shell
+
+    gamma_fs:       the Lorentz factor of the forward shock
+
+    bulk_gamma_fs:  the bulk Lorentz factor of the forward shock
+
+    e_gamma:        the GRB energy injected into the photons (units: erg)
+
+    rc:             the collision radius (units: km)
+
+    photons:        the photons object associated with the collision
+
+    emax:           the maximum proton energy calculated (units: GeV)
+
+    tsync:          the synchrotron loss timescale (units: s)
+
+    tdyn:           the dynamical loss timescale (units: s)
+
+    --------------------------------------------------------------------------------
+    &#34;&#34;&#34;
+    def __init__(self, e_prot, mass, gamma_m, gamma_fs, bulk_gamma_fs, e_gamma, rc, lm, photons):
+        &#34;&#34;&#34;
+        Initialises the protons.
+
+        Parameters:
+            e_prot:         the GRB energy injected into the protons (units: erg)
+
+            mass:           the mass of the merged shell (units: GeV)
+
+            gamma_m:        the Lorentz factor of the merged shell
+
+            gamma_fs:       the Lorentz factor of the forward shock
+
+            bulk_gamma_fs:  the bulk Lorentz factor of the forward shock
+
+            e_gamma:        the GRB energy injected into the photons (units: erg)
+
+            rc:             the collision radius (units: km)
+
+            lm:             the width of the merged shell (units: km)
+
+            photons:        the photons object associated with the collision
+        &#34;&#34;&#34;
+        self.e_prot = e_prot
+        self.e_prot_gev = e_prot * 624.15
+        self.mass = mass
+        self.n_prot = mass / m_p
+        self.e_prot_n_gev = self.e_prot_gev / self.n_prot
+        self.gamma_m = gamma_m
+        self.gamma_fs = gamma_fs
+        self.bulk_gamma_fs = bulk_gamma_fs
+        self.e_gamma = e_gamma
+        self.rc = rc
+        self.lm = lm
+        self.photons = photons
+        self.emax = 0
+        self.tsync = 0
+        self.tdyn = 0
+
+
+    def calculate_magnetic_field(self):
+        &#34;&#34;&#34;
+        Calculates the magnetic field associated with the merged shell.
+
+        Parameters:
+            none
+
+        Returns:
+            the magnetic field in kG
+
+        &#34;&#34;&#34;
+        return 44.7 * (self.gamma_m / (10**2.5))**(-1) * (eb / ee)**(1/2) * (self.e_gamma / 1e+50)**(1/2) * (self.rc / 1e+9)**(-1) * (self.lm / 1e+3)**(-1/2)
+
+    def calculate_acceleration_time(self, E, eff, b):
+        &#34;&#34;&#34;
+        Calculates the proton acceleration timescale for a given energy and magnetic field.
+
+        Parameters:
+            E:  the proton energy (erg)
+
+            b:  the input magnetic field (G)
+
+        Returns:
+            the acceleration time (units: s)
+        &#34;&#34;&#34;
+        return E / (eff * c * e_charge * b)
+
+    def calculate_synchrotron_loss_timescale(self, E, b):
+        &#34;&#34;&#34;
+        Calculates the synchrotron loss timescale for the protons being accelerated for a given energy and magnetic field.
+
+        Parameters:
+            E:  the energy of the protons (units: erg)
+
+            b:  the input magnetic field (units: G)
+
+        Returns:
+            the synchrotron loss timescale (units: s)
+        &#34;&#34;&#34;
+        return (9 * (m_p / 624.15)**4) / (4 * c * e_charge**4 * b**2 * E)
+
+    def calculate_dynamical_timescale(self):
+        &#34;&#34;&#34;
+        Calculates the dynamical loss timescale for the protons within the merged shell.
+
+        Parameters:
+            none
+
+        Returns:
+            the dynamical loss timescale (units: s)
+        &#34;&#34;&#34;
+        return self.lm / 3e+5
+
+    def cross_sec_integ(self, E, e):
+        &#34;&#34;&#34;
+        Helper function for determining the photohadronic loss timescale. This function provides the integral of the interaction cross sections of protons at a given energy. This function should not be called outside of the calculate_photohadronic_loss_timescale function. At this stage, I&#39;m not sure how well this function is working, and so it is not called in the code at the moment.
+
+        Parameters:
+            E:  the maximum proton energy (units: GeV)
+
+            e:  the integration energies (units: GeV)
+
+        Returns:
+            the result of the cross section integral
+        &#34;&#34;&#34;
+        SI = SophiaInterface()
+        test = quad(lambda er: er * SI.crossection(er, 3, 13), e_th, (2 * E * e) / m_p, limit=100)
+
+        if config.ENABLE_LOGGING:
+            f = open(path.join(config.LOG_PATH, &#39;cross-sec.log&#39;), &#39;a&#39;)
+            lines = [f&#34;{test[0]}&#34;, &#34; &#34;]
+            f.write(&#39;\n&#39;.join(lines))
+            f.close()
+        # print(test[0])
+        return test
+        # return quad(lambda er: er * SI.crossection(er, 3, 13), e_th, (2 * E * e) / m_p, limit=100)
+
+    def calculate_photohadronic_loss_timescale(self, E):
+        &#34;&#34;&#34;
+        Calculates the photohadronic loss timescale for protons with a given energy. At this stage, I don&#39;t believe this function is working correctly, due to extremely large timescales being returned. Hence, this function is not called at any point in the code at the moment.
+
+        Parameters:
+            E:  The proton energy (units: erg)
+
+        Returns:
+            the photohadronic loss timescale (units: s)
+        &#34;&#34;&#34;
+        # return (1/2) * (m_p / E)**2 * quad(lambda e: (self.photons.generate_photon_spectrum(e * 1e+6) / e**2) * self.cross_sec_integ(E, e)[0], (e_th * m_p) / (2 * E), np.inf, limit=100)[0]
+        test = (1/2) * (m_p / E)**2 * quad(lambda e: (self.photons.generate_photon_spectrum(e * 1e+6) / e**2) * self.cross_sec_integ(E, e)[0], (e_th * m_p) / (2 * E), np.inf, limit=500)[0]
+
+        if config.VERBOSE:
+            print(&#34;.-.-.-.-.-.-.-.-.-.-.-.-&#34;)
+            print(f&#34;Proton energy: {E:.4f}&#34;)
+            print(f&#34; second integ: {test:.4e}&#34;)
+            print(&#34;.-.-.-.-.-.-.-.-.-.-.-.-&#34;)
+        return test
+
+    # def cross_sec_integ(self, E, e):
+    #     lib = ctypes.CDLL(os.path.abspath(&#39;../lib/proton_integrator.so&#39;))
+    #
+    #     lib.cross_sec_integ.restype = ctypes.c_double
+    #     lib.cross_sec_integ.argtypes = (ctypes.POINTER(ctypes.c_double))
+    #
+    # def calculate_photohadronic_loss_timescale(self, E):
+    #     lib = ctypes.CDLL(os.path.abspath(&#39;../lib/proton_integrator.so&#39;))
+    #
+    #     lib.py_loss_timescale_integ.restype = ctypes.c_double
+    #     lib.py_loss_timescale_integ.argtypes = (ctypes.POINTER(ctypes.c_double))
+    #
+    #     parm =
+
+    def calculate_maximum_energy(self, eff):
+        &#34;&#34;&#34;
+        Calculates the maximum energy that the protons can obtain via Fermi acceleration in the shell configuration given the energy losses that may occur.
+
+        Parameters:
+            eff:    the acceleration efficiency
+
+        Returns:
+            The maximum proton energy (units: erg)
+        &#34;&#34;&#34;
+        b = self.calculate_magnetic_field() * 1e+3
+        e_p_max = e_charge * b * self.gamma_fs * self.bulk_gamma_fs * self.rc * 1e+5
+        self.emax = e_p_max * 624.15
+        t_dyn = self.calculate_dynamical_timescale()
+        t_syn = self.calculate_synchrotron_loss_timescale(e_p_max, b)
+        self.t_syn = t_syn
+        self.t_dyn = t_dyn
+        # t_py = self.calculate_photohadronic_loss_timescale(e_p_max * 624.15)
+        t_py = -1
+
+        if (t_py &lt; 0):
+            t_acc = min(t_dyn, t_syn)
+        else:
+            t_acc = min(t_dyn, t_syn, t_py)
+
+        if config.ENABLE_LOGGING:
+            f = open(path.join(config.LOG_PATH, &#39;protons.log&#39;), &#39;a&#39;)
+
+            if (t_acc == t_dyn):
+                lines = [&#34;------------------------------------------------------------&#34;, &#34;              PROTON PARAMETERS&#34;, &#34;------------------------------------------------------------&#34;, &#34; dominant loss mechanism: adiabatic loss due to expansion of shell&#34;, f&#34; loss timescale: {t_dyn}&#34;, f&#34; max proton energy: {t_acc * eff * c * e_charge * b}&#34;, &#34;------------------------------------------------------------&#34;, &#34; &#34;]
+                f.write(&#39;\n&#39;.join(lines))
+                f.close()
+
+            elif (t_acc == t_syn):
+                lines = [&#34;------------------------------------------------------------&#34;, &#34;              PROTON PARAMETERS&#34;, &#34;------------------------------------------------------------&#34;, &#34; dominant loss mechanism: synchrotron&#34;, f&#34; loss timescale: {t_syn}&#34;, f&#34; max proton energy: {t_acc * eff * c * e_charge * b}&#34;, &#34;------------------------------------------------------------&#34;, &#34; &#34;]
+                f.write(&#39;\n&#39;.join(lines))
+                f.close()
+
+            else:
+                lines = [&#34;------------------------------------------------------------&#34;, &#34;              PROTON PARAMETERS&#34;, &#34;------------------------------------------------------------&#34;, &#34; dominant loss mechanism: photohadronic losses&#34;, f&#34; loss timescale: {t_py}&#34;, f&#34; max proton energy: {t_acc * eff * c * e_charge * b}&#34;, &#34;------------------------------------------------------------&#34;, &#34; &#34;]
+                f.write(&#39;\n&#39;.join(lines))
+                f.close()
+
+        return t_acc * eff * c * e_charge * b
+
+    def generate_proton_spectrum(self):
+        &#34;&#34;&#34;
+        Generates a proton energy spectrum that can be obtained via Fermi acceleration within the shell collision.
+
+        Parameters:
+            none
+
+        Returns:
+            p:              a list containing the proton energies in the spectrum
+
+            n_p:            a list containing the number of protons accelerated to a given energy in list p
+
+            e_pmax:         the maximum proton energy used in the calculations (units: GeV)
+
+            e_prot_n_gev:   the original proton energy (units: GeV)
+
+        &#34;&#34;&#34;
+        C_p = (self.photons.e_iso / self.photons.v_iso) * (ep / ee)
+
+        e_pmax = self.calculate_maximum_energy(1) * 624.15
+        p = np.linspace(self.e_prot_n_gev, e_pmax, 50)
+        n_p = [C_p * (i)**(-2) * np.exp(-(i / e_pmax)**(2)) for i in p]
+        return p, n_p, e_pmax, self.e_prot_n_gev #self.e_prot_n_gev</code></pre>
+</details>
+<h3>Methods</h3>
+<dl>
+<dt id="proes.protons.Protons.calculate_acceleration_time"><code class="name flex">
+<span>def <span class="ident">calculate_acceleration_time</span></span>(<span>self, E, eff, b)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Calculates the proton acceleration timescale for a given energy and magnetic field.</p>
+<h2 id="parameters">Parameters</h2>
+<p>E:
+the proton energy (erg)</p>
+<p>b:
+the input magnetic field (G)</p>
+<h2 id="returns">Returns</h2>
+<p>the acceleration time (units: s)</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def calculate_acceleration_time(self, E, eff, b):
+    &#34;&#34;&#34;
+    Calculates the proton acceleration timescale for a given energy and magnetic field.
+
+    Parameters:
+        E:  the proton energy (erg)
+
+        b:  the input magnetic field (G)
+
+    Returns:
+        the acceleration time (units: s)
+    &#34;&#34;&#34;
+    return E / (eff * c * e_charge * b)</code></pre>
+</details>
+</dd>
+<dt id="proes.protons.Protons.calculate_dynamical_timescale"><code class="name flex">
+<span>def <span class="ident">calculate_dynamical_timescale</span></span>(<span>self)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Calculates the dynamical loss timescale for the protons within the merged shell.</p>
+<h2 id="parameters">Parameters</h2>
+<p>none</p>
+<h2 id="returns">Returns</h2>
+<p>the dynamical loss timescale (units: s)</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def calculate_dynamical_timescale(self):
+    &#34;&#34;&#34;
+    Calculates the dynamical loss timescale for the protons within the merged shell.
+
+    Parameters:
+        none
+
+    Returns:
+        the dynamical loss timescale (units: s)
+    &#34;&#34;&#34;
+    return self.lm / 3e+5</code></pre>
+</details>
+</dd>
+<dt id="proes.protons.Protons.calculate_magnetic_field"><code class="name flex">
+<span>def <span class="ident">calculate_magnetic_field</span></span>(<span>self)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Calculates the magnetic field associated with the merged shell.</p>
+<h2 id="parameters">Parameters</h2>
+<p>none</p>
+<h2 id="returns">Returns</h2>
+<p>the magnetic field in kG</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def calculate_magnetic_field(self):
+    &#34;&#34;&#34;
+    Calculates the magnetic field associated with the merged shell.
+
+    Parameters:
+        none
+
+    Returns:
+        the magnetic field in kG
+
+    &#34;&#34;&#34;
+    return 44.7 * (self.gamma_m / (10**2.5))**(-1) * (eb / ee)**(1/2) * (self.e_gamma / 1e+50)**(1/2) * (self.rc / 1e+9)**(-1) * (self.lm / 1e+3)**(-1/2)</code></pre>
+</details>
+</dd>
+<dt id="proes.protons.Protons.calculate_maximum_energy"><code class="name flex">
+<span>def <span class="ident">calculate_maximum_energy</span></span>(<span>self, eff)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Calculates the maximum energy that the protons can obtain via Fermi acceleration in the shell configuration given the energy losses that may occur.</p>
+<h2 id="parameters">Parameters</h2>
+<p>eff:
+the acceleration efficiency</p>
+<h2 id="returns">Returns</h2>
+<p>The maximum proton energy (units: erg)</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def calculate_maximum_energy(self, eff):
+    &#34;&#34;&#34;
+    Calculates the maximum energy that the protons can obtain via Fermi acceleration in the shell configuration given the energy losses that may occur.
+
+    Parameters:
+        eff:    the acceleration efficiency
+
+    Returns:
+        The maximum proton energy (units: erg)
+    &#34;&#34;&#34;
+    b = self.calculate_magnetic_field() * 1e+3
+    e_p_max = e_charge * b * self.gamma_fs * self.bulk_gamma_fs * self.rc * 1e+5
+    self.emax = e_p_max * 624.15
+    t_dyn = self.calculate_dynamical_timescale()
+    t_syn = self.calculate_synchrotron_loss_timescale(e_p_max, b)
+    self.t_syn = t_syn
+    self.t_dyn = t_dyn
+    # t_py = self.calculate_photohadronic_loss_timescale(e_p_max * 624.15)
+    t_py = -1
+
+    if (t_py &lt; 0):
+        t_acc = min(t_dyn, t_syn)
+    else:
+        t_acc = min(t_dyn, t_syn, t_py)
+
+    if config.ENABLE_LOGGING:
+        f = open(path.join(config.LOG_PATH, &#39;protons.log&#39;), &#39;a&#39;)
+
+        if (t_acc == t_dyn):
+            lines = [&#34;------------------------------------------------------------&#34;, &#34;              PROTON PARAMETERS&#34;, &#34;------------------------------------------------------------&#34;, &#34; dominant loss mechanism: adiabatic loss due to expansion of shell&#34;, f&#34; loss timescale: {t_dyn}&#34;, f&#34; max proton energy: {t_acc * eff * c * e_charge * b}&#34;, &#34;------------------------------------------------------------&#34;, &#34; &#34;]
+            f.write(&#39;\n&#39;.join(lines))
+            f.close()
+
+        elif (t_acc == t_syn):
+            lines = [&#34;------------------------------------------------------------&#34;, &#34;              PROTON PARAMETERS&#34;, &#34;------------------------------------------------------------&#34;, &#34; dominant loss mechanism: synchrotron&#34;, f&#34; loss timescale: {t_syn}&#34;, f&#34; max proton energy: {t_acc * eff * c * e_charge * b}&#34;, &#34;------------------------------------------------------------&#34;, &#34; &#34;]
+            f.write(&#39;\n&#39;.join(lines))
+            f.close()
+
+        else:
+            lines = [&#34;------------------------------------------------------------&#34;, &#34;              PROTON PARAMETERS&#34;, &#34;------------------------------------------------------------&#34;, &#34; dominant loss mechanism: photohadronic losses&#34;, f&#34; loss timescale: {t_py}&#34;, f&#34; max proton energy: {t_acc * eff * c * e_charge * b}&#34;, &#34;------------------------------------------------------------&#34;, &#34; &#34;]
+            f.write(&#39;\n&#39;.join(lines))
+            f.close()
+
+    return t_acc * eff * c * e_charge * b</code></pre>
+</details>
+</dd>
+<dt id="proes.protons.Protons.calculate_photohadronic_loss_timescale"><code class="name flex">
+<span>def <span class="ident">calculate_photohadronic_loss_timescale</span></span>(<span>self, E)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Calculates the photohadronic loss timescale for protons with a given energy. At this stage, I don't believe this function is working correctly, due to extremely large timescales being returned. Hence, this function is not called at any point in the code at the moment.</p>
+<h2 id="parameters">Parameters</h2>
+<p>E:
+The proton energy (units: erg)</p>
+<h2 id="returns">Returns</h2>
+<p>the photohadronic loss timescale (units: s)</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def calculate_photohadronic_loss_timescale(self, E):
+    &#34;&#34;&#34;
+    Calculates the photohadronic loss timescale for protons with a given energy. At this stage, I don&#39;t believe this function is working correctly, due to extremely large timescales being returned. Hence, this function is not called at any point in the code at the moment.
+
+    Parameters:
+        E:  The proton energy (units: erg)
+
+    Returns:
+        the photohadronic loss timescale (units: s)
+    &#34;&#34;&#34;
+    # return (1/2) * (m_p / E)**2 * quad(lambda e: (self.photons.generate_photon_spectrum(e * 1e+6) / e**2) * self.cross_sec_integ(E, e)[0], (e_th * m_p) / (2 * E), np.inf, limit=100)[0]
+    test = (1/2) * (m_p / E)**2 * quad(lambda e: (self.photons.generate_photon_spectrum(e * 1e+6) / e**2) * self.cross_sec_integ(E, e)[0], (e_th * m_p) / (2 * E), np.inf, limit=500)[0]
+
+    if config.VERBOSE:
+        print(&#34;.-.-.-.-.-.-.-.-.-.-.-.-&#34;)
+        print(f&#34;Proton energy: {E:.4f}&#34;)
+        print(f&#34; second integ: {test:.4e}&#34;)
+        print(&#34;.-.-.-.-.-.-.-.-.-.-.-.-&#34;)
+    return test</code></pre>
+</details>
+</dd>
+<dt id="proes.protons.Protons.calculate_synchrotron_loss_timescale"><code class="name flex">
+<span>def <span class="ident">calculate_synchrotron_loss_timescale</span></span>(<span>self, E, b)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Calculates the synchrotron loss timescale for the protons being accelerated for a given energy and magnetic field.</p>
+<h2 id="parameters">Parameters</h2>
+<p>E:
+the energy of the protons (units: erg)</p>
+<p>b:
+the input magnetic field (units: G)</p>
+<h2 id="returns">Returns</h2>
+<p>the synchrotron loss timescale (units: s)</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def calculate_synchrotron_loss_timescale(self, E, b):
+    &#34;&#34;&#34;
+    Calculates the synchrotron loss timescale for the protons being accelerated for a given energy and magnetic field.
+
+    Parameters:
+        E:  the energy of the protons (units: erg)
+
+        b:  the input magnetic field (units: G)
+
+    Returns:
+        the synchrotron loss timescale (units: s)
+    &#34;&#34;&#34;
+    return (9 * (m_p / 624.15)**4) / (4 * c * e_charge**4 * b**2 * E)</code></pre>
+</details>
+</dd>
+<dt id="proes.protons.Protons.cross_sec_integ"><code class="name flex">
+<span>def <span class="ident">cross_sec_integ</span></span>(<span>self, E, e)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Helper function for determining the photohadronic loss timescale. This function provides the integral of the interaction cross sections of protons at a given energy. This function should not be called outside of the calculate_photohadronic_loss_timescale function. At this stage, I'm not sure how well this function is working, and so it is not called in the code at the moment.</p>
+<h2 id="parameters">Parameters</h2>
+<p>E:
+the maximum proton energy (units: GeV)</p>
+<p>e:
+the integration energies (units: GeV)</p>
+<h2 id="returns">Returns</h2>
+<p>the result of the cross section integral</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def cross_sec_integ(self, E, e):
+    &#34;&#34;&#34;
+    Helper function for determining the photohadronic loss timescale. This function provides the integral of the interaction cross sections of protons at a given energy. This function should not be called outside of the calculate_photohadronic_loss_timescale function. At this stage, I&#39;m not sure how well this function is working, and so it is not called in the code at the moment.
+
+    Parameters:
+        E:  the maximum proton energy (units: GeV)
+
+        e:  the integration energies (units: GeV)
+
+    Returns:
+        the result of the cross section integral
+    &#34;&#34;&#34;
+    SI = SophiaInterface()
+    test = quad(lambda er: er * SI.crossection(er, 3, 13), e_th, (2 * E * e) / m_p, limit=100)
+
+    if config.ENABLE_LOGGING:
+        f = open(path.join(config.LOG_PATH, &#39;cross-sec.log&#39;), &#39;a&#39;)
+        lines = [f&#34;{test[0]}&#34;, &#34; &#34;]
+        f.write(&#39;\n&#39;.join(lines))
+        f.close()
+    # print(test[0])
+    return test
+    # return quad(lambda er: er * SI.crossection(er, 3, 13), e_th, (2 * E * e) / m_p, limit=100)</code></pre>
+</details>
+</dd>
+<dt id="proes.protons.Protons.generate_proton_spectrum"><code class="name flex">
+<span>def <span class="ident">generate_proton_spectrum</span></span>(<span>self)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Generates a proton energy spectrum that can be obtained via Fermi acceleration within the shell collision.</p>
+<h2 id="parameters">Parameters</h2>
+<p>none</p>
+<h2 id="returns">Returns</h2>
+<dl>
+<dt><code>p</code></dt>
+<dd>
+<pre><code>     a list containing the proton energies in the spectrum
+</code></pre>
+</dd>
+<dt><code>n_p</code></dt>
+<dd>
+<pre><code>   a list containing the number of protons accelerated to a given energy in list p
+</code></pre>
+</dd>
+<dt><code>e_pmax</code></dt>
+<dd>
+<pre><code>the maximum proton energy used in the calculations (units: GeV)
+</code></pre>
+</dd>
+<dt><code>e_prot_n_gev</code></dt>
+<dd>the original proton energy (units: GeV)</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def generate_proton_spectrum(self):
+    &#34;&#34;&#34;
+    Generates a proton energy spectrum that can be obtained via Fermi acceleration within the shell collision.
+
+    Parameters:
+        none
+
+    Returns:
+        p:              a list containing the proton energies in the spectrum
+
+        n_p:            a list containing the number of protons accelerated to a given energy in list p
+
+        e_pmax:         the maximum proton energy used in the calculations (units: GeV)
+
+        e_prot_n_gev:   the original proton energy (units: GeV)
+
+    &#34;&#34;&#34;
+    C_p = (self.photons.e_iso / self.photons.v_iso) * (ep / ee)
+
+    e_pmax = self.calculate_maximum_energy(1) * 624.15
+    p = np.linspace(self.e_prot_n_gev, e_pmax, 50)
+    n_p = [C_p * (i)**(-2) * np.exp(-(i / e_pmax)**(2)) for i in p]
+    return p, n_p, e_pmax, self.e_prot_n_gev #self.e_prot_n_gev</code></pre>
+</details>
+</dd>
+</dl>
+</dd>
+</dl>
+</section>
+</article>
+<nav id="sidebar">
+<h1>Index</h1>
+<div class="toc">
+<ul></ul>
+</div>
+<ul id="index">
+<li><h3>Super-module</h3>
+<ul>
+<li><code><a title="proes" href="index.html">proes</a></code></li>
+</ul>
+</li>
+<li><h3><a href="#header-classes">Classes</a></h3>
+<ul>
+<li>
+<h4><code><a title="proes.protons.Protons" href="#proes.protons.Protons">Protons</a></code></h4>
+<ul class="">
+<li><code><a title="proes.protons.Protons.calculate_acceleration_time" href="#proes.protons.Protons.calculate_acceleration_time">calculate_acceleration_time</a></code></li>
+<li><code><a title="proes.protons.Protons.calculate_dynamical_timescale" href="#proes.protons.Protons.calculate_dynamical_timescale">calculate_dynamical_timescale</a></code></li>
+<li><code><a title="proes.protons.Protons.calculate_magnetic_field" href="#proes.protons.Protons.calculate_magnetic_field">calculate_magnetic_field</a></code></li>
+<li><code><a title="proes.protons.Protons.calculate_maximum_energy" href="#proes.protons.Protons.calculate_maximum_energy">calculate_maximum_energy</a></code></li>
+<li><code><a title="proes.protons.Protons.calculate_photohadronic_loss_timescale" href="#proes.protons.Protons.calculate_photohadronic_loss_timescale">calculate_photohadronic_loss_timescale</a></code></li>
+<li><code><a title="proes.protons.Protons.calculate_synchrotron_loss_timescale" href="#proes.protons.Protons.calculate_synchrotron_loss_timescale">calculate_synchrotron_loss_timescale</a></code></li>
+<li><code><a title="proes.protons.Protons.cross_sec_integ" href="#proes.protons.Protons.cross_sec_integ">cross_sec_integ</a></code></li>
+<li><code><a title="proes.protons.Protons.generate_proton_spectrum" href="#proes.protons.Protons.generate_proton_spectrum">generate_proton_spectrum</a></code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</nav>
+</main>
+<footer id="footer">
+<p>Generated by <a href="https://pdoc3.github.io/pdoc" title="pdoc: Python API documentation generator"><cite>pdoc</cite> 0.10.0</a>.</p>
+</footer>
+</body>
+</html>

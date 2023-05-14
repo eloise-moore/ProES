@@ -1,0 +1,6000 @@
+shell:: 0
+          gamma: 153.9108
+              l: 3.0000e+03
+         radius: 6.0010e+06
+           mass: 4.0553e+52
+
+shell:: 1
+          gamma: 262.9027
+              l: 3.0000e+03
+         radius: 5.9950e+06
+           mass: 2.3741e+52
+
+shell:: 2
+          gamma: 888.8749
+              l: 3.0000e+03
+         radius: 5.9890e+06
+           mass: 7.0218e+51
+
+shell:: 3
+          gamma: 115.3803
+              l: 3.0000e+03
+         radius: 5.9830e+06
+           mass: 5.4095e+52
+
+shell:: 4
+          gamma: 150.9496
+              l: 3.0000e+03
+         radius: 5.9770e+06
+           mass: 4.1348e+52
+
+shell:: 5
+          gamma: 514.9218
+              l: 3.0000e+03
+         radius: 5.9710e+06
+           mass: 1.2121e+52
+
+shell:: 6
+          gamma: 810.7500
+              l: 3.0000e+03
+         radius: 5.9650e+06
+           mass: 7.6984e+51
+
+shell:: 7
+          gamma: 1823.3356
+              l: 3.0000e+03
+         radius: 5.9590e+06
+           mass: 3.4231e+51
+
+shell:: 8
+          gamma: 645.7830
+              l: 3.0000e+03
+         radius: 5.9530e+06
+           mass: 9.6650e+51
+
+shell:: 9
+          gamma: 756.8870
+              l: 3.0000e+03
+         radius: 5.9470e+06
+           mass: 8.2463e+51
+
+shell:: 10
+          gamma: 390.5233
+              l: 3.0000e+03
+         radius: 5.9410e+06
+           mass: 1.5982e+52
+
+shell:: 11
+          gamma: 145.9560
+              l: 3.0000e+03
+         radius: 5.9350e+06
+           mass: 4.2763e+52
+
+shell:: 12
+          gamma: 233.0241
+              l: 3.0000e+03
+         radius: 5.9290e+06
+           mass: 2.6785e+52
+
+shell:: 13
+          gamma: 264.4301
+              l: 3.0000e+03
+         radius: 5.9230e+06
+           mass: 2.3604e+52
+
+shell:: 14
+          gamma: 710.3970
+              l: 3.0000e+03
+         radius: 5.9170e+06
+           mass: 8.7859e+51
+
+shell:: 15
+          gamma: 959.0991
+              l: 3.0000e+03
+         radius: 5.9110e+06
+           mass: 6.5077e+51
+
+shell:: 16
+          gamma: 299.8558
+              l: 3.0000e+03
+         radius: 5.9050e+06
+           mass: 2.0815e+52
+
+shell:: 17
+          gamma: 368.1605
+              l: 3.0000e+03
+         radius: 5.8990e+06
+           mass: 1.6953e+52
+
+shell:: 18
+          gamma: 1931.3954
+              l: 3.0000e+03
+         radius: 5.8930e+06
+           mass: 3.2316e+51
+
+shell:: 19
+          gamma: 187.7003
+              l: 3.0000e+03
+         radius: 5.8870e+06
+           mass: 3.3252e+52
+
+shell:: 20
+          gamma: 1094.6920
+              l: 3.0000e+03
+         radius: 5.8810e+06
+           mass: 5.7016e+51
+
+shell:: 21
+          gamma: 914.0039
+              l: 3.0000e+03
+         radius: 5.8750e+06
+           mass: 6.8287e+51
+
+shell:: 22
+          gamma: 561.6149
+              l: 3.0000e+03
+         radius: 5.8690e+06
+           mass: 1.1113e+52
+
+shell:: 23
+          gamma: 666.5716
+              l: 3.0000e+03
+         radius: 5.8630e+06
+           mass: 9.3636e+51
+
+shell:: 24
+          gamma: 801.6491
+              l: 3.0000e+03
+         radius: 5.8570e+06
+           mass: 7.7858e+51
+
+shell:: 25
+          gamma: 152.8102
+              l: 3.0000e+03
+         radius: 5.8510e+06
+           mass: 4.0845e+52
+
+shell:: 26
+          gamma: 98.6737
+              l: 3.0000e+03
+         radius: 5.8450e+06
+           mass: 6.3254e+52
+
+shell:: 27
+          gamma: 926.0823
+              l: 3.0000e+03
+         radius: 5.8390e+06
+           mass: 6.7397e+51
+
+shell:: 28
+          gamma: 213.2457
+              l: 3.0000e+03
+         radius: 5.8330e+06
+           mass: 2.9269e+52
+
+shell:: 29
+          gamma: 197.7691
+              l: 3.0000e+03
+         radius: 5.8270e+06
+           mass: 3.1560e+52
+
+shell:: 30
+          gamma: 337.3690
+              l: 3.0000e+03
+         radius: 5.8210e+06
+           mass: 1.8501e+52
+
+shell:: 31
+          gamma: 1153.0545
+              l: 3.0000e+03
+         radius: 5.8150e+06
+           mass: 5.4130e+51
+
+shell:: 32
+          gamma: 1494.7131
+              l: 3.0000e+03
+         radius: 5.8090e+06
+           mass: 4.1757e+51
+
+shell:: 33
+          gamma: 214.6124
+              l: 3.0000e+03
+         radius: 5.8030e+06
+           mass: 2.9083e+52
+
+shell:: 34
+          gamma: 871.8604
+              l: 3.0000e+03
+         radius: 5.7970e+06
+           mass: 7.1588e+51
+
+shell:: 35
+          gamma: 197.5031
+              l: 3.0000e+03
+         radius: 5.7910e+06
+           mass: 3.1602e+52
+
+shell:: 36
+          gamma: 22.0866
+              l: 3.0000e+03
+         radius: 5.7850e+06
+           mass: 2.8259e+53
+
+shell:: 37
+          gamma: 2772.2438
+              l: 3.0000e+03
+         radius: 5.7790e+06
+           mass: 2.2514e+51
+
+shell:: 38
+          gamma: 1038.3272
+              l: 3.0000e+03
+         radius: 5.7730e+06
+           mass: 6.0111e+51
+
+shell:: 39
+          gamma: 67.5751
+              l: 3.0000e+03
+         radius: 5.7670e+06
+           mass: 9.2364e+52
+
+shell:: 40
+          gamma: 175.1164
+              l: 3.0000e+03
+         radius: 5.7610e+06
+           mass: 3.5642e+52
+
+shell:: 41
+          gamma: 471.9799
+              l: 3.0000e+03
+         radius: 5.7550e+06
+           mass: 1.3224e+52
+
+shell:: 42
+          gamma: 889.6905
+              l: 3.0000e+03
+         radius: 5.7490e+06
+           mass: 7.0154e+51
+
+shell:: 43
+          gamma: 981.2804
+              l: 3.0000e+03
+         radius: 5.7430e+06
+           mass: 6.3606e+51
+
+shell:: 44
+          gamma: 289.0728
+              l: 3.0000e+03
+         radius: 5.7370e+06
+           mass: 2.1591e+52
+
+shell:: 45
+          gamma: 279.8452
+              l: 3.0000e+03
+         radius: 5.7310e+06
+           mass: 2.2303e+52
+
+shell:: 46
+          gamma: 359.2051
+              l: 3.0000e+03
+         radius: 5.7250e+06
+           mass: 1.7376e+52
+
+shell:: 47
+          gamma: 767.3031
+              l: 3.0000e+03
+         radius: 5.7190e+06
+           mass: 8.1343e+51
+
+shell:: 48
+          gamma: 552.9506
+              l: 3.0000e+03
+         radius: 5.7130e+06
+           mass: 1.1288e+52
+
+shell:: 49
+          gamma: 361.6211
+              l: 3.0000e+03
+         radius: 5.7070e+06
+           mass: 1.7260e+52
+
+shell:: 50
+          gamma: 198.3639
+              l: 3.0000e+03
+         radius: 5.7010e+06
+           mass: 3.1465e+52
+
+shell:: 51
+          gamma: 321.4608
+              l: 3.0000e+03
+         radius: 5.6950e+06
+           mass: 1.9416e+52
+
+shell:: 52
+          gamma: 194.5614
+              l: 3.0000e+03
+         radius: 5.6890e+06
+           mass: 3.2080e+52
+
+shell:: 53
+          gamma: 533.6725
+              l: 3.0000e+03
+         radius: 5.6830e+06
+           mass: 1.1695e+52
+
+shell:: 54
+          gamma: 3221.8678
+              l: 3.0000e+03
+         radius: 5.6770e+06
+           mass: 1.9372e+51
+
+shell:: 55
+          gamma: 167.4087
+              l: 3.0000e+03
+         radius: 5.6710e+06
+           mass: 3.7283e+52
+
+shell:: 56
+          gamma: 152.9198
+              l: 3.0000e+03
+         radius: 5.6650e+06
+           mass: 4.0816e+52
+
+shell:: 57
+          gamma: 4357.2350
+              l: 3.0000e+03
+         radius: 5.6590e+06
+           mass: 1.4324e+51
+
+shell:: 58
+          gamma: 110.0992
+              l: 3.0000e+03
+         radius: 5.6530e+06
+           mass: 5.6690e+52
+
+shell:: 59
+          gamma: 303.2653
+              l: 3.0000e+03
+         radius: 5.6470e+06
+           mass: 2.0581e+52
+
+shell:: 60
+          gamma: 787.5217
+              l: 3.0000e+03
+         radius: 5.6410e+06
+           mass: 7.9255e+51
+
+shell:: 61
+          gamma: 587.8849
+              l: 3.0000e+03
+         radius: 5.6350e+06
+           mass: 1.0617e+52
+
+shell:: 62
+          gamma: 441.3912
+              l: 3.0000e+03
+         radius: 5.6290e+06
+           mass: 1.4141e+52
+
+shell:: 63
+          gamma: 1191.0550
+              l: 3.0000e+03
+         radius: 5.6230e+06
+           mass: 5.2403e+51
+
+shell:: 64
+          gamma: 184.4215
+              l: 3.0000e+03
+         radius: 5.6170e+06
+           mass: 3.3844e+52
+
+shell:: 65
+          gamma: 411.8317
+              l: 3.0000e+03
+         radius: 5.6110e+06
+           mass: 1.5155e+52
+
+shell:: 66
+          gamma: 432.2221
+              l: 3.0000e+03
+         radius: 5.6050e+06
+           mass: 1.4440e+52
+
+shell:: 67
+          gamma: 186.0485
+              l: 3.0000e+03
+         radius: 5.5990e+06
+           mass: 3.3548e+52
+
+shell:: 68
+          gamma: 3324.8483
+              l: 3.0000e+03
+         radius: 5.5930e+06
+           mass: 1.8772e+51
+
+shell:: 69
+          gamma: 2218.5625
+              l: 3.0000e+03
+         radius: 5.5870e+06
+           mass: 2.8133e+51
+
+shell:: 70
+          gamma: 2580.1417
+              l: 3.0000e+03
+         radius: 5.5810e+06
+           mass: 2.4191e+51
+
+shell:: 71
+          gamma: 2139.0884
+              l: 3.0000e+03
+         radius: 5.5750e+06
+           mass: 2.9178e+51
+
+shell:: 72
+          gamma: 1680.0933
+              l: 3.0000e+03
+         radius: 5.5690e+06
+           mass: 3.7150e+51
+
+shell:: 73
+          gamma: 425.9629
+              l: 3.0000e+03
+         radius: 5.5630e+06
+           mass: 1.4653e+52
+
+shell:: 74
+          gamma: 1531.8251
+              l: 3.0000e+03
+         radius: 5.5570e+06
+           mass: 4.0746e+51
+
+shell:: 75
+          gamma: 1588.4483
+              l: 3.0000e+03
+         radius: 5.5510e+06
+           mass: 3.9293e+51
+
+shell:: 76
+          gamma: 247.7614
+              l: 3.0000e+03
+         radius: 5.5450e+06
+           mass: 2.5192e+52
+
+shell:: 77
+          gamma: 98.9699
+              l: 3.0000e+03
+         radius: 5.5390e+06
+           mass: 6.3065e+52
+
+shell:: 78
+          gamma: 801.5076
+              l: 3.0000e+03
+         radius: 5.5330e+06
+           mass: 7.7872e+51
+
+shell:: 79
+          gamma: 1022.8348
+              l: 3.0000e+03
+         radius: 5.5270e+06
+           mass: 6.1022e+51
+
+shell:: 80
+          gamma: 237.4718
+              l: 3.0000e+03
+         radius: 5.5210e+06
+           mass: 2.6283e+52
+
+shell:: 81
+          gamma: 535.3150
+              l: 3.0000e+03
+         radius: 5.5150e+06
+           mass: 1.1659e+52
+
+shell:: 82
+          gamma: 409.3046
+              l: 3.0000e+03
+         radius: 5.5090e+06
+           mass: 1.5249e+52
+
+shell:: 83
+          gamma: 331.9394
+              l: 3.0000e+03
+         radius: 5.5030e+06
+           mass: 1.8803e+52
+
+shell:: 84
+          gamma: 336.5833
+              l: 3.0000e+03
+         radius: 5.4970e+06
+           mass: 1.8544e+52
+
+shell:: 85
+          gamma: 465.5925
+              l: 3.0000e+03
+         radius: 5.4910e+06
+           mass: 1.3405e+52
+
+shell:: 86
+          gamma: 322.7157
+              l: 3.0000e+03
+         radius: 5.4850e+06
+           mass: 1.9341e+52
+
+shell:: 87
+          gamma: 553.5293
+              l: 3.0000e+03
+         radius: 5.4790e+06
+           mass: 1.1276e+52
+
+shell:: 88
+          gamma: 155.9852
+              l: 3.0000e+03
+         radius: 5.4730e+06
+           mass: 4.0013e+52
+
+shell:: 89
+          gamma: 310.8505
+              l: 3.0000e+03
+         radius: 5.4670e+06
+           mass: 2.0079e+52
+
+shell:: 90
+          gamma: 329.9108
+              l: 3.0000e+03
+         radius: 5.4610e+06
+           mass: 1.8919e+52
+
+shell:: 91
+          gamma: 344.0659
+              l: 3.0000e+03
+         radius: 5.4550e+06
+           mass: 1.8140e+52
+
+shell:: 92
+          gamma: 647.1071
+              l: 3.0000e+03
+         radius: 5.4490e+06
+           mass: 9.6452e+51
+
+shell:: 93
+          gamma: 196.1847
+              l: 3.0000e+03
+         radius: 5.4430e+06
+           mass: 3.1814e+52
+
+shell:: 94
+          gamma: 525.0280
+              l: 3.0000e+03
+         radius: 5.4370e+06
+           mass: 1.1888e+52
+
+shell:: 95
+          gamma: 1092.7275
+              l: 3.0000e+03
+         radius: 5.4310e+06
+           mass: 5.7119e+51
+
+shell:: 96
+          gamma: 1335.8248
+              l: 3.0000e+03
+         radius: 5.4250e+06
+           mass: 4.6724e+51
+
+shell:: 97
+          gamma: 872.6175
+              l: 3.0000e+03
+         radius: 5.4190e+06
+           mass: 7.1526e+51
+
+shell:: 98
+          gamma: 897.7830
+              l: 3.0000e+03
+         radius: 5.4130e+06
+           mass: 6.9521e+51
+
+shell:: 99
+          gamma: 552.6328
+              l: 3.0000e+03
+         radius: 5.4070e+06
+           mass: 1.1294e+52
+
+shell:: 100
+          gamma: 576.6685
+              l: 3.0000e+03
+         radius: 5.4010e+06
+           mass: 1.0823e+52
+
+shell:: 101
+          gamma: 481.9108
+              l: 3.0000e+03
+         radius: 5.3950e+06
+           mass: 1.2952e+52
+
+shell:: 102
+          gamma: 533.8872
+              l: 3.0000e+03
+         radius: 5.3890e+06
+           mass: 1.1691e+52
+
+shell:: 103
+          gamma: 379.8990
+              l: 3.0000e+03
+         radius: 5.3830e+06
+           mass: 1.6429e+52
+
+shell:: 104
+          gamma: 1456.2523
+              l: 3.0000e+03
+         radius: 5.3770e+06
+           mass: 4.2860e+51
+
+shell:: 105
+          gamma: 1109.5075
+              l: 3.0000e+03
+         radius: 5.3710e+06
+           mass: 5.6255e+51
+
+shell:: 106
+          gamma: 458.3787
+              l: 3.0000e+03
+         radius: 5.3650e+06
+           mass: 1.3616e+52
+
+shell:: 107
+          gamma: 394.2517
+              l: 3.0000e+03
+         radius: 5.3590e+06
+           mass: 1.5831e+52
+
+shell:: 108
+          gamma: 99.5955
+              l: 3.0000e+03
+         radius: 5.3530e+06
+           mass: 6.2668e+52
+
+shell:: 109
+          gamma: 103.7931
+              l: 3.0000e+03
+         radius: 5.3470e+06
+           mass: 6.0134e+52
+
+shell:: 110
+          gamma: 699.4235
+              l: 3.0000e+03
+         radius: 5.3410e+06
+           mass: 8.9238e+51
+
+shell:: 111
+          gamma: 2872.6332
+              l: 3.0000e+03
+         radius: 5.3350e+06
+           mass: 2.1727e+51
+
+shell:: 112
+          gamma: 1062.4272
+              l: 3.0000e+03
+         radius: 5.3290e+06
+           mass: 5.8748e+51
+
+shell:: 113
+          gamma: 475.8887
+              l: 3.0000e+03
+         radius: 5.3230e+06
+           mass: 1.3115e+52
+
+shell:: 114
+          gamma: 3447.5653
+              l: 3.0000e+03
+         radius: 5.3170e+06
+           mass: 1.8104e+51
+
+shell:: 115
+          gamma: 2161.8139
+              l: 3.0000e+03
+         radius: 5.3110e+06
+           mass: 2.8872e+51
+
+shell:: 116
+          gamma: 1594.1098
+              l: 3.0000e+03
+         radius: 5.3050e+06
+           mass: 3.9154e+51
+
+shell:: 117
+          gamma: 837.8006
+              l: 3.0000e+03
+         radius: 5.2990e+06
+           mass: 7.4499e+51
+
+shell:: 118
+          gamma: 411.4900
+              l: 3.0000e+03
+         radius: 5.2930e+06
+           mass: 1.5168e+52
+
+shell:: 119
+          gamma: 2141.5076
+              l: 3.0000e+03
+         radius: 5.2870e+06
+           mass: 2.9145e+51
+
+shell:: 120
+          gamma: 738.8621
+              l: 3.0000e+03
+         radius: 5.2810e+06
+           mass: 8.4474e+51
+
+shell:: 121
+          gamma: 210.8949
+              l: 3.0000e+03
+         radius: 5.2750e+06
+           mass: 2.9595e+52
+
+shell:: 122
+          gamma: 737.8540
+              l: 3.0000e+03
+         radius: 5.2690e+06
+           mass: 8.4590e+51
+
+shell:: 123
+          gamma: 978.1413
+              l: 3.0000e+03
+         radius: 5.2630e+06
+           mass: 6.3810e+51
+
+shell:: 124
+          gamma: 236.2797
+              l: 3.0000e+03
+         radius: 5.2570e+06
+           mass: 2.6416e+52
+
+shell:: 125
+          gamma: 2918.7699
+              l: 3.0000e+03
+         radius: 5.2510e+06
+           mass: 2.1384e+51
+
+shell:: 126
+          gamma: 433.1678
+              l: 3.0000e+03
+         radius: 5.2450e+06
+           mass: 1.4409e+52
+
+shell:: 127
+          gamma: 150.0038
+              l: 3.0000e+03
+         radius: 5.2390e+06
+           mass: 4.1609e+52
+
+shell:: 128
+          gamma: 222.0740
+              l: 3.0000e+03
+         radius: 5.2330e+06
+           mass: 2.8105e+52
+
+shell:: 129
+          gamma: 824.2629
+              l: 3.0000e+03
+         radius: 5.2270e+06
+           mass: 7.5722e+51
+
+shell:: 130
+          gamma: 848.0412
+              l: 3.0000e+03
+         radius: 5.2210e+06
+           mass: 7.3599e+51
+
+shell:: 131
+          gamma: 709.0529
+              l: 3.0000e+03
+         radius: 5.2150e+06
+           mass: 8.8026e+51
+
+shell:: 132
+          gamma: 170.5766
+              l: 3.0000e+03
+         radius: 5.2090e+06
+           mass: 3.6591e+52
+
+shell:: 133
+          gamma: 261.0641
+              l: 3.0000e+03
+         radius: 5.2030e+06
+           mass: 2.3908e+52
+
+shell:: 134
+          gamma: 488.0202
+              l: 3.0000e+03
+         radius: 5.1970e+06
+           mass: 1.2789e+52
+
+shell:: 135
+          gamma: 601.7026
+              l: 3.0000e+03
+         radius: 5.1910e+06
+           mass: 1.0373e+52
+
+shell:: 136
+          gamma: 779.2198
+              l: 3.0000e+03
+         radius: 5.1850e+06
+           mass: 8.0099e+51
+
+shell:: 137
+          gamma: 473.2859
+              l: 3.0000e+03
+         radius: 5.1790e+06
+           mass: 1.3188e+52
+
+shell:: 138
+          gamma: 654.9536
+              l: 3.0000e+03
+         radius: 5.1730e+06
+           mass: 9.5297e+51
+
+shell:: 139
+          gamma: 2192.2670
+              l: 3.0000e+03
+         radius: 5.1670e+06
+           mass: 2.8471e+51
+
+shell:: 140
+          gamma: 77.7849
+              l: 3.0000e+03
+         radius: 5.1610e+06
+           mass: 8.0240e+52
+
+shell:: 141
+          gamma: 1088.4326
+              l: 3.0000e+03
+         radius: 5.1550e+06
+           mass: 5.7344e+51
+
+shell:: 142
+          gamma: 1071.4907
+              l: 3.0000e+03
+         radius: 5.1490e+06
+           mass: 5.8251e+51
+
+shell:: 143
+          gamma: 75.8554
+              l: 3.0000e+03
+         radius: 5.1430e+06
+           mass: 8.2282e+52
+
+shell:: 144
+          gamma: 1596.3436
+              l: 3.0000e+03
+         radius: 5.1370e+06
+           mass: 3.9099e+51
+
+shell:: 145
+          gamma: 151.9953
+              l: 3.0000e+03
+         radius: 5.1310e+06
+           mass: 4.1064e+52
+
+shell:: 146
+          gamma: 1224.3901
+              l: 3.0000e+03
+         radius: 5.1250e+06
+           mass: 5.0976e+51
+
+shell:: 147
+          gamma: 245.2552
+              l: 3.0000e+03
+         radius: 5.1190e+06
+           mass: 2.5449e+52
+
+shell:: 148
+          gamma: 87.5076
+              l: 3.0000e+03
+         radius: 5.1130e+06
+           mass: 7.1325e+52
+
+shell:: 149
+          gamma: 355.2371
+              l: 3.0000e+03
+         radius: 5.1070e+06
+           mass: 1.7570e+52
+
+shell:: 150
+          gamma: 158.1640
+              l: 3.0000e+03
+         radius: 5.1010e+06
+           mass: 3.9462e+52
+
+shell:: 151
+          gamma: 783.4736
+              l: 3.0000e+03
+         radius: 5.0950e+06
+           mass: 7.9664e+51
+
+shell:: 152
+          gamma: 205.0953
+              l: 3.0000e+03
+         radius: 5.0890e+06
+           mass: 3.0432e+52
+
+shell:: 153
+          gamma: 312.1945
+              l: 3.0000e+03
+         radius: 5.0830e+06
+           mass: 1.9992e+52
+
+shell:: 154
+          gamma: 720.3045
+              l: 3.0000e+03
+         radius: 5.0770e+06
+           mass: 8.6651e+51
+
+shell:: 155
+          gamma: 495.6021
+              l: 3.0000e+03
+         radius: 5.0710e+06
+           mass: 1.2594e+52
+
+shell:: 156
+          gamma: 162.3516
+              l: 3.0000e+03
+         radius: 5.0650e+06
+           mass: 3.8444e+52
+
+shell:: 157
+          gamma: 845.7121
+              l: 3.0000e+03
+         radius: 5.0590e+06
+           mass: 7.3802e+51
+
+shell:: 158
+          gamma: 3231.2166
+              l: 3.0000e+03
+         radius: 5.0530e+06
+           mass: 1.9316e+51
+
+shell:: 159
+          gamma: 659.2594
+              l: 3.0000e+03
+         radius: 5.0470e+06
+           mass: 9.4674e+51
+
+shell:: 160
+          gamma: 2652.8106
+              l: 3.0000e+03
+         radius: 5.0410e+06
+           mass: 2.3528e+51
+
+shell:: 161
+          gamma: 232.9431
+              l: 3.0000e+03
+         radius: 5.0350e+06
+           mass: 2.6794e+52
+
+shell:: 162
+          gamma: 1065.9386
+              l: 3.0000e+03
+         radius: 5.0290e+06
+           mass: 5.8554e+51
+
+shell:: 163
+          gamma: 229.2143
+              l: 3.0000e+03
+         radius: 5.0230e+06
+           mass: 2.7230e+52
+
+shell:: 164
+          gamma: 882.3208
+              l: 3.0000e+03
+         radius: 5.0170e+06
+           mass: 7.0740e+51
+
+shell:: 165
+          gamma: 271.6387
+              l: 3.0000e+03
+         radius: 5.0110e+06
+           mass: 2.2977e+52
+
+shell:: 166
+          gamma: 442.2892
+              l: 3.0000e+03
+         radius: 5.0050e+06
+           mass: 1.4112e+52
+
+shell:: 167
+          gamma: 346.1998
+              l: 3.0000e+03
+         radius: 4.9990e+06
+           mass: 1.8029e+52
+
+shell:: 168
+          gamma: 2898.7018
+              l: 3.0000e+03
+         radius: 4.9930e+06
+           mass: 2.1532e+51
+
+shell:: 169
+          gamma: 436.6571
+              l: 3.0000e+03
+         radius: 4.9870e+06
+           mass: 1.4294e+52
+
+shell:: 170
+          gamma: 856.0146
+              l: 3.0000e+03
+         radius: 4.9810e+06
+           mass: 7.2913e+51
+
+shell:: 171
+          gamma: 290.1884
+              l: 3.0000e+03
+         radius: 4.9750e+06
+           mass: 2.1508e+52
+
+shell:: 172
+          gamma: 1257.6392
+              l: 3.0000e+03
+         radius: 4.9690e+06
+           mass: 4.9629e+51
+
+shell:: 173
+          gamma: 1830.3893
+              l: 3.0000e+03
+         radius: 4.9630e+06
+           mass: 3.4099e+51
+
+shell:: 174
+          gamma: 528.3040
+              l: 3.0000e+03
+         radius: 4.9570e+06
+           mass: 1.1814e+52
+
+shell:: 175
+          gamma: 1454.3068
+              l: 3.0000e+03
+         radius: 4.9510e+06
+           mass: 4.2917e+51
+
+shell:: 176
+          gamma: 130.0508
+              l: 3.0000e+03
+         radius: 4.9450e+06
+           mass: 4.7993e+52
+
+shell:: 177
+          gamma: 857.7060
+              l: 3.0000e+03
+         radius: 4.9390e+06
+           mass: 7.2770e+51
+
+shell:: 178
+          gamma: 728.0738
+              l: 3.0000e+03
+         radius: 4.9330e+06
+           mass: 8.5726e+51
+
+shell:: 179
+          gamma: 220.5278
+              l: 3.0000e+03
+         radius: 4.9270e+06
+           mass: 2.8303e+52
+
+shell:: 180
+          gamma: 381.6293
+              l: 3.0000e+03
+         radius: 4.9210e+06
+           mass: 1.6355e+52
+
+shell:: 181
+          gamma: 1298.4937
+              l: 3.0000e+03
+         radius: 4.9150e+06
+           mass: 4.8067e+51
+
+shell:: 182
+          gamma: 246.1868
+              l: 3.0000e+03
+         radius: 4.9090e+06
+           mass: 2.5353e+52
+
+shell:: 183
+          gamma: 8886.7982
+              l: 3.0000e+03
+         radius: 4.9030e+06
+           mass: 7.0233e+50
+
+shell:: 184
+          gamma: 224.4652
+              l: 3.0000e+03
+         radius: 4.8970e+06
+           mass: 2.7806e+52
+
+shell:: 185
+          gamma: 339.8840
+              l: 3.0000e+03
+         radius: 4.8910e+06
+           mass: 1.8364e+52
+
+shell:: 186
+          gamma: 320.9036
+              l: 3.0000e+03
+         radius: 4.8850e+06
+           mass: 1.9450e+52
+
+shell:: 187
+          gamma: 324.8768
+              l: 3.0000e+03
+         radius: 4.8790e+06
+           mass: 1.9212e+52
+
+shell:: 188
+          gamma: 1928.1242
+              l: 3.0000e+03
+         radius: 4.8730e+06
+           mass: 3.2371e+51
+
+shell:: 189
+          gamma: 681.3525
+              l: 3.0000e+03
+         radius: 4.8670e+06
+           mass: 9.1605e+51
+
+shell:: 190
+          gamma: 158.3939
+              l: 3.0000e+03
+         radius: 4.8610e+06
+           mass: 3.9405e+52
+
+shell:: 191
+          gamma: 196.2926
+              l: 3.0000e+03
+         radius: 4.8550e+06
+           mass: 3.1797e+52
+
+shell:: 192
+          gamma: 641.0658
+              l: 3.0000e+03
+         radius: 4.8490e+06
+           mass: 9.7361e+51
+
+shell:: 193
+          gamma: 130.6738
+              l: 3.0000e+03
+         radius: 4.8430e+06
+           mass: 4.7764e+52
+
+shell:: 194
+          gamma: 294.5438
+              l: 3.0000e+03
+         radius: 4.8370e+06
+           mass: 2.1190e+52
+
+shell:: 195
+          gamma: 145.6956
+              l: 3.0000e+03
+         radius: 4.8310e+06
+           mass: 4.2839e+52
+
+shell:: 196
+          gamma: 331.4870
+              l: 3.0000e+03
+         radius: 4.8250e+06
+           mass: 1.8829e+52
+
+shell:: 197
+          gamma: 1416.2429
+              l: 3.0000e+03
+         radius: 4.8190e+06
+           mass: 4.4071e+51
+
+shell:: 198
+          gamma: 633.7359
+              l: 3.0000e+03
+         radius: 4.8130e+06
+           mass: 9.8487e+51
+
+shell:: 199
+          gamma: 219.9358
+              l: 3.0000e+03
+         radius: 4.8070e+06
+           mass: 2.8379e+52
+
+shell:: 200
+          gamma: 2882.4776
+              l: 3.0000e+03
+         radius: 4.8010e+06
+           mass: 2.1653e+51
+
+shell:: 201
+          gamma: 387.7576
+              l: 3.0000e+03
+         radius: 4.7950e+06
+           mass: 1.6096e+52
+
+shell:: 202
+          gamma: 75.5795
+              l: 3.0000e+03
+         radius: 4.7890e+06
+           mass: 8.2582e+52
+
+shell:: 203
+          gamma: 270.4330
+              l: 3.0000e+03
+         radius: 4.7830e+06
+           mass: 2.3080e+52
+
+shell:: 204
+          gamma: 269.9261
+              l: 3.0000e+03
+         radius: 4.7770e+06
+           mass: 2.3123e+52
+
+shell:: 205
+          gamma: 124.0097
+              l: 3.0000e+03
+         radius: 4.7710e+06
+           mass: 5.0331e+52
+
+shell:: 206
+          gamma: 1610.7077
+              l: 3.0000e+03
+         radius: 4.7650e+06
+           mass: 3.8750e+51
+
+shell:: 207
+          gamma: 78.4964
+              l: 3.0000e+03
+         radius: 4.7590e+06
+           mass: 7.9513e+52
+
+shell:: 208
+          gamma: 491.1679
+              l: 3.0000e+03
+         radius: 4.7530e+06
+           mass: 1.2707e+52
+
+shell:: 209
+          gamma: 148.0121
+              l: 3.0000e+03
+         radius: 4.7470e+06
+           mass: 4.2169e+52
+
+shell:: 210
+          gamma: 1233.0944
+              l: 3.0000e+03
+         radius: 4.7410e+06
+           mass: 5.0617e+51
+
+shell:: 211
+          gamma: 699.9341
+              l: 3.0000e+03
+         radius: 4.7350e+06
+           mass: 8.9173e+51
+
+shell:: 212
+          gamma: 287.8592
+              l: 3.0000e+03
+         radius: 4.7290e+06
+           mass: 2.1682e+52
+
+shell:: 213
+          gamma: 3147.1813
+              l: 3.0000e+03
+         radius: 4.7230e+06
+           mass: 1.9832e+51
+
+shell:: 214
+          gamma: 738.7211
+              l: 3.0000e+03
+         radius: 4.7170e+06
+           mass: 8.4491e+51
+
+shell:: 215
+          gamma: 295.2023
+              l: 3.0000e+03
+         radius: 4.7110e+06
+           mass: 2.1143e+52
+
+shell:: 216
+          gamma: 995.0109
+              l: 3.0000e+03
+         radius: 4.7050e+06
+           mass: 6.2728e+51
+
+shell:: 217
+          gamma: 351.5325
+              l: 3.0000e+03
+         radius: 4.6990e+06
+           mass: 1.7755e+52
+
+shell:: 218
+          gamma: 765.3374
+              l: 3.0000e+03
+         radius: 4.6930e+06
+           mass: 8.1552e+51
+
+shell:: 219
+          gamma: 758.6006
+              l: 3.0000e+03
+         radius: 4.6870e+06
+           mass: 8.2277e+51
+
+shell:: 220
+          gamma: 241.5337
+              l: 3.0000e+03
+         radius: 4.6810e+06
+           mass: 2.5841e+52
+
+shell:: 221
+          gamma: 1282.7494
+              l: 3.0000e+03
+         radius: 4.6750e+06
+           mass: 4.8657e+51
+
+shell:: 222
+          gamma: 157.6544
+              l: 3.0000e+03
+         radius: 4.6690e+06
+           mass: 3.9590e+52
+
+shell:: 223
+          gamma: 2054.9178
+              l: 3.0000e+03
+         radius: 4.6630e+06
+           mass: 3.0373e+51
+
+shell:: 224
+          gamma: 494.3493
+              l: 3.0000e+03
+         radius: 4.6570e+06
+           mass: 1.2626e+52
+
+shell:: 225
+          gamma: 250.9199
+              l: 3.0000e+03
+         radius: 4.6510e+06
+           mass: 2.4874e+52
+
+shell:: 226
+          gamma: 227.5377
+              l: 3.0000e+03
+         radius: 4.6450e+06
+           mass: 2.7431e+52
+
+shell:: 227
+          gamma: 239.7035
+              l: 3.0000e+03
+         radius: 4.6390e+06
+           mass: 2.6038e+52
+
+shell:: 228
+          gamma: 95.9729
+              l: 3.0000e+03
+         radius: 4.6330e+06
+           mass: 6.5034e+52
+
+shell:: 229
+          gamma: 611.3756
+              l: 3.0000e+03
+         radius: 4.6270e+06
+           mass: 1.0209e+52
+
+shell:: 230
+          gamma: 300.8918
+              l: 3.0000e+03
+         radius: 4.6210e+06
+           mass: 2.0743e+52
+
+shell:: 231
+          gamma: 1602.6613
+              l: 3.0000e+03
+         radius: 4.6150e+06
+           mass: 3.8945e+51
+
+shell:: 232
+          gamma: 884.8522
+              l: 3.0000e+03
+         radius: 4.6090e+06
+           mass: 7.0537e+51
+
+shell:: 233
+          gamma: 147.4054
+              l: 3.0000e+03
+         radius: 4.6030e+06
+           mass: 4.2342e+52
+
+shell:: 234
+          gamma: 511.8697
+              l: 3.0000e+03
+         radius: 4.5970e+06
+           mass: 1.2194e+52
+
+shell:: 235
+          gamma: 1108.0203
+              l: 3.0000e+03
+         radius: 4.5910e+06
+           mass: 5.6330e+51
+
+shell:: 236
+          gamma: 178.1513
+              l: 3.0000e+03
+         radius: 4.5850e+06
+           mass: 3.5035e+52
+
+shell:: 237
+          gamma: 77.5741
+              l: 3.0000e+03
+         radius: 4.5790e+06
+           mass: 8.0459e+52
+
+shell:: 238
+          gamma: 1204.6697
+              l: 3.0000e+03
+         radius: 4.5730e+06
+           mass: 5.1811e+51
+
+shell:: 239
+          gamma: 774.0588
+              l: 3.0000e+03
+         radius: 4.5670e+06
+           mass: 8.0633e+51
+
+shell:: 240
+          gamma: 123.6473
+              l: 3.0000e+03
+         radius: 4.5610e+06
+           mass: 5.0478e+52
+
+shell:: 241
+          gamma: 3165.9775
+              l: 3.0000e+03
+         radius: 4.5550e+06
+           mass: 1.9714e+51
+
+shell:: 242
+          gamma: 611.0680
+              l: 3.0000e+03
+         radius: 4.5490e+06
+           mass: 1.0214e+52
+
+shell:: 243
+          gamma: 196.4013
+              l: 3.0000e+03
+         radius: 4.5430e+06
+           mass: 3.1779e+52
+
+shell:: 244
+          gamma: 134.0076
+              l: 3.0000e+03
+         radius: 4.5370e+06
+           mass: 4.6576e+52
+
+shell:: 245
+          gamma: 236.3576
+              l: 3.0000e+03
+         radius: 4.5310e+06
+           mass: 2.6407e+52
+
+shell:: 246
+          gamma: 87.9896
+              l: 3.0000e+03
+         radius: 4.5250e+06
+           mass: 7.0935e+52
+
+shell:: 247
+          gamma: 136.1315
+              l: 3.0000e+03
+         radius: 4.5190e+06
+           mass: 4.5849e+52
+
+shell:: 248
+          gamma: 839.1924
+              l: 3.0000e+03
+         radius: 4.5130e+06
+           mass: 7.4375e+51
+
+shell:: 249
+          gamma: 1023.3737
+              l: 3.0000e+03
+         radius: 4.5070e+06
+           mass: 6.0989e+51
+
+shell:: 250
+          gamma: 537.5446
+              l: 3.0000e+03
+         radius: 4.5010e+06
+           mass: 1.1611e+52
+
+shell:: 251
+          gamma: 501.0375
+              l: 3.0000e+03
+         radius: 4.4950e+06
+           mass: 1.2457e+52
+
+shell:: 252
+          gamma: 269.1610
+              l: 3.0000e+03
+         radius: 4.4890e+06
+           mass: 2.3189e+52
+
+shell:: 253
+          gamma: 94.1373
+              l: 3.0000e+03
+         radius: 4.4830e+06
+           mass: 6.6302e+52
+
+shell:: 254
+          gamma: 129.4629
+              l: 3.0000e+03
+         radius: 4.4770e+06
+           mass: 4.8211e+52
+
+shell:: 255
+          gamma: 102.3106
+              l: 3.0000e+03
+         radius: 4.4710e+06
+           mass: 6.1005e+52
+
+shell:: 256
+          gamma: 89.6874
+              l: 3.0000e+03
+         radius: 4.4650e+06
+           mass: 6.9592e+52
+
+shell:: 257
+          gamma: 72.3048
+              l: 3.0000e+03
+         radius: 4.4590e+06
+           mass: 8.6322e+52
+
+shell:: 258
+          gamma: 288.5152
+              l: 3.0000e+03
+         radius: 4.4530e+06
+           mass: 2.1633e+52
+
+shell:: 259
+          gamma: 1659.8415
+              l: 3.0000e+03
+         radius: 4.4470e+06
+           mass: 3.7603e+51
+
+shell:: 260
+          gamma: 2497.5094
+              l: 3.0000e+03
+         radius: 4.4410e+06
+           mass: 2.4991e+51
+
+shell:: 261
+          gamma: 5715.7679
+              l: 3.0000e+03
+         radius: 4.4350e+06
+           mass: 1.0920e+51
+
+shell:: 262
+          gamma: 1362.4778
+              l: 3.0000e+03
+         radius: 4.4290e+06
+           mass: 4.5810e+51
+
+shell:: 263
+          gamma: 1063.2608
+              l: 3.0000e+03
+         radius: 4.4230e+06
+           mass: 5.8701e+51
+
+shell:: 264
+          gamma: 634.8896
+              l: 3.0000e+03
+         radius: 4.4170e+06
+           mass: 9.8308e+51
+
+shell:: 265
+          gamma: 240.6103
+              l: 3.0000e+03
+         radius: 4.4110e+06
+           mass: 2.5940e+52
+
+shell:: 266
+          gamma: 222.7815
+              l: 3.0000e+03
+         radius: 4.4050e+06
+           mass: 2.8016e+52
+
+shell:: 267
+          gamma: 694.7832
+              l: 3.0000e+03
+         radius: 4.3990e+06
+           mass: 8.9834e+51
+
+shell:: 268
+          gamma: 199.0912
+              l: 3.0000e+03
+         radius: 4.3930e+06
+           mass: 3.1350e+52
+
+shell:: 269
+          gamma: 1559.8447
+              l: 3.0000e+03
+         radius: 4.3870e+06
+           mass: 4.0014e+51
+
+shell:: 270
+          gamma: 1288.3603
+              l: 3.0000e+03
+         radius: 4.3810e+06
+           mass: 4.8445e+51
+
+shell:: 271
+          gamma: 1094.7655
+              l: 3.0000e+03
+         radius: 4.3750e+06
+           mass: 5.7012e+51
+
+shell:: 272
+          gamma: 236.0730
+              l: 3.0000e+03
+         radius: 4.3690e+06
+           mass: 2.6439e+52
+
+shell:: 273
+          gamma: 616.9867
+              l: 3.0000e+03
+         radius: 4.3630e+06
+           mass: 1.0116e+52
+
+shell:: 274
+          gamma: 1318.1614
+              l: 3.0000e+03
+         radius: 4.3570e+06
+           mass: 4.7350e+51
+
+shell:: 275
+          gamma: 2385.2736
+              l: 3.0000e+03
+         radius: 4.3510e+06
+           mass: 2.6167e+51
+
+shell:: 276
+          gamma: 141.0426
+              l: 3.0000e+03
+         radius: 4.3450e+06
+           mass: 4.4253e+52
+
+shell:: 277
+          gamma: 351.7640
+              l: 3.0000e+03
+         radius: 4.3390e+06
+           mass: 1.7743e+52
+
+shell:: 278
+          gamma: 241.5353
+              l: 3.0000e+03
+         radius: 4.3330e+06
+           mass: 2.5841e+52
+
+shell:: 279
+          gamma: 4534.7482
+              l: 3.0000e+03
+         radius: 4.3270e+06
+           mass: 1.3764e+51
+
+shell:: 280
+          gamma: 147.6334
+              l: 3.0000e+03
+         radius: 4.3210e+06
+           mass: 4.2277e+52
+
+shell:: 281
+          gamma: 348.3597
+              l: 3.0000e+03
+         radius: 4.3150e+06
+           mass: 1.7917e+52
+
+shell:: 282
+          gamma: 827.1445
+              l: 3.0000e+03
+         radius: 4.3090e+06
+           mass: 7.5458e+51
+
+shell:: 283
+          gamma: 800.0206
+              l: 3.0000e+03
+         radius: 4.3030e+06
+           mass: 7.8017e+51
+
+shell:: 284
+          gamma: 205.0029
+              l: 3.0000e+03
+         radius: 4.2970e+06
+           mass: 3.0446e+52
+
+shell:: 285
+          gamma: 703.2341
+              l: 3.0000e+03
+         radius: 4.2910e+06
+           mass: 8.8754e+51
+
+shell:: 286
+          gamma: 483.5237
+              l: 3.0000e+03
+         radius: 4.2850e+06
+           mass: 1.2908e+52
+
+shell:: 287
+          gamma: 322.1697
+              l: 3.0000e+03
+         radius: 4.2790e+06
+           mass: 1.9373e+52
+
+shell:: 288
+          gamma: 2143.2085
+              l: 3.0000e+03
+         radius: 4.2730e+06
+           mass: 2.9122e+51
+
+shell:: 289
+          gamma: 1106.0114
+              l: 3.0000e+03
+         radius: 4.2670e+06
+           mass: 5.6433e+51
+
+shell:: 290
+          gamma: 226.8611
+              l: 3.0000e+03
+         radius: 4.2610e+06
+           mass: 2.7512e+52
+
+shell:: 291
+          gamma: 59.5820
+              l: 3.0000e+03
+         radius: 4.2550e+06
+           mass: 1.0475e+53
+
+shell:: 292
+          gamma: 201.9398
+              l: 3.0000e+03
+         radius: 4.2490e+06
+           mass: 3.0908e+52
+
+shell:: 293
+          gamma: 114.4104
+              l: 3.0000e+03
+         radius: 4.2430e+06
+           mass: 5.4554e+52
+
+shell:: 294
+          gamma: 994.4199
+              l: 3.0000e+03
+         radius: 4.2370e+06
+           mass: 6.2765e+51
+
+shell:: 295
+          gamma: 4024.0111
+              l: 3.0000e+03
+         radius: 4.2310e+06
+           mass: 1.5511e+51
+
+shell:: 296
+          gamma: 1477.1673
+              l: 3.0000e+03
+         radius: 4.2250e+06
+           mass: 4.2253e+51
+
+shell:: 297
+          gamma: 1684.7355
+              l: 3.0000e+03
+         radius: 4.2190e+06
+           mass: 3.7047e+51
+
+shell:: 298
+          gamma: 149.5919
+              l: 3.0000e+03
+         radius: 4.2130e+06
+           mass: 4.1724e+52
+
+shell:: 299
+          gamma: 128.6539
+              l: 3.0000e+03
+         radius: 4.2070e+06
+           mass: 4.8514e+52
+
+shell:: 300
+          gamma: 389.7876
+              l: 3.0000e+03
+         radius: 4.2010e+06
+           mass: 1.6013e+52
+
+shell:: 301
+          gamma: 141.7943
+              l: 3.0000e+03
+         radius: 4.1950e+06
+           mass: 4.4018e+52
+
+shell:: 302
+          gamma: 86.4793
+              l: 3.0000e+03
+         radius: 4.1890e+06
+           mass: 7.2173e+52
+
+shell:: 303
+          gamma: 705.3089
+              l: 3.0000e+03
+         radius: 4.1830e+06
+           mass: 8.8493e+51
+
+shell:: 304
+          gamma: 342.0462
+              l: 3.0000e+03
+         radius: 4.1770e+06
+           mass: 1.8248e+52
+
+shell:: 305
+          gamma: 268.9879
+              l: 3.0000e+03
+         radius: 4.1710e+06
+           mass: 2.3204e+52
+
+shell:: 306
+          gamma: 597.7307
+              l: 3.0000e+03
+         radius: 4.1650e+06
+           mass: 1.0442e+52
+
+shell:: 307
+          gamma: 142.2711
+              l: 3.0000e+03
+         radius: 4.1590e+06
+           mass: 4.3870e+52
+
+shell:: 308
+          gamma: 522.3954
+              l: 3.0000e+03
+         radius: 4.1530e+06
+           mass: 1.1948e+52
+
+shell:: 309
+          gamma: 1326.0889
+              l: 3.0000e+03
+         radius: 4.1470e+06
+           mass: 4.7067e+51
+
+shell:: 310
+          gamma: 342.3200
+              l: 3.0000e+03
+         radius: 4.1410e+06
+           mass: 1.8233e+52
+
+shell:: 311
+          gamma: 642.8991
+              l: 3.0000e+03
+         radius: 4.1350e+06
+           mass: 9.7084e+51
+
+shell:: 312
+          gamma: 542.9293
+              l: 3.0000e+03
+         radius: 4.1290e+06
+           mass: 1.1496e+52
+
+shell:: 313
+          gamma: 1500.0972
+              l: 3.0000e+03
+         radius: 4.1230e+06
+           mass: 4.1607e+51
+
+shell:: 314
+          gamma: 151.5867
+              l: 3.0000e+03
+         radius: 4.1170e+06
+           mass: 4.1174e+52
+
+shell:: 315
+          gamma: 559.4676
+              l: 3.0000e+03
+         radius: 4.1110e+06
+           mass: 1.1156e+52
+
+shell:: 316
+          gamma: 364.2537
+              l: 3.0000e+03
+         radius: 4.1050e+06
+           mass: 1.7135e+52
+
+shell:: 317
+          gamma: 584.2623
+              l: 3.0000e+03
+         radius: 4.0990e+06
+           mass: 1.0683e+52
+
+shell:: 318
+          gamma: 285.9426
+              l: 3.0000e+03
+         radius: 4.0930e+06
+           mass: 2.1828e+52
+
+shell:: 319
+          gamma: 173.3583
+              l: 3.0000e+03
+         radius: 4.0870e+06
+           mass: 3.6003e+52
+
+shell:: 320
+          gamma: 377.2605
+              l: 3.0000e+03
+         radius: 4.0810e+06
+           mass: 1.6544e+52
+
+shell:: 321
+          gamma: 577.9350
+              l: 3.0000e+03
+         radius: 4.0750e+06
+           mass: 1.0800e+52
+
+shell:: 322
+          gamma: 1727.9548
+              l: 3.0000e+03
+         radius: 4.0690e+06
+           mass: 3.6121e+51
+
+shell:: 323
+          gamma: 3159.9665
+              l: 3.0000e+03
+         radius: 4.0630e+06
+           mass: 1.9752e+51
+
+shell:: 324
+          gamma: 362.4830
+              l: 3.0000e+03
+         radius: 4.0570e+06
+           mass: 1.7219e+52
+
+shell:: 325
+          gamma: 381.4767
+              l: 3.0000e+03
+         radius: 4.0510e+06
+           mass: 1.6361e+52
+
+shell:: 326
+          gamma: 452.3840
+              l: 3.0000e+03
+         radius: 4.0450e+06
+           mass: 1.3797e+52
+
+shell:: 327
+          gamma: 97.4558
+              l: 3.0000e+03
+         radius: 4.0390e+06
+           mass: 6.4044e+52
+
+shell:: 328
+          gamma: 493.1771
+              l: 3.0000e+03
+         radius: 4.0330e+06
+           mass: 1.2656e+52
+
+shell:: 329
+          gamma: 1256.5253
+              l: 3.0000e+03
+         radius: 4.0270e+06
+           mass: 4.9673e+51
+
+shell:: 330
+          gamma: 549.0342
+              l: 3.0000e+03
+         radius: 4.0210e+06
+           mass: 1.1368e+52
+
+shell:: 331
+          gamma: 793.6922
+              l: 3.0000e+03
+         radius: 4.0150e+06
+           mass: 7.8639e+51
+
+shell:: 332
+          gamma: 154.9196
+              l: 3.0000e+03
+         radius: 4.0090e+06
+           mass: 4.0289e+52
+
+shell:: 333
+          gamma: 885.3247
+              l: 3.0000e+03
+         radius: 4.0030e+06
+           mass: 7.0500e+51
+
+shell:: 334
+          gamma: 1831.5682
+              l: 3.0000e+03
+         radius: 3.9970e+06
+           mass: 3.4077e+51
+
+shell:: 335
+          gamma: 96.6672
+              l: 3.0000e+03
+         radius: 3.9910e+06
+           mass: 6.4567e+52
+
+shell:: 336
+          gamma: 545.0060
+              l: 3.0000e+03
+         radius: 3.9850e+06
+           mass: 1.1452e+52
+
+shell:: 337
+          gamma: 573.8172
+              l: 3.0000e+03
+         radius: 3.9790e+06
+           mass: 1.0877e+52
+
+shell:: 338
+          gamma: 490.0542
+              l: 3.0000e+03
+         radius: 3.9730e+06
+           mass: 1.2736e+52
+
+shell:: 339
+          gamma: 297.6131
+              l: 3.0000e+03
+         radius: 3.9670e+06
+           mass: 2.0972e+52
+
+shell:: 340
+          gamma: 1698.0852
+              l: 3.0000e+03
+         radius: 3.9610e+06
+           mass: 3.6756e+51
+
+shell:: 341
+          gamma: 134.9543
+              l: 3.0000e+03
+         radius: 3.9550e+06
+           mass: 4.6249e+52
+
+shell:: 342
+          gamma: 283.5146
+              l: 3.0000e+03
+         radius: 3.9490e+06
+           mass: 2.2015e+52
+
+shell:: 343
+          gamma: 2740.4618
+              l: 3.0000e+03
+         radius: 3.9430e+06
+           mass: 2.2775e+51
+
+shell:: 344
+          gamma: 129.4846
+              l: 3.0000e+03
+         radius: 3.9370e+06
+           mass: 4.8203e+52
+
+shell:: 345
+          gamma: 97.9921
+              l: 3.0000e+03
+         radius: 3.9310e+06
+           mass: 6.3694e+52
+
+shell:: 346
+          gamma: 917.1709
+              l: 3.0000e+03
+         radius: 3.9250e+06
+           mass: 6.8052e+51
+
+shell:: 347
+          gamma: 299.2682
+              l: 3.0000e+03
+         radius: 3.9190e+06
+           mass: 2.0856e+52
+
+shell:: 348
+          gamma: 71.8067
+              l: 3.0000e+03
+         radius: 3.9130e+06
+           mass: 8.6921e+52
+
+shell:: 349
+          gamma: 1602.7081
+              l: 3.0000e+03
+         radius: 3.9070e+06
+           mass: 3.8943e+51
+
+shell:: 350
+          gamma: 323.1099
+              l: 3.0000e+03
+         radius: 3.9010e+06
+           mass: 1.9317e+52
+
+shell:: 351
+          gamma: 416.4261
+              l: 3.0000e+03
+         radius: 3.8950e+06
+           mass: 1.4988e+52
+
+shell:: 352
+          gamma: 44.6725
+              l: 3.0000e+03
+         radius: 3.8890e+06
+           mass: 1.3972e+53
+
+shell:: 353
+          gamma: 3192.8749
+              l: 3.0000e+03
+         radius: 3.8830e+06
+           mass: 1.9548e+51
+
+shell:: 354
+          gamma: 863.9280
+              l: 3.0000e+03
+         radius: 3.8770e+06
+           mass: 7.2246e+51
+
+shell:: 355
+          gamma: 1405.2862
+              l: 3.0000e+03
+         radius: 3.8710e+06
+           mass: 4.4414e+51
+
+shell:: 356
+          gamma: 440.7278
+              l: 3.0000e+03
+         radius: 3.8650e+06
+           mass: 1.4162e+52
+
+shell:: 357
+          gamma: 1039.9574
+              l: 3.0000e+03
+         radius: 3.8590e+06
+           mass: 6.0017e+51
+
+shell:: 358
+          gamma: 395.5894
+              l: 3.0000e+03
+         radius: 3.8530e+06
+           mass: 1.5778e+52
+
+shell:: 359
+          gamma: 2407.1153
+              l: 3.0000e+03
+         radius: 3.8470e+06
+           mass: 2.5929e+51
+
+shell:: 360
+          gamma: 3109.3529
+              l: 3.0000e+03
+         radius: 3.8410e+06
+           mass: 2.0073e+51
+
+shell:: 361
+          gamma: 173.3516
+              l: 3.0000e+03
+         radius: 3.8350e+06
+           mass: 3.6005e+52
+
+shell:: 362
+          gamma: 471.6830
+              l: 3.0000e+03
+         radius: 3.8290e+06
+           mass: 1.3232e+52
+
+shell:: 363
+          gamma: 158.3125
+              l: 3.0000e+03
+         radius: 3.8230e+06
+           mass: 3.9425e+52
+
+shell:: 364
+          gamma: 1065.0093
+              l: 3.0000e+03
+         radius: 3.8170e+06
+           mass: 5.8605e+51
+
+shell:: 365
+          gamma: 510.0669
+              l: 3.0000e+03
+         radius: 3.8110e+06
+           mass: 1.2237e+52
+
+shell:: 366
+          gamma: 246.6253
+              l: 3.0000e+03
+         radius: 3.8050e+06
+           mass: 2.5308e+52
+
+shell:: 367
+          gamma: 607.6783
+              l: 3.0000e+03
+         radius: 3.7990e+06
+           mass: 1.0271e+52
+
+shell:: 368
+          gamma: 6155.3345
+              l: 3.0000e+03
+         radius: 3.7930e+06
+           mass: 1.0140e+51
+
+shell:: 369
+          gamma: 810.6929
+              l: 3.0000e+03
+         radius: 3.7870e+06
+           mass: 7.6990e+51
+
+shell:: 370
+          gamma: 408.7924
+              l: 3.0000e+03
+         radius: 3.7810e+06
+           mass: 1.5268e+52
+
+shell:: 371
+          gamma: 3080.2582
+              l: 3.0000e+03
+         radius: 3.7750e+06
+           mass: 2.0263e+51
+
+shell:: 372
+          gamma: 280.9642
+              l: 3.0000e+03
+         radius: 3.7690e+06
+           mass: 2.2215e+52
+
+shell:: 373
+          gamma: 274.4740
+              l: 3.0000e+03
+         radius: 3.7630e+06
+           mass: 2.2740e+52
+
+shell:: 374
+          gamma: 335.9072
+              l: 3.0000e+03
+         radius: 3.7570e+06
+           mass: 1.8581e+52
+
+shell:: 375
+          gamma: 374.7779
+              l: 3.0000e+03
+         radius: 3.7510e+06
+           mass: 1.6654e+52
+
+shell:: 376
+          gamma: 397.3417
+              l: 3.0000e+03
+         radius: 3.7450e+06
+           mass: 1.5708e+52
+
+shell:: 377
+          gamma: 1203.2725
+              l: 3.0000e+03
+         radius: 3.7390e+06
+           mass: 5.1871e+51
+
+shell:: 378
+          gamma: 203.1957
+              l: 3.0000e+03
+         radius: 3.7330e+06
+           mass: 3.0717e+52
+
+shell:: 379
+          gamma: 778.7821
+              l: 3.0000e+03
+         radius: 3.7270e+06
+           mass: 8.0144e+51
+
+shell:: 380
+          gamma: 963.2431
+              l: 3.0000e+03
+         radius: 3.7210e+06
+           mass: 6.4797e+51
+
+shell:: 381
+          gamma: 263.0918
+              l: 3.0000e+03
+         radius: 3.7150e+06
+           mass: 2.3724e+52
+
+shell:: 382
+          gamma: 295.7885
+              l: 3.0000e+03
+         radius: 3.7090e+06
+           mass: 2.1101e+52
+
+shell:: 383
+          gamma: 855.2725
+              l: 3.0000e+03
+         radius: 3.7030e+06
+           mass: 7.2977e+51
+
+shell:: 384
+          gamma: 2884.6603
+              l: 3.0000e+03
+         radius: 3.6970e+06
+           mass: 2.1637e+51
+
+shell:: 385
+          gamma: 217.1466
+              l: 3.0000e+03
+         radius: 3.6910e+06
+           mass: 2.8743e+52
+
+shell:: 386
+          gamma: 205.3731
+              l: 3.0000e+03
+         radius: 3.6850e+06
+           mass: 3.0391e+52
+
+shell:: 387
+          gamma: 1207.7404
+              l: 3.0000e+03
+         radius: 3.6790e+06
+           mass: 5.1679e+51
+
+shell:: 388
+          gamma: 1052.1233
+              l: 3.0000e+03
+         radius: 3.6730e+06
+           mass: 5.9323e+51
+
+shell:: 389
+          gamma: 260.3121
+              l: 3.0000e+03
+         radius: 3.6670e+06
+           mass: 2.3977e+52
+
+shell:: 390
+          gamma: 736.2821
+              l: 3.0000e+03
+         radius: 3.6610e+06
+           mass: 8.4771e+51
+
+shell:: 391
+          gamma: 218.7347
+              l: 3.0000e+03
+         radius: 3.6550e+06
+           mass: 2.8535e+52
+
+shell:: 392
+          gamma: 247.0450
+              l: 3.0000e+03
+         radius: 3.6490e+06
+           mass: 2.5265e+52
+
+shell:: 393
+          gamma: 630.9858
+              l: 3.0000e+03
+         radius: 3.6430e+06
+           mass: 9.8917e+51
+
+shell:: 394
+          gamma: 766.8374
+              l: 3.0000e+03
+         radius: 3.6370e+06
+           mass: 8.1393e+51
+
+shell:: 395
+          gamma: 903.1124
+              l: 3.0000e+03
+         radius: 3.6310e+06
+           mass: 6.9111e+51
+
+shell:: 396
+          gamma: 942.9325
+              l: 3.0000e+03
+         radius: 3.6250e+06
+           mass: 6.6192e+51
+
+shell:: 397
+          gamma: 328.1693
+              l: 3.0000e+03
+         radius: 3.6190e+06
+           mass: 1.9019e+52
+
+shell:: 398
+          gamma: 634.9716
+              l: 3.0000e+03
+         radius: 3.6130e+06
+           mass: 9.8296e+51
+
+shell:: 399
+          gamma: 1803.0561
+              l: 3.0000e+03
+         radius: 3.6070e+06
+           mass: 3.4616e+51
+
+shell:: 400
+          gamma: 138.2990
+              l: 3.0000e+03
+         radius: 3.6010e+06
+           mass: 4.5130e+52
+
+shell:: 401
+          gamma: 430.2511
+              l: 3.0000e+03
+         radius: 3.5950e+06
+           mass: 1.4507e+52
+
+shell:: 402
+          gamma: 366.4605
+              l: 3.0000e+03
+         radius: 3.5890e+06
+           mass: 1.7032e+52
+
+shell:: 403
+          gamma: 284.3304
+              l: 3.0000e+03
+         radius: 3.5830e+06
+           mass: 2.1952e+52
+
+shell:: 404
+          gamma: 443.4333
+              l: 3.0000e+03
+         radius: 3.5770e+06
+           mass: 1.4075e+52
+
+shell:: 405
+          gamma: 3283.4826
+              l: 3.0000e+03
+         radius: 3.5710e+06
+           mass: 1.9009e+51
+
+shell:: 406
+          gamma: 585.1338
+              l: 3.0000e+03
+         radius: 3.5650e+06
+           mass: 1.0667e+52
+
+shell:: 407
+          gamma: 619.0464
+              l: 3.0000e+03
+         radius: 3.5590e+06
+           mass: 1.0082e+52
+
+shell:: 408
+          gamma: 351.1181
+              l: 3.0000e+03
+         radius: 3.5530e+06
+           mass: 1.7776e+52
+
+shell:: 409
+          gamma: 670.2647
+              l: 3.0000e+03
+         radius: 3.5470e+06
+           mass: 9.3120e+51
+
+shell:: 410
+          gamma: 180.6116
+              l: 3.0000e+03
+         radius: 3.5410e+06
+           mass: 3.4558e+52
+
+shell:: 411
+          gamma: 643.4332
+              l: 3.0000e+03
+         radius: 3.5350e+06
+           mass: 9.7003e+51
+
+shell:: 412
+          gamma: 2251.5645
+              l: 3.0000e+03
+         radius: 3.5290e+06
+           mass: 2.7721e+51
+
+shell:: 413
+          gamma: 389.2350
+              l: 3.0000e+03
+         radius: 3.5230e+06
+           mass: 1.6035e+52
+
+shell:: 414
+          gamma: 271.8470
+              l: 3.0000e+03
+         radius: 3.5170e+06
+           mass: 2.2960e+52
+
+shell:: 415
+          gamma: 1321.2836
+              l: 3.0000e+03
+         radius: 3.5110e+06
+           mass: 4.7238e+51
+
+shell:: 416
+          gamma: 334.6468
+              l: 3.0000e+03
+         radius: 3.5050e+06
+           mass: 1.8651e+52
+
+shell:: 417
+          gamma: 284.7288
+              l: 3.0000e+03
+         radius: 3.4990e+06
+           mass: 2.1921e+52
+
+shell:: 418
+          gamma: 1202.4489
+              l: 3.0000e+03
+         radius: 3.4930e+06
+           mass: 5.1907e+51
+
+shell:: 419
+          gamma: 418.2610
+              l: 3.0000e+03
+         radius: 3.4870e+06
+           mass: 1.4922e+52
+
+shell:: 420
+          gamma: 2894.8686
+              l: 3.0000e+03
+         radius: 3.4810e+06
+           mass: 2.1561e+51
+
+shell:: 421
+          gamma: 581.9962
+              l: 3.0000e+03
+         radius: 3.4750e+06
+           mass: 1.0724e+52
+
+shell:: 422
+          gamma: 192.4552
+              l: 3.0000e+03
+         radius: 3.4690e+06
+           mass: 3.2431e+52
+
+shell:: 423
+          gamma: 840.9291
+              l: 3.0000e+03
+         radius: 3.4630e+06
+           mass: 7.4221e+51
+
+shell:: 424
+          gamma: 795.5998
+              l: 3.0000e+03
+         radius: 3.4570e+06
+           mass: 7.8450e+51
+
+shell:: 425
+          gamma: 146.4548
+              l: 3.0000e+03
+         radius: 3.4510e+06
+           mass: 4.2617e+52
+
+shell:: 426
+          gamma: 126.9407
+              l: 3.0000e+03
+         radius: 3.4450e+06
+           mass: 4.9169e+52
+
+shell:: 427
+          gamma: 449.2823
+              l: 3.0000e+03
+         radius: 3.4390e+06
+           mass: 1.3892e+52
+
+shell:: 428
+          gamma: 1243.8377
+              l: 3.0000e+03
+         radius: 3.4330e+06
+           mass: 5.0179e+51
+
+shell:: 429
+          gamma: 716.4505
+              l: 3.0000e+03
+         radius: 3.4270e+06
+           mass: 8.7117e+51
+
+shell:: 430
+          gamma: 847.3188
+              l: 3.0000e+03
+         radius: 3.4210e+06
+           mass: 7.3662e+51
+
+shell:: 431
+          gamma: 290.1343
+              l: 3.0000e+03
+         radius: 3.4150e+06
+           mass: 2.1512e+52
+
+shell:: 432
+          gamma: 699.4858
+              l: 3.0000e+03
+         radius: 3.4090e+06
+           mass: 8.9230e+51
+
+shell:: 433
+          gamma: 407.3235
+              l: 3.0000e+03
+         radius: 3.4030e+06
+           mass: 1.5323e+52
+
+shell:: 434
+          gamma: 1181.5059
+              l: 3.0000e+03
+         radius: 3.3970e+06
+           mass: 5.2827e+51
+
+shell:: 435
+          gamma: 4045.1809
+              l: 3.0000e+03
+         radius: 3.3910e+06
+           mass: 1.5429e+51
+
+shell:: 436
+          gamma: 76.2043
+              l: 3.0000e+03
+         radius: 3.3850e+06
+           mass: 8.1905e+52
+
+shell:: 437
+          gamma: 669.2347
+              l: 3.0000e+03
+         radius: 3.3790e+06
+           mass: 9.3263e+51
+
+shell:: 438
+          gamma: 247.2306
+              l: 3.0000e+03
+         radius: 3.3730e+06
+           mass: 2.5246e+52
+
+shell:: 439
+          gamma: 1527.1105
+              l: 3.0000e+03
+         radius: 3.3670e+06
+           mass: 4.0871e+51
+
+shell:: 440
+          gamma: 651.0937
+              l: 3.0000e+03
+         radius: 3.3610e+06
+           mass: 9.5862e+51
+
+shell:: 441
+          gamma: 194.5422
+              l: 3.0000e+03
+         radius: 3.3550e+06
+           mass: 3.2083e+52
+
+shell:: 442
+          gamma: 604.2234
+              l: 3.0000e+03
+         radius: 3.3490e+06
+           mass: 1.0330e+52
+
+shell:: 443
+          gamma: 157.3900
+              l: 3.0000e+03
+         radius: 3.3430e+06
+           mass: 3.9656e+52
+
+shell:: 444
+          gamma: 566.6271
+              l: 3.0000e+03
+         radius: 3.3370e+06
+           mass: 1.1015e+52
+
+shell:: 445
+          gamma: 2076.5851
+              l: 3.0000e+03
+         radius: 3.3310e+06
+           mass: 3.0057e+51
+
+shell:: 446
+          gamma: 440.5523
+              l: 3.0000e+03
+         radius: 3.3250e+06
+           mass: 1.4167e+52
+
+shell:: 447
+          gamma: 387.4174
+              l: 3.0000e+03
+         radius: 3.3190e+06
+           mass: 1.6111e+52
+
+shell:: 448
+          gamma: 218.4462
+              l: 3.0000e+03
+         radius: 3.3130e+06
+           mass: 2.8572e+52
+
+shell:: 449
+          gamma: 527.5785
+              l: 3.0000e+03
+         radius: 3.3070e+06
+           mass: 1.1830e+52
+
+shell:: 450
+          gamma: 628.0650
+              l: 3.0000e+03
+         radius: 3.3010e+06
+           mass: 9.9377e+51
+
+shell:: 451
+          gamma: 614.2672
+              l: 3.0000e+03
+         radius: 3.2950e+06
+           mass: 1.0161e+52
+
+shell:: 452
+          gamma: 820.5112
+              l: 3.0000e+03
+         radius: 3.2890e+06
+           mass: 7.6068e+51
+
+shell:: 453
+          gamma: 280.0949
+              l: 3.0000e+03
+         radius: 3.2830e+06
+           mass: 2.2284e+52
+
+shell:: 454
+          gamma: 739.9757
+              l: 3.0000e+03
+         radius: 3.2770e+06
+           mass: 8.4347e+51
+
+shell:: 455
+          gamma: 224.0464
+              l: 3.0000e+03
+         radius: 3.2710e+06
+           mass: 2.7858e+52
+
+shell:: 456
+          gamma: 992.9800
+              l: 3.0000e+03
+         radius: 3.2650e+06
+           mass: 6.2856e+51
+
+shell:: 457
+          gamma: 637.3520
+              l: 3.0000e+03
+         radius: 3.2590e+06
+           mass: 9.7929e+51
+
+shell:: 458
+          gamma: 2535.6665
+              l: 3.0000e+03
+         radius: 3.2530e+06
+           mass: 2.4615e+51
+
+shell:: 459
+          gamma: 211.6358
+              l: 3.0000e+03
+         radius: 3.2470e+06
+           mass: 2.9492e+52
+
+shell:: 460
+          gamma: 219.6224
+              l: 3.0000e+03
+         radius: 3.2410e+06
+           mass: 2.8419e+52
+
+shell:: 461
+          gamma: 780.1917
+              l: 3.0000e+03
+         radius: 3.2350e+06
+           mass: 8.0000e+51
+
+shell:: 462
+          gamma: 792.8949
+              l: 3.0000e+03
+         radius: 3.2290e+06
+           mass: 7.8718e+51
+
+shell:: 463
+          gamma: 1611.2851
+              l: 3.0000e+03
+         radius: 3.2230e+06
+           mass: 3.8736e+51
+
+shell:: 464
+          gamma: 3545.8914
+              l: 3.0000e+03
+         radius: 3.2170e+06
+           mass: 1.7602e+51
+
+shell:: 465
+          gamma: 3960.3122
+              l: 3.0000e+03
+         radius: 3.2110e+06
+           mass: 1.5760e+51
+
+shell:: 466
+          gamma: 567.7354
+              l: 3.0000e+03
+         radius: 3.2050e+06
+           mass: 1.0994e+52
+
+shell:: 467
+          gamma: 3234.4572
+              l: 3.0000e+03
+         radius: 3.1990e+06
+           mass: 1.9297e+51
+
+shell:: 468
+          gamma: 424.9223
+              l: 3.0000e+03
+         radius: 3.1930e+06
+           mass: 1.4689e+52
+
+shell:: 469
+          gamma: 356.0122
+              l: 3.0000e+03
+         radius: 3.1870e+06
+           mass: 1.7532e+52
+
+shell:: 470
+          gamma: 140.1572
+              l: 3.0000e+03
+         radius: 3.1810e+06
+           mass: 4.4532e+52
+
+shell:: 471
+          gamma: 5562.4534
+              l: 3.0000e+03
+         radius: 3.1750e+06
+           mass: 1.1221e+51
+
+shell:: 472
+          gamma: 582.9409
+              l: 3.0000e+03
+         radius: 3.1690e+06
+           mass: 1.0707e+52
+
+shell:: 473
+          gamma: 581.2533
+              l: 3.0000e+03
+         radius: 3.1630e+06
+           mass: 1.0738e+52
+
+shell:: 474
+          gamma: 162.0314
+              l: 3.0000e+03
+         radius: 3.1570e+06
+           mass: 3.8520e+52
+
+shell:: 475
+          gamma: 655.1432
+              l: 3.0000e+03
+         radius: 3.1510e+06
+           mass: 9.5269e+51
+
+shell:: 476
+          gamma: 409.0752
+              l: 3.0000e+03
+         radius: 3.1450e+06
+           mass: 1.5258e+52
+
+shell:: 477
+          gamma: 56.1311
+              l: 3.0000e+03
+         radius: 3.1390e+06
+           mass: 1.1120e+53
+
+shell:: 478
+          gamma: 145.7152
+              l: 3.0000e+03
+         radius: 3.1330e+06
+           mass: 4.2834e+52
+
+shell:: 479
+          gamma: 552.6396
+              l: 3.0000e+03
+         radius: 3.1270e+06
+           mass: 1.1294e+52
+
+shell:: 480
+          gamma: 224.1222
+              l: 3.0000e+03
+         radius: 3.1210e+06
+           mass: 2.7849e+52
+
+shell:: 481
+          gamma: 1569.7319
+              l: 3.0000e+03
+         radius: 3.1150e+06
+           mass: 3.9762e+51
+
+shell:: 482
+          gamma: 1018.6625
+              l: 3.0000e+03
+         radius: 3.1090e+06
+           mass: 6.1272e+51
+
+shell:: 483
+          gamma: 557.6520
+              l: 3.0000e+03
+         radius: 3.1030e+06
+           mass: 1.1192e+52
+
+shell:: 484
+          gamma: 403.8611
+              l: 3.0000e+03
+         radius: 3.0970e+06
+           mass: 1.5455e+52
+
+shell:: 485
+          gamma: 481.7526
+              l: 3.0000e+03
+         radius: 3.0910e+06
+           mass: 1.2956e+52
+
+shell:: 486
+          gamma: 1842.8238
+              l: 3.0000e+03
+         radius: 3.0850e+06
+           mass: 3.3869e+51
+
+shell:: 487
+          gamma: 231.6991
+              l: 3.0000e+03
+         radius: 3.0790e+06
+           mass: 2.6938e+52
+
+shell:: 488
+          gamma: 357.9696
+              l: 3.0000e+03
+         radius: 3.0730e+06
+           mass: 1.7436e+52
+
+shell:: 489
+          gamma: 87.9074
+              l: 3.0000e+03
+         radius: 3.0670e+06
+           mass: 7.1001e+52
+
+shell:: 490
+          gamma: 390.2449
+              l: 3.0000e+03
+         radius: 3.0610e+06
+           mass: 1.5994e+52
+
+shell:: 491
+          gamma: 415.2207
+              l: 3.0000e+03
+         radius: 3.0550e+06
+           mass: 1.5032e+52
+
+shell:: 492
+          gamma: 261.2537
+              l: 3.0000e+03
+         radius: 3.0490e+06
+           mass: 2.3891e+52
+
+shell:: 493
+          gamma: 99.6228
+              l: 3.0000e+03
+         radius: 3.0430e+06
+           mass: 6.2651e+52
+
+shell:: 494
+          gamma: 314.0773
+              l: 3.0000e+03
+         radius: 3.0370e+06
+           mass: 1.9872e+52
+
+shell:: 495
+          gamma: 1057.8361
+              l: 3.0000e+03
+         radius: 3.0310e+06
+           mass: 5.9003e+51
+
+shell:: 496
+          gamma: 222.3343
+              l: 3.0000e+03
+         radius: 3.0250e+06
+           mass: 2.8073e+52
+
+shell:: 497
+          gamma: 696.1939
+              l: 3.0000e+03
+         radius: 3.0190e+06
+           mass: 8.9652e+51
+
+shell:: 498
+          gamma: 223.1415
+              l: 3.0000e+03
+         radius: 3.0130e+06
+           mass: 2.7971e+52
+
+shell:: 499
+          gamma: 165.0592
+              l: 3.0000e+03
+         radius: 3.0070e+06
+           mass: 3.7814e+52
+
+shell:: 500
+          gamma: 1004.7196
+              l: 3.0000e+03
+         radius: 3.0010e+06
+           mass: 6.2122e+51
+
+shell:: 501
+          gamma: 863.2045
+              l: 3.0000e+03
+         radius: 2.9950e+06
+           mass: 7.2306e+51
+
+shell:: 502
+          gamma: 192.4531
+              l: 3.0000e+03
+         radius: 2.9890e+06
+           mass: 3.2431e+52
+
+shell:: 503
+          gamma: 839.8422
+              l: 3.0000e+03
+         radius: 2.9830e+06
+           mass: 7.4318e+51
+
+shell:: 504
+          gamma: 225.8724
+              l: 3.0000e+03
+         radius: 2.9770e+06
+           mass: 2.7633e+52
+
+shell:: 505
+          gamma: 2171.9372
+              l: 3.0000e+03
+         radius: 2.9710e+06
+           mass: 2.8737e+51
+
+shell:: 506
+          gamma: 755.9673
+              l: 3.0000e+03
+         radius: 2.9650e+06
+           mass: 8.2563e+51
+
+shell:: 507
+          gamma: 38.4753
+              l: 3.0000e+03
+         radius: 2.9590e+06
+           mass: 1.6222e+53
+
+shell:: 508
+          gamma: 1395.1751
+              l: 3.0000e+03
+         radius: 2.9530e+06
+           mass: 4.4736e+51
+
+shell:: 509
+          gamma: 97.0287
+              l: 3.0000e+03
+         radius: 2.9470e+06
+           mass: 6.4326e+52
+
+shell:: 510
+          gamma: 1408.5400
+              l: 3.0000e+03
+         radius: 2.9410e+06
+           mass: 4.4312e+51
+
+shell:: 511
+          gamma: 288.3080
+              l: 3.0000e+03
+         radius: 2.9350e+06
+           mass: 2.1649e+52
+
+shell:: 512
+          gamma: 1294.1779
+              l: 3.0000e+03
+         radius: 2.9290e+06
+           mass: 4.8228e+51
+
+shell:: 513
+          gamma: 260.6429
+              l: 3.0000e+03
+         radius: 2.9230e+06
+           mass: 2.3947e+52
+
+shell:: 514
+          gamma: 1049.7194
+              l: 3.0000e+03
+         radius: 2.9170e+06
+           mass: 5.9459e+51
+
+shell:: 515
+          gamma: 248.9026
+              l: 3.0000e+03
+         radius: 2.9110e+06
+           mass: 2.5076e+52
+
+shell:: 516
+          gamma: 471.2828
+              l: 3.0000e+03
+         radius: 2.9050e+06
+           mass: 1.3244e+52
+
+shell:: 517
+          gamma: 484.5728
+              l: 3.0000e+03
+         radius: 2.8990e+06
+           mass: 1.2880e+52
+
+shell:: 518
+          gamma: 305.5347
+              l: 3.0000e+03
+         radius: 2.8930e+06
+           mass: 2.0428e+52
+
+shell:: 519
+          gamma: 739.3581
+              l: 3.0000e+03
+         radius: 2.8870e+06
+           mass: 8.4418e+51
+
+shell:: 520
+          gamma: 583.4662
+              l: 3.0000e+03
+         radius: 2.8810e+06
+           mass: 1.0697e+52
+
+shell:: 521
+          gamma: 1836.2330
+              l: 3.0000e+03
+         radius: 2.8750e+06
+           mass: 3.3991e+51
+
+shell:: 522
+          gamma: 254.6083
+              l: 3.0000e+03
+         radius: 2.8690e+06
+           mass: 2.4514e+52
+
+shell:: 523
+          gamma: 626.1853
+              l: 3.0000e+03
+         radius: 2.8630e+06
+           mass: 9.9675e+51
+
+shell:: 524
+          gamma: 1299.3836
+              l: 3.0000e+03
+         radius: 2.8570e+06
+           mass: 4.8034e+51
+
+shell:: 525
+          gamma: 226.5125
+              l: 3.0000e+03
+         radius: 2.8510e+06
+           mass: 2.7555e+52
+
+shell:: 526
+          gamma: 285.3518
+              l: 3.0000e+03
+         radius: 2.8450e+06
+           mass: 2.1873e+52
+
+shell:: 527
+          gamma: 703.3751
+              l: 3.0000e+03
+         radius: 2.8390e+06
+           mass: 8.8736e+51
+
+shell:: 528
+          gamma: 296.5812
+              l: 3.0000e+03
+         radius: 2.8330e+06
+           mass: 2.1045e+52
+
+shell:: 529
+          gamma: 171.9764
+              l: 3.0000e+03
+         radius: 2.8270e+06
+           mass: 3.6293e+52
+
+shell:: 530
+          gamma: 1750.1641
+              l: 3.0000e+03
+         radius: 2.8210e+06
+           mass: 3.5662e+51
+
+shell:: 531
+          gamma: 149.7622
+              l: 3.0000e+03
+         radius: 2.8150e+06
+           mass: 4.1676e+52
+
+shell:: 532
+          gamma: 447.7490
+              l: 3.0000e+03
+         radius: 2.8090e+06
+           mass: 1.3940e+52
+
+shell:: 533
+          gamma: 739.1544
+              l: 3.0000e+03
+         radius: 2.8030e+06
+           mass: 8.4441e+51
+
+shell:: 534
+          gamma: 821.3913
+              l: 3.0000e+03
+         radius: 2.7970e+06
+           mass: 7.5987e+51
+
+shell:: 535
+          gamma: 120.3263
+              l: 3.0000e+03
+         radius: 2.7910e+06
+           mass: 5.1871e+52
+
+shell:: 536
+          gamma: 45.3193
+              l: 3.0000e+03
+         radius: 2.7850e+06
+           mass: 1.3772e+53
+
+shell:: 537
+          gamma: 699.1811
+              l: 3.0000e+03
+         radius: 2.7790e+06
+           mass: 8.9269e+51
+
+shell:: 538
+          gamma: 2225.9525
+              l: 3.0000e+03
+         radius: 2.7730e+06
+           mass: 2.8040e+51
+
+shell:: 539
+          gamma: 2895.9487
+              l: 3.0000e+03
+         radius: 2.7670e+06
+           mass: 2.1553e+51
+
+shell:: 540
+          gamma: 300.3950
+              l: 3.0000e+03
+         radius: 2.7610e+06
+           mass: 2.0778e+52
+
+shell:: 541
+          gamma: 98.4324
+              l: 3.0000e+03
+         radius: 2.7550e+06
+           mass: 6.3409e+52
+
+shell:: 542
+          gamma: 241.4535
+              l: 3.0000e+03
+         radius: 2.7490e+06
+           mass: 2.5850e+52
+
+shell:: 543
+          gamma: 374.1388
+              l: 3.0000e+03
+         radius: 2.7430e+06
+           mass: 1.6682e+52
+
+shell:: 544
+          gamma: 1323.4922
+              l: 3.0000e+03
+         radius: 2.7370e+06
+           mass: 4.7159e+51
+
+shell:: 545
+          gamma: 1028.2394
+              l: 3.0000e+03
+         radius: 2.7310e+06
+           mass: 6.0701e+51
+
+shell:: 546
+          gamma: 1337.7189
+              l: 3.0000e+03
+         radius: 2.7250e+06
+           mass: 4.6658e+51
+
+shell:: 547
+          gamma: 2294.9892
+              l: 3.0000e+03
+         radius: 2.7190e+06
+           mass: 2.7196e+51
+
+shell:: 548
+          gamma: 724.8531
+              l: 3.0000e+03
+         radius: 2.7130e+06
+           mass: 8.6107e+51
+
+shell:: 549
+          gamma: 203.2644
+              l: 3.0000e+03
+         radius: 2.7070e+06
+           mass: 3.0706e+52
+
+shell:: 550
+          gamma: 1040.2572
+              l: 3.0000e+03
+         radius: 2.7010e+06
+           mass: 6.0000e+51
+
+shell:: 551
+          gamma: 526.3921
+              l: 3.0000e+03
+         radius: 2.6950e+06
+           mass: 1.1857e+52
+
+shell:: 552
+          gamma: 253.3722
+              l: 3.0000e+03
+         radius: 2.6890e+06
+           mass: 2.4634e+52
+
+shell:: 553
+          gamma: 82.9466
+              l: 3.0000e+03
+         radius: 2.6830e+06
+           mass: 7.5247e+52
+
+shell:: 554
+          gamma: 105.7695
+              l: 3.0000e+03
+         radius: 2.6770e+06
+           mass: 5.9010e+52
+
+shell:: 555
+          gamma: 1033.0321
+              l: 3.0000e+03
+         radius: 2.6710e+06
+           mass: 6.0419e+51
+
+shell:: 556
+          gamma: 675.3637
+              l: 3.0000e+03
+         radius: 2.6650e+06
+           mass: 9.2417e+51
+
+shell:: 557
+          gamma: 111.9542
+              l: 3.0000e+03
+         radius: 2.6590e+06
+           mass: 5.5750e+52
+
+shell:: 558
+          gamma: 476.0136
+              l: 3.0000e+03
+         radius: 2.6530e+06
+           mass: 1.3112e+52
+
+shell:: 559
+          gamma: 108.5398
+              l: 3.0000e+03
+         radius: 2.6470e+06
+           mass: 5.7504e+52
+
+shell:: 560
+          gamma: 286.0228
+              l: 3.0000e+03
+         radius: 2.6410e+06
+           mass: 2.1822e+52
+
+shell:: 561
+          gamma: 785.4649
+              l: 3.0000e+03
+         radius: 2.6350e+06
+           mass: 7.9462e+51
+
+shell:: 562
+          gamma: 751.5015
+              l: 3.0000e+03
+         radius: 2.6290e+06
+           mass: 8.3054e+51
+
+shell:: 563
+          gamma: 381.0707
+              l: 3.0000e+03
+         radius: 2.6230e+06
+           mass: 1.6379e+52
+
+shell:: 564
+          gamma: 344.2270
+              l: 3.0000e+03
+         radius: 2.6170e+06
+           mass: 1.8132e+52
+
+shell:: 565
+          gamma: 1195.5259
+              l: 3.0000e+03
+         radius: 2.6110e+06
+           mass: 5.2207e+51
+
+shell:: 566
+          gamma: 411.9131
+              l: 3.0000e+03
+         radius: 2.6050e+06
+           mass: 1.5152e+52
+
+shell:: 567
+          gamma: 345.7710
+              l: 3.0000e+03
+         radius: 2.5990e+06
+           mass: 1.8051e+52
+
+shell:: 568
+          gamma: 812.0069
+              l: 3.0000e+03
+         radius: 2.5930e+06
+           mass: 7.6865e+51
+
+shell:: 569
+          gamma: 226.0305
+              l: 3.0000e+03
+         radius: 2.5870e+06
+           mass: 2.7614e+52
+
+shell:: 570
+          gamma: 690.8925
+              l: 3.0000e+03
+         radius: 2.5810e+06
+           mass: 9.0340e+51
+
+shell:: 571
+          gamma: 332.6289
+              l: 3.0000e+03
+         radius: 2.5750e+06
+           mass: 1.8764e+52
+
+shell:: 572
+          gamma: 373.9362
+              l: 3.0000e+03
+         radius: 2.5690e+06
+           mass: 1.6691e+52
+
+shell:: 573
+          gamma: 809.3834
+              l: 3.0000e+03
+         radius: 2.5630e+06
+           mass: 7.7114e+51
+
+shell:: 574
+          gamma: 1162.5938
+              l: 3.0000e+03
+         radius: 2.5570e+06
+           mass: 5.3686e+51
+
+shell:: 575
+          gamma: 729.2925
+              l: 3.0000e+03
+         radius: 2.5510e+06
+           mass: 8.5583e+51
+
+shell:: 576
+          gamma: 157.2077
+              l: 3.0000e+03
+         radius: 2.5450e+06
+           mass: 3.9702e+52
+
+shell:: 577
+          gamma: 1366.6539
+              l: 3.0000e+03
+         radius: 2.5390e+06
+           mass: 4.5670e+51
+
+shell:: 578
+          gamma: 1337.8866
+              l: 3.0000e+03
+         radius: 2.5330e+06
+           mass: 4.6652e+51
+
+shell:: 579
+          gamma: 191.4366
+              l: 3.0000e+03
+         radius: 2.5270e+06
+           mass: 3.2603e+52
+
+shell:: 580
+          gamma: 959.2024
+              l: 3.0000e+03
+         radius: 2.5210e+06
+           mass: 6.5070e+51
+
+shell:: 581
+          gamma: 438.3401
+              l: 3.0000e+03
+         radius: 2.5150e+06
+           mass: 1.4239e+52
+
+shell:: 582
+          gamma: 1319.3581
+              l: 3.0000e+03
+         radius: 2.5090e+06
+           mass: 4.7307e+51
+
+shell:: 583
+          gamma: 748.1608
+              l: 3.0000e+03
+         radius: 2.5030e+06
+           mass: 8.3425e+51
+
+shell:: 584
+          gamma: 284.8873
+              l: 3.0000e+03
+         radius: 2.4970e+06
+           mass: 2.1909e+52
+
+shell:: 585
+          gamma: 221.7490
+              l: 3.0000e+03
+         radius: 2.4910e+06
+           mass: 2.8147e+52
+
+shell:: 586
+          gamma: 359.9491
+              l: 3.0000e+03
+         radius: 2.4850e+06
+           mass: 1.7340e+52
+
+shell:: 587
+          gamma: 2099.7712
+              l: 3.0000e+03
+         radius: 2.4790e+06
+           mass: 2.9725e+51
+
+shell:: 588
+          gamma: 371.1377
+              l: 3.0000e+03
+         radius: 2.4730e+06
+           mass: 1.6817e+52
+
+shell:: 589
+          gamma: 217.5685
+              l: 3.0000e+03
+         radius: 2.4670e+06
+           mass: 2.8688e+52
+
+shell:: 590
+          gamma: 91.8506
+              l: 3.0000e+03
+         radius: 2.4610e+06
+           mass: 6.7953e+52
+
+shell:: 591
+          gamma: 306.2745
+              l: 3.0000e+03
+         radius: 2.4550e+06
+           mass: 2.0379e+52
+
+shell:: 592
+          gamma: 6654.5200
+              l: 3.0000e+03
+         radius: 2.4490e+06
+           mass: 9.3793e+50
+
+shell:: 593
+          gamma: 309.2194
+              l: 3.0000e+03
+         radius: 2.4430e+06
+           mass: 2.0185e+52
+
+shell:: 594
+          gamma: 384.2967
+              l: 3.0000e+03
+         radius: 2.4370e+06
+           mass: 1.6241e+52
+
+shell:: 595
+          gamma: 465.4268
+              l: 3.0000e+03
+         radius: 2.4310e+06
+           mass: 1.3410e+52
+
+shell:: 596
+          gamma: 318.5892
+              l: 3.0000e+03
+         radius: 2.4250e+06
+           mass: 1.9591e+52
+
+shell:: 597
+          gamma: 295.3492
+              l: 3.0000e+03
+         radius: 2.4190e+06
+           mass: 2.1133e+52
+
+shell:: 598
+          gamma: 1074.9593
+              l: 3.0000e+03
+         radius: 2.4130e+06
+           mass: 5.8063e+51
+
+shell:: 599
+          gamma: 3712.6305
+              l: 3.0000e+03
+         radius: 2.4070e+06
+           mass: 1.6812e+51
+
+shell:: 600
+          gamma: 1193.1942
+              l: 3.0000e+03
+         radius: 2.4010e+06
+           mass: 5.2309e+51
+
+shell:: 601
+          gamma: 1874.3977
+              l: 3.0000e+03
+         radius: 2.3950e+06
+           mass: 3.3299e+51
+
+shell:: 602
+          gamma: 32.0287
+              l: 3.0000e+03
+         radius: 2.3890e+06
+           mass: 1.9487e+53
+
+shell:: 603
+          gamma: 485.6639
+              l: 3.0000e+03
+         radius: 2.3830e+06
+           mass: 1.2851e+52
+
+shell:: 604
+          gamma: 182.9739
+              l: 3.0000e+03
+         radius: 2.3770e+06
+           mass: 3.4111e+52
+
+shell:: 605
+          gamma: 677.9049
+              l: 3.0000e+03
+         radius: 2.3710e+06
+           mass: 9.2070e+51
+
+shell:: 606
+          gamma: 6284.5310
+              l: 3.0000e+03
+         radius: 2.3650e+06
+           mass: 9.9315e+50
+
+shell:: 607
+          gamma: 351.4274
+              l: 3.0000e+03
+         radius: 2.3590e+06
+           mass: 1.7760e+52
+
+shell:: 608
+          gamma: 1380.3361
+              l: 3.0000e+03
+         radius: 2.3530e+06
+           mass: 4.5217e+51
+
+shell:: 609
+          gamma: 676.0092
+              l: 3.0000e+03
+         radius: 2.3470e+06
+           mass: 9.2329e+51
+
+shell:: 610
+          gamma: 345.5032
+              l: 3.0000e+03
+         radius: 2.3410e+06
+           mass: 1.8065e+52
+
+shell:: 611
+          gamma: 2461.4111
+              l: 3.0000e+03
+         radius: 2.3350e+06
+           mass: 2.5357e+51
+
+shell:: 612
+          gamma: 3218.4065
+              l: 3.0000e+03
+         radius: 2.3290e+06
+           mass: 1.9393e+51
+
+shell:: 613
+          gamma: 145.7436
+              l: 3.0000e+03
+         radius: 2.3230e+06
+           mass: 4.2825e+52
+
+shell:: 614
+          gamma: 163.4501
+              l: 3.0000e+03
+         radius: 2.3170e+06
+           mass: 3.8186e+52
+
+shell:: 615
+          gamma: 120.8717
+              l: 3.0000e+03
+         radius: 2.3110e+06
+           mass: 5.1637e+52
+
+shell:: 616
+          gamma: 2668.0117
+              l: 3.0000e+03
+         radius: 2.3050e+06
+           mass: 2.3394e+51
+
+shell:: 617
+          gamma: 737.1728
+              l: 3.0000e+03
+         radius: 2.2990e+06
+           mass: 8.4668e+51
+
+shell:: 618
+          gamma: 117.7796
+              l: 3.0000e+03
+         radius: 2.2930e+06
+           mass: 5.2993e+52
+
+shell:: 619
+          gamma: 1079.6976
+              l: 3.0000e+03
+         radius: 2.2870e+06
+           mass: 5.7808e+51
+
+shell:: 620
+          gamma: 418.8030
+              l: 3.0000e+03
+         radius: 2.2810e+06
+           mass: 1.4903e+52
+
+shell:: 621
+          gamma: 453.7809
+              l: 3.0000e+03
+         radius: 2.2750e+06
+           mass: 1.3754e+52
+
+shell:: 622
+          gamma: 1155.0342
+              l: 3.0000e+03
+         radius: 2.2690e+06
+           mass: 5.4037e+51
+
+shell:: 623
+          gamma: 99.4533
+              l: 3.0000e+03
+         radius: 2.2630e+06
+           mass: 6.2758e+52
+
+shell:: 624
+          gamma: 332.5053
+              l: 3.0000e+03
+         radius: 2.2570e+06
+           mass: 1.8771e+52
+
+shell:: 625
+          gamma: 1098.6875
+              l: 3.0000e+03
+         radius: 2.2510e+06
+           mass: 5.6809e+51
+
+shell:: 626
+          gamma: 3025.6842
+              l: 3.0000e+03
+         radius: 2.2450e+06
+           mass: 2.0628e+51
+
+shell:: 627
+          gamma: 2466.6749
+              l: 3.0000e+03
+         radius: 2.2390e+06
+           mass: 2.5303e+51
+
+shell:: 628
+          gamma: 257.8588
+              l: 3.0000e+03
+         radius: 2.2330e+06
+           mass: 2.4205e+52
+
+shell:: 629
+          gamma: 686.1202
+              l: 3.0000e+03
+         radius: 2.2270e+06
+           mass: 9.0968e+51
+
+shell:: 630
+          gamma: 408.9072
+              l: 3.0000e+03
+         radius: 2.2210e+06
+           mass: 1.5264e+52
+
+shell:: 631
+          gamma: 231.3857
+              l: 3.0000e+03
+         radius: 2.2150e+06
+           mass: 2.6974e+52
+
+shell:: 632
+          gamma: 265.8995
+              l: 3.0000e+03
+         radius: 2.2090e+06
+           mass: 2.3473e+52
+
+shell:: 633
+          gamma: 430.5603
+              l: 3.0000e+03
+         radius: 2.2030e+06
+           mass: 1.4496e+52
+
+shell:: 634
+          gamma: 5331.1991
+              l: 3.0000e+03
+         radius: 2.1970e+06
+           mass: 1.1707e+51
+
+shell:: 635
+          gamma: 230.7791
+              l: 3.0000e+03
+         radius: 2.1910e+06
+           mass: 2.7045e+52
+
+shell:: 636
+          gamma: 660.6387
+              l: 3.0000e+03
+         radius: 2.1850e+06
+           mass: 9.4477e+51
+
+shell:: 637
+          gamma: 426.7093
+              l: 3.0000e+03
+         radius: 2.1790e+06
+           mass: 1.4627e+52
+
+shell:: 638
+          gamma: 339.0938
+              l: 3.0000e+03
+         radius: 2.1730e+06
+           mass: 1.8406e+52
+
+shell:: 639
+          gamma: 199.2945
+              l: 3.0000e+03
+         radius: 2.1670e+06
+           mass: 3.1318e+52
+
+shell:: 640
+          gamma: 489.5405
+              l: 3.0000e+03
+         radius: 2.1610e+06
+           mass: 1.2750e+52
+
+shell:: 641
+          gamma: 869.9930
+              l: 3.0000e+03
+         radius: 2.1550e+06
+           mass: 7.1742e+51
+
+shell:: 642
+          gamma: 2360.7239
+              l: 3.0000e+03
+         radius: 2.1490e+06
+           mass: 2.6439e+51
+
+shell:: 643
+          gamma: 1590.2174
+              l: 3.0000e+03
+         radius: 2.1430e+06
+           mass: 3.9249e+51
+
+shell:: 644
+          gamma: 310.8806
+              l: 3.0000e+03
+         radius: 2.1370e+06
+           mass: 2.0077e+52
+
+shell:: 645
+          gamma: 45.5596
+              l: 3.0000e+03
+         radius: 2.1310e+06
+           mass: 1.3700e+53
+
+shell:: 646
+          gamma: 233.0651
+              l: 3.0000e+03
+         radius: 2.1250e+06
+           mass: 2.6780e+52
+
+shell:: 647
+          gamma: 897.9767
+              l: 3.0000e+03
+         radius: 2.1190e+06
+           mass: 6.9506e+51
+
+shell:: 648
+          gamma: 209.2837
+              l: 3.0000e+03
+         radius: 2.1130e+06
+           mass: 2.9823e+52
+
+shell:: 649
+          gamma: 1931.6391
+              l: 3.0000e+03
+         radius: 2.1070e+06
+           mass: 3.2312e+51
+
+shell:: 650
+          gamma: 988.7383
+              l: 3.0000e+03
+         radius: 2.1010e+06
+           mass: 6.3126e+51
+
+shell:: 651
+          gamma: 515.4175
+              l: 3.0000e+03
+         radius: 2.0950e+06
+           mass: 1.2110e+52
+
+shell:: 652
+          gamma: 975.2808
+              l: 3.0000e+03
+         radius: 2.0890e+06
+           mass: 6.3997e+51
+
+shell:: 653
+          gamma: 305.8478
+              l: 3.0000e+03
+         radius: 2.0830e+06
+           mass: 2.0407e+52
+
+shell:: 654
+          gamma: 2153.4256
+              l: 3.0000e+03
+         radius: 2.0770e+06
+           mass: 2.8984e+51
+
+shell:: 655
+          gamma: 2437.1063
+              l: 3.0000e+03
+         radius: 2.0710e+06
+           mass: 2.5610e+51
+
+shell:: 656
+          gamma: 809.1759
+              l: 3.0000e+03
+         radius: 2.0650e+06
+           mass: 7.7134e+51
+
+shell:: 657
+          gamma: 1019.9049
+              l: 3.0000e+03
+         radius: 2.0590e+06
+           mass: 6.1197e+51
+
+shell:: 658
+          gamma: 667.6772
+              l: 3.0000e+03
+         radius: 2.0530e+06
+           mass: 9.3481e+51
+
+shell:: 659
+          gamma: 143.7184
+              l: 3.0000e+03
+         radius: 2.0470e+06
+           mass: 4.3429e+52
+
+shell:: 660
+          gamma: 227.3609
+              l: 3.0000e+03
+         radius: 2.0410e+06
+           mass: 2.7452e+52
+
+shell:: 661
+          gamma: 818.5215
+              l: 3.0000e+03
+         radius: 2.0350e+06
+           mass: 7.6253e+51
+
+shell:: 662
+          gamma: 221.0112
+              l: 3.0000e+03
+         radius: 2.0290e+06
+           mass: 2.8241e+52
+
+shell:: 663
+          gamma: 847.8462
+              l: 3.0000e+03
+         radius: 2.0230e+06
+           mass: 7.3616e+51
+
+shell:: 664
+          gamma: 1212.4717
+              l: 3.0000e+03
+         radius: 2.0170e+06
+           mass: 5.1477e+51
+
+shell:: 665
+          gamma: 1196.5317
+              l: 3.0000e+03
+         radius: 2.0110e+06
+           mass: 5.2163e+51
+
+shell:: 666
+          gamma: 922.1914
+              l: 3.0000e+03
+         radius: 2.0050e+06
+           mass: 6.7681e+51
+
+shell:: 667
+          gamma: 1059.1307
+              l: 3.0000e+03
+         radius: 1.9990e+06
+           mass: 5.8930e+51
+
+shell:: 668
+          gamma: 424.5271
+              l: 3.0000e+03
+         radius: 1.9930e+06
+           mass: 1.4702e+52
+
+shell:: 669
+          gamma: 242.9464
+              l: 3.0000e+03
+         radius: 1.9870e+06
+           mass: 2.5691e+52
+
+shell:: 670
+          gamma: 328.5110
+              l: 3.0000e+03
+         radius: 1.9810e+06
+           mass: 1.8999e+52
+
+shell:: 671
+          gamma: 383.3287
+              l: 3.0000e+03
+         radius: 1.9750e+06
+           mass: 1.6282e+52
+
+shell:: 672
+          gamma: 148.7177
+              l: 3.0000e+03
+         radius: 1.9690e+06
+           mass: 4.1969e+52
+
+shell:: 673
+          gamma: 7.6521
+              l: 3.0000e+03
+         radius: 1.9630e+06
+           mass: 8.1566e+53
+
+shell:: 674
+          gamma: 594.3791
+              l: 3.0000e+03
+         radius: 1.9570e+06
+           mass: 1.0501e+52
+
+shell:: 675
+          gamma: 817.5242
+              l: 3.0000e+03
+         radius: 1.9510e+06
+           mass: 7.6346e+51
+
+shell:: 676
+          gamma: 344.6812
+              l: 3.0000e+03
+         radius: 1.9450e+06
+           mass: 1.8108e+52
+
+shell:: 677
+          gamma: 1272.2073
+              l: 3.0000e+03
+         radius: 1.9390e+06
+           mass: 4.9060e+51
+
+shell:: 678
+          gamma: 868.9090
+              l: 3.0000e+03
+         radius: 1.9330e+06
+           mass: 7.1831e+51
+
+shell:: 679
+          gamma: 1294.8345
+              l: 3.0000e+03
+         radius: 1.9270e+06
+           mass: 4.8203e+51
+
+shell:: 680
+          gamma: 1558.8046
+              l: 3.0000e+03
+         radius: 1.9210e+06
+           mass: 4.0040e+51
+
+shell:: 681
+          gamma: 4421.4098
+              l: 3.0000e+03
+         radius: 1.9150e+06
+           mass: 1.4117e+51
+
+shell:: 682
+          gamma: 957.2975
+              l: 3.0000e+03
+         radius: 1.9090e+06
+           mass: 6.5199e+51
+
+shell:: 683
+          gamma: 777.9969
+              l: 3.0000e+03
+         radius: 1.9030e+06
+           mass: 8.0225e+51
+
+shell:: 684
+          gamma: 6258.7283
+              l: 3.0000e+03
+         radius: 1.8970e+06
+           mass: 9.9725e+50
+
+shell:: 685
+          gamma: 579.7437
+              l: 3.0000e+03
+         radius: 1.8910e+06
+           mass: 1.0766e+52
+
+shell:: 686
+          gamma: 48.6181
+              l: 3.0000e+03
+         radius: 1.8850e+06
+           mass: 1.2838e+53
+
+shell:: 687
+          gamma: 194.5157
+              l: 3.0000e+03
+         radius: 1.8790e+06
+           mass: 3.2087e+52
+
+shell:: 688
+          gamma: 397.3356
+              l: 3.0000e+03
+         radius: 1.8730e+06
+           mass: 1.5708e+52
+
+shell:: 689
+          gamma: 1001.0920
+              l: 3.0000e+03
+         radius: 1.8670e+06
+           mass: 6.2347e+51
+
+shell:: 690
+          gamma: 383.2561
+              l: 3.0000e+03
+         radius: 1.8610e+06
+           mass: 1.6285e+52
+
+shell:: 691
+          gamma: 1648.9232
+              l: 3.0000e+03
+         radius: 1.8550e+06
+           mass: 3.7852e+51
+
+shell:: 692
+          gamma: 479.6991
+              l: 3.0000e+03
+         radius: 1.8490e+06
+           mass: 1.3011e+52
+
+shell:: 693
+          gamma: 124.3294
+              l: 3.0000e+03
+         radius: 1.8430e+06
+           mass: 5.0201e+52
+
+shell:: 694
+          gamma: 624.1935
+              l: 3.0000e+03
+         radius: 1.8370e+06
+           mass: 9.9993e+51
+
+shell:: 695
+          gamma: 1176.7520
+              l: 3.0000e+03
+         radius: 1.8310e+06
+           mass: 5.3040e+51
+
+shell:: 696
+          gamma: 1441.5255
+              l: 3.0000e+03
+         radius: 1.8250e+06
+           mass: 4.3298e+51
+
+shell:: 697
+          gamma: 396.8001
+              l: 3.0000e+03
+         radius: 1.8190e+06
+           mass: 1.5730e+52
+
+shell:: 698
+          gamma: 211.5977
+              l: 3.0000e+03
+         radius: 1.8130e+06
+           mass: 2.9497e+52
+
+shell:: 699
+          gamma: 235.2943
+              l: 3.0000e+03
+         radius: 1.8070e+06
+           mass: 2.6526e+52
+
+shell:: 700
+          gamma: 488.4504
+              l: 3.0000e+03
+         radius: 1.8010e+06
+           mass: 1.2778e+52
+
+shell:: 701
+          gamma: 1026.2455
+              l: 3.0000e+03
+         radius: 1.7950e+06
+           mass: 6.0819e+51
+
+shell:: 702
+          gamma: 548.7835
+              l: 3.0000e+03
+         radius: 1.7890e+06
+           mass: 1.1373e+52
+
+shell:: 703
+          gamma: 1409.4802
+              l: 3.0000e+03
+         radius: 1.7830e+06
+           mass: 4.4282e+51
+
+shell:: 704
+          gamma: 587.3585
+              l: 3.0000e+03
+         radius: 1.7770e+06
+           mass: 1.0626e+52
+
+shell:: 705
+          gamma: 216.8040
+              l: 3.0000e+03
+         radius: 1.7710e+06
+           mass: 2.8789e+52
+
+shell:: 706
+          gamma: 1305.7280
+              l: 3.0000e+03
+         radius: 1.7650e+06
+           mass: 4.7801e+51
+
+shell:: 707
+          gamma: 4933.7863
+              l: 3.0000e+03
+         radius: 1.7590e+06
+           mass: 1.2651e+51
+
+shell:: 708
+          gamma: 371.0260
+              l: 3.0000e+03
+         radius: 1.7530e+06
+           mass: 1.6822e+52
+
+shell:: 709
+          gamma: 1046.6062
+              l: 3.0000e+03
+         radius: 1.7470e+06
+           mass: 5.9636e+51
+
+shell:: 710
+          gamma: 2621.5004
+              l: 3.0000e+03
+         radius: 1.7410e+06
+           mass: 2.3809e+51
+
+shell:: 711
+          gamma: 248.8512
+              l: 3.0000e+03
+         radius: 1.7350e+06
+           mass: 2.5081e+52
+
+shell:: 712
+          gamma: 357.9791
+              l: 3.0000e+03
+         radius: 1.7290e+06
+           mass: 1.7435e+52
+
+shell:: 713
+          gamma: 575.4186
+              l: 3.0000e+03
+         radius: 1.7230e+06
+           mass: 1.0847e+52
+
+shell:: 714
+          gamma: 538.5393
+              l: 3.0000e+03
+         radius: 1.7170e+06
+           mass: 1.1590e+52
+
+shell:: 715
+          gamma: 110.7350
+              l: 3.0000e+03
+         radius: 1.7110e+06
+           mass: 5.6364e+52
+
+shell:: 716
+          gamma: 812.8966
+              l: 3.0000e+03
+         radius: 1.7050e+06
+           mass: 7.6781e+51
+
+shell:: 717
+          gamma: 1241.7053
+              l: 3.0000e+03
+         radius: 1.6990e+06
+           mass: 5.0266e+51
+
+shell:: 718
+          gamma: 659.7517
+              l: 3.0000e+03
+         radius: 1.6930e+06
+           mass: 9.4604e+51
+
+shell:: 719
+          gamma: 787.2056
+              l: 3.0000e+03
+         radius: 1.6870e+06
+           mass: 7.9287e+51
+
+shell:: 720
+          gamma: 93.9439
+              l: 3.0000e+03
+         radius: 1.6810e+06
+           mass: 6.6439e+52
+
+shell:: 721
+          gamma: 384.4190
+              l: 3.0000e+03
+         radius: 1.6750e+06
+           mass: 1.6236e+52
+
+shell:: 722
+          gamma: 582.6557
+              l: 3.0000e+03
+         radius: 1.6690e+06
+           mass: 1.0712e+52
+
+shell:: 723
+          gamma: 1963.7944
+              l: 3.0000e+03
+         radius: 1.6630e+06
+           mass: 3.1783e+51
+
+shell:: 724
+          gamma: 394.3371
+              l: 3.0000e+03
+         radius: 1.6570e+06
+           mass: 1.5828e+52
+
+shell:: 725
+          gamma: 705.0532
+              l: 3.0000e+03
+         radius: 1.6510e+06
+           mass: 8.8525e+51
+
+shell:: 726
+          gamma: 140.7690
+              l: 3.0000e+03
+         radius: 1.6450e+06
+           mass: 4.4339e+52
+
+shell:: 727
+          gamma: 4331.5945
+              l: 3.0000e+03
+         radius: 1.6390e+06
+           mass: 1.4409e+51
+
+shell:: 728
+          gamma: 612.7866
+              l: 3.0000e+03
+         radius: 1.6330e+06
+           mass: 1.0185e+52
+
+shell:: 729
+          gamma: 71.6847
+              l: 3.0000e+03
+         radius: 1.6270e+06
+           mass: 8.7069e+52
+
+shell:: 730
+          gamma: 433.2488
+              l: 3.0000e+03
+         radius: 1.6210e+06
+           mass: 1.4406e+52
+
+shell:: 731
+          gamma: 119.8298
+              l: 3.0000e+03
+         radius: 1.6150e+06
+           mass: 5.2086e+52
+
+shell:: 732
+          gamma: 145.3990
+              l: 3.0000e+03
+         radius: 1.6090e+06
+           mass: 4.2927e+52
+
+shell:: 733
+          gamma: 129.5705
+              l: 3.0000e+03
+         radius: 1.6030e+06
+           mass: 4.8171e+52
+
+shell:: 734
+          gamma: 365.4247
+              l: 3.0000e+03
+         radius: 1.5970e+06
+           mass: 1.7080e+52
+
+shell:: 735
+          gamma: 600.4937
+              l: 3.0000e+03
+         radius: 1.5910e+06
+           mass: 1.0394e+52
+
+shell:: 736
+          gamma: 359.8064
+              l: 3.0000e+03
+         radius: 1.5850e+06
+           mass: 1.7347e+52
+
+shell:: 737
+          gamma: 238.8393
+              l: 3.0000e+03
+         radius: 1.5790e+06
+           mass: 2.6133e+52
+
+shell:: 738
+          gamma: 257.3868
+              l: 3.0000e+03
+         radius: 1.5730e+06
+           mass: 2.4249e+52
+
+shell:: 739
+          gamma: 431.5219
+              l: 3.0000e+03
+         radius: 1.5670e+06
+           mass: 1.4464e+52
+
+shell:: 740
+          gamma: 2258.0318
+              l: 3.0000e+03
+         radius: 1.5610e+06
+           mass: 2.7641e+51
+
+shell:: 741
+          gamma: 541.9224
+              l: 3.0000e+03
+         radius: 1.5550e+06
+           mass: 1.1517e+52
+
+shell:: 742
+          gamma: 252.5991
+              l: 3.0000e+03
+         radius: 1.5490e+06
+           mass: 2.4709e+52
+
+shell:: 743
+          gamma: 550.7027
+              l: 3.0000e+03
+         radius: 1.5430e+06
+           mass: 1.1334e+52
+
+shell:: 744
+          gamma: 496.7539
+              l: 3.0000e+03
+         radius: 1.5370e+06
+           mass: 1.2565e+52
+
+shell:: 745
+          gamma: 50.8148
+              l: 3.0000e+03
+         radius: 1.5310e+06
+           mass: 1.2283e+53
+
+shell:: 746
+          gamma: 1147.0261
+              l: 3.0000e+03
+         radius: 1.5250e+06
+           mass: 5.4415e+51
+
+shell:: 747
+          gamma: 515.4098
+              l: 3.0000e+03
+         radius: 1.5190e+06
+           mass: 1.2110e+52
+
+shell:: 748
+          gamma: 759.5618
+              l: 3.0000e+03
+         radius: 1.5130e+06
+           mass: 8.2172e+51
+
+shell:: 749
+          gamma: 1080.1581
+              l: 3.0000e+03
+         radius: 1.5070e+06
+           mass: 5.7783e+51
+
+shell:: 750
+          gamma: 240.6691
+              l: 3.0000e+03
+         radius: 1.5010e+06
+           mass: 2.5934e+52
+
+shell:: 751
+          gamma: 2551.7164
+              l: 3.0000e+03
+         radius: 1.4950e+06
+           mass: 2.4460e+51
+
+shell:: 752
+          gamma: 198.3273
+              l: 3.0000e+03
+         radius: 1.4890e+06
+           mass: 3.1471e+52
+
+shell:: 753
+          gamma: 214.5971
+              l: 3.0000e+03
+         radius: 1.4830e+06
+           mass: 2.9085e+52
+
+shell:: 754
+          gamma: 83.6231
+              l: 3.0000e+03
+         radius: 1.4770e+06
+           mass: 7.4639e+52
+
+shell:: 755
+          gamma: 199.7166
+              l: 3.0000e+03
+         radius: 1.4710e+06
+           mass: 3.1252e+52
+
+shell:: 756
+          gamma: 585.3870
+              l: 3.0000e+03
+         radius: 1.4650e+06
+           mass: 1.0662e+52
+
+shell:: 757
+          gamma: 232.5122
+              l: 3.0000e+03
+         radius: 1.4590e+06
+           mass: 2.6844e+52
+
+shell:: 758
+          gamma: 728.3115
+              l: 3.0000e+03
+         radius: 1.4530e+06
+           mass: 8.5698e+51
+
+shell:: 759
+          gamma: 804.6163
+              l: 3.0000e+03
+         radius: 1.4470e+06
+           mass: 7.7571e+51
+
+shell:: 760
+          gamma: 2377.0121
+              l: 3.0000e+03
+         radius: 1.4410e+06
+           mass: 2.6258e+51
+
+shell:: 761
+          gamma: 669.9579
+              l: 3.0000e+03
+         radius: 1.4350e+06
+           mass: 9.3163e+51
+
+shell:: 762
+          gamma: 97.1739
+              l: 3.0000e+03
+         radius: 1.4290e+06
+           mass: 6.4230e+52
+
+shell:: 763
+          gamma: 293.3580
+              l: 3.0000e+03
+         radius: 1.4230e+06
+           mass: 2.1276e+52
+
+shell:: 764
+          gamma: 104.7511
+              l: 3.0000e+03
+         radius: 1.4170e+06
+           mass: 5.9584e+52
+
+shell:: 765
+          gamma: 340.7426
+              l: 3.0000e+03
+         radius: 1.4110e+06
+           mass: 1.8317e+52
+
+shell:: 766
+          gamma: 511.7046
+              l: 3.0000e+03
+         radius: 1.4050e+06
+           mass: 1.2197e+52
+
+shell:: 767
+          gamma: 113.8470
+              l: 3.0000e+03
+         radius: 1.3990e+06
+           mass: 5.4824e+52
+
+shell:: 768
+          gamma: 1185.3958
+              l: 3.0000e+03
+         radius: 1.3930e+06
+           mass: 5.2653e+51
+
+shell:: 769
+          gamma: 217.7403
+              l: 3.0000e+03
+         radius: 1.3870e+06
+           mass: 2.8665e+52
+
+shell:: 770
+          gamma: 59.6800
+              l: 3.0000e+03
+         radius: 1.3810e+06
+           mass: 1.0458e+53
+
+shell:: 771
+          gamma: 722.4053
+              l: 3.0000e+03
+         radius: 1.3750e+06
+           mass: 8.6399e+51
+
+shell:: 772
+          gamma: 106.0742
+              l: 3.0000e+03
+         radius: 1.3690e+06
+           mass: 5.8841e+52
+
+shell:: 773
+          gamma: 666.4720
+              l: 3.0000e+03
+         radius: 1.3630e+06
+           mass: 9.3650e+51
+
+shell:: 774
+          gamma: 1278.2486
+              l: 3.0000e+03
+         radius: 1.3570e+06
+           mass: 4.8829e+51
+
+shell:: 775
+          gamma: 1372.4447
+              l: 3.0000e+03
+         radius: 1.3510e+06
+           mass: 4.5477e+51
+
+shell:: 776
+          gamma: 4992.1621
+              l: 3.0000e+03
+         radius: 1.3450e+06
+           mass: 1.2503e+51
+
+shell:: 777
+          gamma: 417.5966
+              l: 3.0000e+03
+         radius: 1.3390e+06
+           mass: 1.4946e+52
+
+shell:: 778
+          gamma: 149.9795
+              l: 3.0000e+03
+         radius: 1.3330e+06
+           mass: 4.1616e+52
+
+shell:: 779
+          gamma: 308.3250
+              l: 3.0000e+03
+         radius: 1.3270e+06
+           mass: 2.0243e+52
+
+shell:: 780
+          gamma: 583.1459
+              l: 3.0000e+03
+         radius: 1.3210e+06
+           mass: 1.0703e+52
+
+shell:: 781
+          gamma: 416.2743
+              l: 3.0000e+03
+         radius: 1.3150e+06
+           mass: 1.4994e+52
+
+shell:: 782
+          gamma: 842.7113
+              l: 3.0000e+03
+         radius: 1.3090e+06
+           mass: 7.4065e+51
+
+shell:: 783
+          gamma: 540.9756
+              l: 3.0000e+03
+         radius: 1.3030e+06
+           mass: 1.1537e+52
+
+shell:: 784
+          gamma: 1322.1890
+              l: 3.0000e+03
+         radius: 1.2970e+06
+           mass: 4.7206e+51
+
+shell:: 785
+          gamma: 191.5852
+              l: 3.0000e+03
+         radius: 1.2910e+06
+           mass: 3.2578e+52
+
+shell:: 786
+          gamma: 5457.1659
+              l: 3.0000e+03
+         radius: 1.2850e+06
+           mass: 1.1437e+51
+
+shell:: 787
+          gamma: 529.9863
+              l: 3.0000e+03
+         radius: 1.2790e+06
+           mass: 1.1777e+52
+
+shell:: 788
+          gamma: 3342.0567
+              l: 3.0000e+03
+         radius: 1.2730e+06
+           mass: 1.8676e+51
+
+shell:: 789
+          gamma: 639.9795
+              l: 3.0000e+03
+         radius: 1.2670e+06
+           mass: 9.7527e+51
+
+shell:: 790
+          gamma: 471.1972
+              l: 3.0000e+03
+         radius: 1.2610e+06
+           mass: 1.3246e+52
+
+shell:: 791
+          gamma: 158.5403
+              l: 3.0000e+03
+         radius: 1.2550e+06
+           mass: 3.9369e+52
+
+shell:: 792
+          gamma: 949.8824
+              l: 3.0000e+03
+         radius: 1.2490e+06
+           mass: 6.5708e+51
+
+shell:: 793
+          gamma: 382.8109
+              l: 3.0000e+03
+         radius: 1.2430e+06
+           mass: 1.6304e+52
+
+shell:: 794
+          gamma: 283.0178
+              l: 3.0000e+03
+         radius: 1.2370e+06
+           mass: 2.2053e+52
+
+shell:: 795
+          gamma: 106.3429
+              l: 3.0000e+03
+         radius: 1.2310e+06
+           mass: 5.8692e+52
+
+shell:: 796
+          gamma: 123.5652
+              l: 3.0000e+03
+         radius: 1.2250e+06
+           mass: 5.0512e+52
+
+shell:: 797
+          gamma: 249.5779
+              l: 3.0000e+03
+         radius: 1.2190e+06
+           mass: 2.5008e+52
+
+shell:: 798
+          gamma: 471.5876
+              l: 3.0000e+03
+         radius: 1.2130e+06
+           mass: 1.3235e+52
+
+shell:: 799
+          gamma: 84.4197
+              l: 3.0000e+03
+         radius: 1.2070e+06
+           mass: 7.3934e+52
+
+shell:: 800
+          gamma: 129.1203
+              l: 3.0000e+03
+         radius: 1.2010e+06
+           mass: 4.8339e+52
+
+shell:: 801
+          gamma: 1225.5992
+              l: 3.0000e+03
+         radius: 1.1950e+06
+           mass: 5.0926e+51
+
+shell:: 802
+          gamma: 201.3302
+              l: 3.0000e+03
+         radius: 1.1890e+06
+           mass: 3.1001e+52
+
+shell:: 803
+          gamma: 338.2299
+              l: 3.0000e+03
+         radius: 1.1830e+06
+           mass: 1.8453e+52
+
+shell:: 804
+          gamma: 1350.2706
+              l: 3.0000e+03
+         radius: 1.1770e+06
+           mass: 4.6224e+51
+
+shell:: 805
+          gamma: 85.8119
+              l: 3.0000e+03
+         radius: 1.1710e+06
+           mass: 7.2735e+52
+
+shell:: 806
+          gamma: 1368.2378
+              l: 3.0000e+03
+         radius: 1.1650e+06
+           mass: 4.5617e+51
+
+shell:: 807
+          gamma: 355.9326
+              l: 3.0000e+03
+         radius: 1.1590e+06
+           mass: 1.7536e+52
+
+shell:: 808
+          gamma: 204.5568
+              l: 3.0000e+03
+         radius: 1.1530e+06
+           mass: 3.0512e+52
+
+shell:: 809
+          gamma: 227.4178
+              l: 3.0000e+03
+         radius: 1.1470e+06
+           mass: 2.7445e+52
+
+shell:: 810
+          gamma: 569.1136
+              l: 3.0000e+03
+         radius: 1.1410e+06
+           mass: 1.0967e+52
+
+shell:: 811
+          gamma: 711.0331
+              l: 3.0000e+03
+         radius: 1.1350e+06
+           mass: 8.7781e+51
+
+shell:: 812
+          gamma: 1702.5838
+              l: 3.0000e+03
+         radius: 1.1290e+06
+           mass: 3.6659e+51
+
+shell:: 813
+          gamma: 267.5166
+              l: 3.0000e+03
+         radius: 1.1230e+06
+           mass: 2.3331e+52
+
+shell:: 814
+          gamma: 529.5455
+              l: 3.0000e+03
+         radius: 1.1170e+06
+           mass: 1.1787e+52
+
+shell:: 815
+          gamma: 1090.6276
+              l: 3.0000e+03
+         radius: 1.1110e+06
+           mass: 5.7229e+51
+
+shell:: 816
+          gamma: 411.7759
+              l: 3.0000e+03
+         radius: 1.1050e+06
+           mass: 1.5158e+52
+
+shell:: 817
+          gamma: 854.2038
+              l: 3.0000e+03
+         radius: 1.0990e+06
+           mass: 7.3068e+51
+
+shell:: 818
+          gamma: 129.2972
+              l: 3.0000e+03
+         radius: 1.0930e+06
+           mass: 4.8273e+52
+
+shell:: 819
+          gamma: 1017.2882
+              l: 3.0000e+03
+         radius: 1.0870e+06
+           mass: 6.1354e+51
+
+shell:: 820
+          gamma: 152.2097
+              l: 3.0000e+03
+         radius: 1.0810e+06
+           mass: 4.1006e+52
+
+shell:: 821
+          gamma: 509.2802
+              l: 3.0000e+03
+         radius: 1.0750e+06
+           mass: 1.2256e+52
+
+shell:: 822
+          gamma: 579.7711
+              l: 3.0000e+03
+         radius: 1.0690e+06
+           mass: 1.0765e+52
+
+shell:: 823
+          gamma: 1160.5815
+              l: 3.0000e+03
+         radius: 1.0630e+06
+           mass: 5.3779e+51
+
+shell:: 824
+          gamma: 91.5976
+              l: 3.0000e+03
+         radius: 1.0570e+06
+           mass: 6.8140e+52
+
+shell:: 825
+          gamma: 570.2932
+              l: 3.0000e+03
+         radius: 1.0510e+06
+           mass: 1.0944e+52
+
+shell:: 826
+          gamma: 1311.1722
+              l: 3.0000e+03
+         radius: 1.0450e+06
+           mass: 4.7602e+51
+
+shell:: 827
+          gamma: 801.2137
+              l: 3.0000e+03
+         radius: 1.0390e+06
+           mass: 7.7901e+51
+
+shell:: 828
+          gamma: 705.6374
+              l: 3.0000e+03
+         radius: 1.0330e+06
+           mass: 8.8452e+51
+
+shell:: 829
+          gamma: 374.9823
+              l: 3.0000e+03
+         radius: 1.0270e+06
+           mass: 1.6645e+52
+
+shell:: 830
+          gamma: 286.5794
+              l: 3.0000e+03
+         radius: 1.0210e+06
+           mass: 2.1779e+52
+
+shell:: 831
+          gamma: 527.2413
+              l: 3.0000e+03
+         radius: 1.0150e+06
+           mass: 1.1838e+52
+
+shell:: 832
+          gamma: 518.5166
+              l: 3.0000e+03
+         radius: 1.0090e+06
+           mass: 1.2037e+52
+
+shell:: 833
+          gamma: 241.7295
+              l: 3.0000e+03
+         radius: 1.0030e+06
+           mass: 2.5820e+52
+
+shell:: 834
+          gamma: 3194.6907
+              l: 3.0000e+03
+         radius: 9.9700e+05
+           mass: 1.9537e+51
+
+shell:: 835
+          gamma: 269.8351
+              l: 3.0000e+03
+         radius: 9.9100e+05
+           mass: 2.3131e+52
+
+shell:: 836
+          gamma: 431.9386
+              l: 3.0000e+03
+         radius: 9.8500e+05
+           mass: 1.4450e+52
+
+shell:: 837
+          gamma: 281.3025
+              l: 3.0000e+03
+         radius: 9.7900e+05
+           mass: 2.2188e+52
+
+shell:: 838
+          gamma: 1165.5887
+              l: 3.0000e+03
+         radius: 9.7300e+05
+           mass: 5.3548e+51
+
+shell:: 839
+          gamma: 379.3090
+              l: 3.0000e+03
+         radius: 9.6700e+05
+           mass: 1.6455e+52
+
+shell:: 840
+          gamma: 397.4300
+              l: 3.0000e+03
+         radius: 9.6100e+05
+           mass: 1.5705e+52
+
+shell:: 841
+          gamma: 352.7260
+              l: 3.0000e+03
+         radius: 9.5500e+05
+           mass: 1.7695e+52
+
+shell:: 842
+          gamma: 366.2855
+              l: 3.0000e+03
+         radius: 9.4900e+05
+           mass: 1.7040e+52
+
+shell:: 843
+          gamma: 391.8227
+              l: 3.0000e+03
+         radius: 9.4300e+05
+           mass: 1.5929e+52
+
+shell:: 844
+          gamma: 656.9897
+              l: 3.0000e+03
+         radius: 9.3700e+05
+           mass: 9.5001e+51
+
+shell:: 845
+          gamma: 784.6795
+              l: 3.0000e+03
+         radius: 9.3100e+05
+           mass: 7.9542e+51
+
+shell:: 846
+          gamma: 1932.2414
+              l: 3.0000e+03
+         radius: 9.2500e+05
+           mass: 3.2302e+51
+
+shell:: 847
+          gamma: 169.4058
+              l: 3.0000e+03
+         radius: 9.1900e+05
+           mass: 3.6843e+52
+
+shell:: 848
+          gamma: 290.9739
+              l: 3.0000e+03
+         radius: 9.1300e+05
+           mass: 2.1450e+52
+
+shell:: 849
+          gamma: 65.7346
+              l: 3.0000e+03
+         radius: 9.0700e+05
+           mass: 9.4950e+52
+
+shell:: 850
+          gamma: 308.6707
+              l: 3.0000e+03
+         radius: 9.0100e+05
+           mass: 2.0221e+52
+
+shell:: 851
+          gamma: 462.0052
+              l: 3.0000e+03
+         radius: 8.9500e+05
+           mass: 1.3510e+52
+
+shell:: 852
+          gamma: 465.9994
+              l: 3.0000e+03
+         radius: 8.8900e+05
+           mass: 1.3394e+52
+
+shell:: 853
+          gamma: 1355.2406
+              l: 3.0000e+03
+         radius: 8.8300e+05
+           mass: 4.6055e+51
+
+shell:: 854
+          gamma: 876.2612
+              l: 3.0000e+03
+         radius: 8.7700e+05
+           mass: 7.1229e+51
+
+shell:: 855
+          gamma: 243.4474
+              l: 3.0000e+03
+         radius: 8.7100e+05
+           mass: 2.5638e+52
+
+shell:: 856
+          gamma: 685.6005
+              l: 3.0000e+03
+         radius: 8.6500e+05
+           mass: 9.1037e+51
+
+shell:: 857
+          gamma: 79.3014
+              l: 3.0000e+03
+         radius: 8.5900e+05
+           mass: 7.8706e+52
+
+shell:: 858
+          gamma: 636.5048
+              l: 3.0000e+03
+         radius: 8.5300e+05
+           mass: 9.8059e+51
+
+shell:: 859
+          gamma: 199.7065
+              l: 3.0000e+03
+         radius: 8.4700e+05
+           mass: 3.1253e+52
+
+shell:: 860
+          gamma: 581.5426
+              l: 3.0000e+03
+         radius: 8.4100e+05
+           mass: 1.0733e+52
+
+shell:: 861
+          gamma: 852.6111
+              l: 3.0000e+03
+         radius: 8.3500e+05
+           mass: 7.3205e+51
+
+shell:: 862
+          gamma: 400.9573
+              l: 3.0000e+03
+         radius: 8.2900e+05
+           mass: 1.5566e+52
+
+shell:: 863
+          gamma: 698.9764
+              l: 3.0000e+03
+         radius: 8.2300e+05
+           mass: 8.9295e+51
+
+shell:: 864
+          gamma: 3258.9122
+              l: 3.0000e+03
+         radius: 8.1700e+05
+           mass: 1.9152e+51
+
+shell:: 865
+          gamma: 748.5497
+              l: 3.0000e+03
+         radius: 8.1100e+05
+           mass: 8.3381e+51
+
+shell:: 866
+          gamma: 1344.3088
+              l: 3.0000e+03
+         radius: 8.0500e+05
+           mass: 4.6429e+51
+
+shell:: 867
+          gamma: 151.5703
+              l: 3.0000e+03
+         radius: 7.9900e+05
+           mass: 4.1179e+52
+
+shell:: 868
+          gamma: 1071.8800
+              l: 3.0000e+03
+         radius: 7.9300e+05
+           mass: 5.8229e+51
+
+shell:: 869
+          gamma: 554.1843
+              l: 3.0000e+03
+         radius: 7.8700e+05
+           mass: 1.1262e+52
+
+shell:: 870
+          gamma: 138.6250
+              l: 3.0000e+03
+         radius: 7.8100e+05
+           mass: 4.5024e+52
+
+shell:: 871
+          gamma: 1541.3384
+              l: 3.0000e+03
+         radius: 7.7500e+05
+           mass: 4.0494e+51
+
+shell:: 872
+          gamma: 125.7035
+              l: 3.0000e+03
+         radius: 7.6900e+05
+           mass: 4.9653e+52
+
+shell:: 873
+          gamma: 206.7683
+              l: 3.0000e+03
+         radius: 7.6300e+05
+           mass: 3.0186e+52
+
+shell:: 874
+          gamma: 1103.5004
+              l: 3.0000e+03
+         radius: 7.5700e+05
+           mass: 5.6561e+51
+
+shell:: 875
+          gamma: 1645.1592
+              l: 3.0000e+03
+         radius: 7.5100e+05
+           mass: 3.7939e+51
+
+shell:: 876
+          gamma: 602.1462
+              l: 3.0000e+03
+         radius: 7.4500e+05
+           mass: 1.0365e+52
+
+shell:: 877
+          gamma: 9259.8742
+              l: 3.0000e+03
+         radius: 7.3900e+05
+           mass: 6.7404e+50
+
+shell:: 878
+          gamma: 1476.3637
+              l: 3.0000e+03
+         radius: 7.3300e+05
+           mass: 4.2276e+51
+
+shell:: 879
+          gamma: 851.6834
+              l: 3.0000e+03
+         radius: 7.2700e+05
+           mass: 7.3284e+51
+
+shell:: 880
+          gamma: 371.4309
+              l: 3.0000e+03
+         radius: 7.2100e+05
+           mass: 1.6804e+52
+
+shell:: 881
+          gamma: 194.4616
+              l: 3.0000e+03
+         radius: 7.1500e+05
+           mass: 3.2096e+52
+
+shell:: 882
+          gamma: 1232.8742
+              l: 3.0000e+03
+         radius: 7.0900e+05
+           mass: 5.0626e+51
+
+shell:: 883
+          gamma: 427.9962
+              l: 3.0000e+03
+         radius: 7.0300e+05
+           mass: 1.4583e+52
+
+shell:: 884
+          gamma: 2716.0733
+              l: 3.0000e+03
+         radius: 6.9700e+05
+           mass: 2.2980e+51
+
+shell:: 885
+          gamma: 475.5241
+              l: 3.0000e+03
+         radius: 6.9100e+05
+           mass: 1.3126e+52
+
+shell:: 886
+          gamma: 767.8251
+              l: 3.0000e+03
+         radius: 6.8500e+05
+           mass: 8.1288e+51
+
+shell:: 887
+          gamma: 661.1132
+              l: 3.0000e+03
+         radius: 6.7900e+05
+           mass: 9.4409e+51
+
+shell:: 888
+          gamma: 765.6801
+              l: 3.0000e+03
+         radius: 6.7300e+05
+           mass: 8.1516e+51
+
+shell:: 889
+          gamma: 930.2866
+              l: 3.0000e+03
+         radius: 6.6700e+05
+           mass: 6.7092e+51
+
+shell:: 890
+          gamma: 568.3528
+              l: 3.0000e+03
+         radius: 6.6100e+05
+           mass: 1.0982e+52
+
+shell:: 891
+          gamma: 290.3013
+              l: 3.0000e+03
+         radius: 6.5500e+05
+           mass: 2.1500e+52
+
+shell:: 892
+          gamma: 364.8720
+              l: 3.0000e+03
+         radius: 6.4900e+05
+           mass: 1.7106e+52
+
+shell:: 893
+          gamma: 1213.2611
+              l: 3.0000e+03
+         radius: 6.4300e+05
+           mass: 5.1444e+51
+
+shell:: 894
+          gamma: 180.5762
+              l: 3.0000e+03
+         radius: 6.3700e+05
+           mass: 3.4564e+52
+
+shell:: 895
+          gamma: 747.6780
+              l: 3.0000e+03
+         radius: 6.3100e+05
+           mass: 8.3478e+51
+
+shell:: 896
+          gamma: 491.2824
+              l: 3.0000e+03
+         radius: 6.2500e+05
+           mass: 1.2705e+52
+
+shell:: 897
+          gamma: 234.3186
+              l: 3.0000e+03
+         radius: 6.1900e+05
+           mass: 2.6637e+52
+
+shell:: 898
+          gamma: 406.4457
+              l: 3.0000e+03
+         radius: 6.1300e+05
+           mass: 1.5356e+52
+
+shell:: 899
+          gamma: 431.2427
+              l: 3.0000e+03
+         radius: 6.0700e+05
+           mass: 1.4473e+52
+
+shell:: 900
+          gamma: 1194.3694
+              l: 3.0000e+03
+         radius: 6.0100e+05
+           mass: 5.2258e+51
+
+shell:: 901
+          gamma: 2637.0261
+              l: 3.0000e+03
+         radius: 5.9500e+05
+           mass: 2.3669e+51
+
+shell:: 902
+          gamma: 893.8471
+              l: 3.0000e+03
+         radius: 5.8900e+05
+           mass: 6.9827e+51
+
+shell:: 903
+          gamma: 802.9286
+              l: 3.0000e+03
+         radius: 5.8300e+05
+           mass: 7.7734e+51
+
+shell:: 904
+          gamma: 210.8672
+              l: 3.0000e+03
+         radius: 5.7700e+05
+           mass: 2.9599e+52
+
+shell:: 905
+          gamma: 1317.6140
+              l: 3.0000e+03
+         radius: 5.7100e+05
+           mass: 4.7370e+51
+
+shell:: 906
+          gamma: 232.2952
+              l: 3.0000e+03
+         radius: 5.6500e+05
+           mass: 2.6869e+52
+
+shell:: 907
+          gamma: 377.1539
+              l: 3.0000e+03
+         radius: 5.5900e+05
+           mass: 1.6549e+52
+
+shell:: 908
+          gamma: 3804.7258
+              l: 3.0000e+03
+         radius: 5.5300e+05
+           mass: 1.6405e+51
+
+shell:: 909
+          gamma: 285.0242
+              l: 3.0000e+03
+         radius: 5.4700e+05
+           mass: 2.1898e+52
+
+shell:: 910
+          gamma: 285.4098
+              l: 3.0000e+03
+         radius: 5.4100e+05
+           mass: 2.1869e+52
+
+shell:: 911
+          gamma: 41.3431
+              l: 3.0000e+03
+         radius: 5.3500e+05
+           mass: 1.5097e+53
+
+shell:: 912
+          gamma: 820.9841
+              l: 3.0000e+03
+         radius: 5.2900e+05
+           mass: 7.6025e+51
+
+shell:: 913
+          gamma: 628.4853
+              l: 3.0000e+03
+         radius: 5.2300e+05
+           mass: 9.9310e+51
+
+shell:: 914
+          gamma: 78.0719
+              l: 3.0000e+03
+         radius: 5.1700e+05
+           mass: 7.9946e+52
+
+shell:: 915
+          gamma: 1984.5554
+              l: 3.0000e+03
+         radius: 5.1100e+05
+           mass: 3.1450e+51
+
+shell:: 916
+          gamma: 695.9498
+              l: 3.0000e+03
+         radius: 5.0500e+05
+           mass: 8.9683e+51
+
+shell:: 917
+          gamma: 541.2191
+              l: 3.0000e+03
+         radius: 4.9900e+05
+           mass: 1.1532e+52
+
+shell:: 918
+          gamma: 319.7971
+              l: 3.0000e+03
+         radius: 4.9300e+05
+           mass: 1.9517e+52
+
+shell:: 919
+          gamma: 436.0613
+              l: 3.0000e+03
+         radius: 4.8700e+05
+           mass: 1.4313e+52
+
+shell:: 920
+          gamma: 155.9774
+              l: 3.0000e+03
+         radius: 4.8100e+05
+           mass: 4.0015e+52
+
+shell:: 921
+          gamma: 775.2294
+              l: 3.0000e+03
+         radius: 4.7500e+05
+           mass: 8.0512e+51
+
+shell:: 922
+          gamma: 350.0200
+              l: 3.0000e+03
+         radius: 4.6900e+05
+           mass: 1.7832e+52
+
+shell:: 923
+          gamma: 1480.4997
+              l: 3.0000e+03
+         radius: 4.6300e+05
+           mass: 4.2158e+51
+
+shell:: 924
+          gamma: 1325.7081
+              l: 3.0000e+03
+         radius: 4.5700e+05
+           mass: 4.7081e+51
+
+shell:: 925
+          gamma: 1118.5044
+              l: 3.0000e+03
+         radius: 4.5100e+05
+           mass: 5.5802e+51
+
+shell:: 926
+          gamma: 536.1552
+              l: 3.0000e+03
+         radius: 4.4500e+05
+           mass: 1.1641e+52
+
+shell:: 927
+          gamma: 472.4754
+              l: 3.0000e+03
+         radius: 4.3900e+05
+           mass: 1.3210e+52
+
+shell:: 928
+          gamma: 758.5248
+              l: 3.0000e+03
+         radius: 4.3300e+05
+           mass: 8.2285e+51
+
+shell:: 929
+          gamma: 4475.4255
+              l: 3.0000e+03
+         radius: 4.2700e+05
+           mass: 1.3946e+51
+
+shell:: 930
+          gamma: 921.2222
+              l: 3.0000e+03
+         radius: 4.2100e+05
+           mass: 6.7752e+51
+
+shell:: 931
+          gamma: 2606.9166
+              l: 3.0000e+03
+         radius: 4.1500e+05
+           mass: 2.3942e+51
+
+shell:: 932
+          gamma: 482.4084
+              l: 3.0000e+03
+         radius: 4.0900e+05
+           mass: 1.2938e+52
+
+shell:: 933
+          gamma: 812.0384
+              l: 3.0000e+03
+         radius: 4.0300e+05
+           mass: 7.6862e+51
+
+shell:: 934
+          gamma: 821.6268
+              l: 3.0000e+03
+         radius: 3.9700e+05
+           mass: 7.5965e+51
+
+shell:: 935
+          gamma: 212.8676
+              l: 3.0000e+03
+         radius: 3.9100e+05
+           mass: 2.9321e+52
+
+shell:: 936
+          gamma: 854.4650
+              l: 3.0000e+03
+         radius: 3.8500e+05
+           mass: 7.3046e+51
+
+shell:: 937
+          gamma: 126.8644
+              l: 3.0000e+03
+         radius: 3.7900e+05
+           mass: 4.9198e+52
+
+shell:: 938
+          gamma: 284.4001
+              l: 3.0000e+03
+         radius: 3.7300e+05
+           mass: 2.1946e+52
+
+shell:: 939
+          gamma: 6204.9158
+              l: 3.0000e+03
+         radius: 3.6700e+05
+           mass: 1.0059e+51
+
+shell:: 940
+          gamma: 607.9304
+              l: 3.0000e+03
+         radius: 3.6100e+05
+           mass: 1.0267e+52
+
+shell:: 941
+          gamma: 413.6757
+              l: 3.0000e+03
+         radius: 3.5500e+05
+           mass: 1.5088e+52
+
+shell:: 942
+          gamma: 2327.9828
+              l: 3.0000e+03
+         radius: 3.4900e+05
+           mass: 2.6811e+51
+
+shell:: 943
+          gamma: 89.4352
+              l: 3.0000e+03
+         radius: 3.4300e+05
+           mass: 6.9788e+52
+
+shell:: 944
+          gamma: 775.4309
+              l: 3.0000e+03
+         radius: 3.3700e+05
+           mass: 8.0491e+51
+
+shell:: 945
+          gamma: 515.6039
+              l: 3.0000e+03
+         radius: 3.3100e+05
+           mass: 1.2105e+52
+
+shell:: 946
+          gamma: 2541.3132
+              l: 3.0000e+03
+         radius: 3.2500e+05
+           mass: 2.4560e+51
+
+shell:: 947
+          gamma: 150.5289
+              l: 3.0000e+03
+         radius: 3.1900e+05
+           mass: 4.1464e+52
+
+shell:: 948
+          gamma: 591.1292
+              l: 3.0000e+03
+         radius: 3.1300e+05
+           mass: 1.0559e+52
+
+shell:: 949
+          gamma: 979.7004
+              l: 3.0000e+03
+         radius: 3.0700e+05
+           mass: 6.3708e+51
+
+shell:: 950
+          gamma: 909.5503
+              l: 3.0000e+03
+         radius: 3.0100e+05
+           mass: 6.8622e+51
+
+shell:: 951
+          gamma: 265.1758
+              l: 3.0000e+03
+         radius: 2.9500e+05
+           mass: 2.3537e+52
+
+shell:: 952
+          gamma: 507.5472
+              l: 3.0000e+03
+         radius: 2.8900e+05
+           mass: 1.2297e+52
+
+shell:: 953
+          gamma: 134.6961
+              l: 3.0000e+03
+         radius: 2.8300e+05
+           mass: 4.6338e+52
+
+shell:: 954
+          gamma: 278.9148
+              l: 3.0000e+03
+         radius: 2.7700e+05
+           mass: 2.2378e+52
+
+shell:: 955
+          gamma: 330.4826
+              l: 3.0000e+03
+         radius: 2.7100e+05
+           mass: 1.8886e+52
+
+shell:: 956
+          gamma: 1365.8902
+              l: 3.0000e+03
+         radius: 2.6500e+05
+           mass: 4.5695e+51
+
+shell:: 957
+          gamma: 155.9877
+              l: 3.0000e+03
+         radius: 2.5900e+05
+           mass: 4.0013e+52
+
+shell:: 958
+          gamma: 863.4183
+              l: 3.0000e+03
+         radius: 2.5300e+05
+           mass: 7.2288e+51
+
+shell:: 959
+          gamma: 421.4788
+              l: 3.0000e+03
+         radius: 2.4700e+05
+           mass: 1.4809e+52
+
+shell:: 960
+          gamma: 194.7251
+              l: 3.0000e+03
+         radius: 2.4100e+05
+           mass: 3.2053e+52
+
+shell:: 961
+          gamma: 926.2396
+              l: 3.0000e+03
+         radius: 2.3500e+05
+           mass: 6.7385e+51
+
+shell:: 962
+          gamma: 153.1935
+              l: 3.0000e+03
+         radius: 2.2900e+05
+           mass: 4.0743e+52
+
+shell:: 963
+          gamma: 907.2313
+              l: 3.0000e+03
+         radius: 2.2300e+05
+           mass: 6.8797e+51
+
+shell:: 964
+          gamma: 142.2217
+              l: 3.0000e+03
+         radius: 2.1700e+05
+           mass: 4.3886e+52
+
+shell:: 965
+          gamma: 610.7887
+              l: 3.0000e+03
+         radius: 2.1100e+05
+           mass: 1.0219e+52
+
+shell:: 966
+          gamma: 349.3193
+              l: 3.0000e+03
+         radius: 2.0500e+05
+           mass: 1.7868e+52
+
+shell:: 967
+          gamma: 383.8783
+              l: 3.0000e+03
+         radius: 1.9900e+05
+           mass: 1.6259e+52
+
+shell:: 968
+          gamma: 993.2768
+              l: 3.0000e+03
+         radius: 1.9300e+05
+           mass: 6.2837e+51
+
+shell:: 969
+          gamma: 2881.7153
+              l: 3.0000e+03
+         radius: 1.8700e+05
+           mass: 2.1659e+51
+
+shell:: 970
+          gamma: 593.6199
+              l: 3.0000e+03
+         radius: 1.8100e+05
+           mass: 1.0514e+52
+
+shell:: 971
+          gamma: 141.0786
+              l: 3.0000e+03
+         radius: 1.7500e+05
+           mass: 4.4241e+52
+
+shell:: 972
+          gamma: 416.2944
+              l: 3.0000e+03
+         radius: 1.6900e+05
+           mass: 1.4993e+52
+
+shell:: 973
+          gamma: 281.4278
+              l: 3.0000e+03
+         radius: 1.6300e+05
+           mass: 2.2178e+52
+
+shell:: 974
+          gamma: 665.8083
+              l: 3.0000e+03
+         radius: 1.5700e+05
+           mass: 9.3743e+51
+
+shell:: 975
+          gamma: 167.1415
+              l: 3.0000e+03
+         radius: 1.5100e+05
+           mass: 3.7343e+52
+
+shell:: 976
+          gamma: 107.5455
+              l: 3.0000e+03
+         radius: 1.4500e+05
+           mass: 5.8036e+52
+
+shell:: 977
+          gamma: 190.6027
+              l: 3.0000e+03
+         radius: 1.3900e+05
+           mass: 3.2746e+52
+
+shell:: 978
+          gamma: 205.1062
+              l: 3.0000e+03
+         radius: 1.3300e+05
+           mass: 3.0431e+52
+
+shell:: 979
+          gamma: 755.1093
+              l: 3.0000e+03
+         radius: 1.2700e+05
+           mass: 8.2657e+51
+
+shell:: 980
+          gamma: 402.8354
+              l: 3.0000e+03
+         radius: 1.2100e+05
+           mass: 1.5494e+52
+
+shell:: 981
+          gamma: 37.5471
+              l: 3.0000e+03
+         radius: 1.1500e+05
+           mass: 1.6623e+53
+
+shell:: 982
+          gamma: 2418.2178
+              l: 3.0000e+03
+         radius: 1.0900e+05
+           mass: 2.5810e+51
+
+shell:: 983
+          gamma: 313.1833
+              l: 3.0000e+03
+         radius: 1.0300e+05
+           mass: 1.9929e+52
+
+shell:: 984
+          gamma: 6153.9419
+              l: 3.0000e+03
+         radius: 9.7000e+04
+           mass: 1.0142e+51
+
+shell:: 985
+          gamma: 215.2307
+              l: 3.0000e+03
+         radius: 9.1000e+04
+           mass: 2.8999e+52
+
+shell:: 986
+          gamma: 236.6157
+              l: 3.0000e+03
+         radius: 8.5000e+04
+           mass: 2.6378e+52
+
+shell:: 987
+          gamma: 1541.7350
+              l: 3.0000e+03
+         radius: 7.9000e+04
+           mass: 4.0484e+51
+
+shell:: 988
+          gamma: 1100.5808
+              l: 3.0000e+03
+         radius: 7.3000e+04
+           mass: 5.6711e+51
+
+shell:: 989
+          gamma: 368.5128
+              l: 3.0000e+03
+         radius: 6.7000e+04
+           mass: 1.6937e+52
+
+shell:: 990
+          gamma: 292.6556
+              l: 3.0000e+03
+         radius: 6.1000e+04
+           mass: 2.1327e+52
+
+shell:: 991
+          gamma: 785.5420
+              l: 3.0000e+03
+         radius: 5.5000e+04
+           mass: 7.9455e+51
+
+shell:: 992
+          gamma: 882.9431
+              l: 3.0000e+03
+         radius: 4.9000e+04
+           mass: 7.0690e+51
+
+shell:: 993
+          gamma: 426.1947
+              l: 3.0000e+03
+         radius: 4.3000e+04
+           mass: 1.4645e+52
+
+shell:: 994
+          gamma: 1418.9356
+              l: 3.0000e+03
+         radius: 3.7000e+04
+           mass: 4.3987e+51
+
+shell:: 995
+          gamma: 234.4523
+              l: 3.0000e+03
+         radius: 3.1000e+04
+           mass: 2.6622e+52
+
+shell:: 996
+          gamma: 451.3045
+              l: 3.0000e+03
+         radius: 2.5000e+04
+           mass: 1.3830e+52
+
+shell:: 997
+          gamma: 294.3988
+              l: 3.0000e+03
+         radius: 1.9000e+04
+           mass: 2.1201e+52
+
+shell:: 998
+          gamma: 1583.8285
+              l: 3.0000e+03
+         radius: 1.3000e+04
+           mass: 3.9408e+51
+
+shell:: 999
+          gamma: 154.4734
+              l: 3.0000e+03
+         radius: 7.0000e+03
+           mass: 4.0405e+52
+

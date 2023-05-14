@@ -1,0 +1,2344 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+<meta name="generator" content="pdoc 0.10.0" />
+<title>proes.shells API documentation</title>
+<meta name="description" content="" />
+<link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/sanitize.min.css" integrity="sha256-PK9q560IAAa6WVRRh76LtCaI8pjTJ2z11v0miyNNjrs=" crossorigin>
+<link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/typography.min.css" integrity="sha256-7l/o7C8jubJiy74VsKTidCy1yBkRtiUGbVkYBylBqUg=" crossorigin>
+<link rel="stylesheet preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/github.min.css" crossorigin>
+<style>:root{--highlight-color:#fe9}.flex{display:flex !important}body{line-height:1.5em}#content{padding:20px}#sidebar{padding:30px;overflow:hidden}#sidebar > *:last-child{margin-bottom:2cm}.http-server-breadcrumbs{font-size:130%;margin:0 0 15px 0}#footer{font-size:.75em;padding:5px 30px;border-top:1px solid #ddd;text-align:right}#footer p{margin:0 0 0 1em;display:inline-block}#footer p:last-child{margin-right:30px}h1,h2,h3,h4,h5{font-weight:300}h1{font-size:2.5em;line-height:1.1em}h2{font-size:1.75em;margin:1em 0 .50em 0}h3{font-size:1.4em;margin:25px 0 10px 0}h4{margin:0;font-size:105%}h1:target,h2:target,h3:target,h4:target,h5:target,h6:target{background:var(--highlight-color);padding:.2em 0}a{color:#058;text-decoration:none;transition:color .3s ease-in-out}a:hover{color:#e82}.title code{font-weight:bold}h2[id^="header-"]{margin-top:2em}.ident{color:#900}pre code{background:#f8f8f8;font-size:.8em;line-height:1.4em}code{background:#f2f2f1;padding:1px 4px;overflow-wrap:break-word}h1 code{background:transparent}pre{background:#f8f8f8;border:0;border-top:1px solid #ccc;border-bottom:1px solid #ccc;margin:1em 0;padding:1ex}#http-server-module-list{display:flex;flex-flow:column}#http-server-module-list div{display:flex}#http-server-module-list dt{min-width:10%}#http-server-module-list p{margin-top:0}.toc ul,#index{list-style-type:none;margin:0;padding:0}#index code{background:transparent}#index h3{border-bottom:1px solid #ddd}#index ul{padding:0}#index h4{margin-top:.6em;font-weight:bold}@media (min-width:200ex){#index .two-column{column-count:2}}@media (min-width:300ex){#index .two-column{column-count:3}}dl{margin-bottom:2em}dl dl:last-child{margin-bottom:4em}dd{margin:0 0 1em 3em}#header-classes + dl > dd{margin-bottom:3em}dd dd{margin-left:2em}dd p{margin:10px 0}.name{background:#eee;font-weight:bold;font-size:.85em;padding:5px 10px;display:inline-block;min-width:40%}.name:hover{background:#e0e0e0}dt:target .name{background:var(--highlight-color)}.name > span:first-child{white-space:nowrap}.name.class > span:nth-child(2){margin-left:.4em}.inherited{color:#999;border-left:5px solid #eee;padding-left:1em}.inheritance em{font-style:normal;font-weight:bold}.desc h2{font-weight:400;font-size:1.25em}.desc h3{font-size:1em}.desc dt code{background:inherit}.source summary,.git-link-div{color:#666;text-align:right;font-weight:400;font-size:.8em;text-transform:uppercase}.source summary > *{white-space:nowrap;cursor:pointer}.git-link{color:inherit;margin-left:1em}.source pre{max-height:500px;overflow:auto;margin:0}.source pre code{font-size:12px;overflow:visible}.hlist{list-style:none}.hlist li{display:inline}.hlist li:after{content:',\2002'}.hlist li:last-child:after{content:none}.hlist .hlist{display:inline;padding-left:1em}img{max-width:100%}td{padding:0 .5em}.admonition{padding:.1em .5em;margin-bottom:1em}.admonition-title{font-weight:bold}.admonition.note,.admonition.info,.admonition.important{background:#aef}.admonition.todo,.admonition.versionadded,.admonition.tip,.admonition.hint{background:#dfd}.admonition.warning,.admonition.versionchanged,.admonition.deprecated{background:#fd4}.admonition.error,.admonition.danger,.admonition.caution{background:lightpink}</style>
+<style media="screen and (min-width: 700px)">@media screen and (min-width:700px){#sidebar{width:30%;height:100vh;overflow:auto;position:sticky;top:0}#content{width:70%;max-width:100ch;padding:3em 4em;border-left:1px solid #ddd}pre code{font-size:1em}.item .name{font-size:1em}main{display:flex;flex-direction:row-reverse;justify-content:flex-end}.toc ul ul,#index ul{padding-left:1.5em}.toc > ul > li{margin-top:.5em}}</style>
+<style media="print">@media print{#sidebar h1{page-break-before:always}.source{display:none}}@media print{*{background:transparent !important;color:#000 !important;box-shadow:none !important;text-shadow:none !important}a[href]:after{content:" (" attr(href) ")";font-size:90%}a[href][title]:after{content:none}abbr[title]:after{content:" (" attr(title) ")"}.ir a:after,a[href^="javascript:"]:after,a[href^="#"]:after{content:""}pre,blockquote{border:1px solid #999;page-break-inside:avoid}thead{display:table-header-group}tr,img{page-break-inside:avoid}img{max-width:100% !important}@page{margin:0.5cm}p,h2,h3{orphans:3;widows:3}h1,h2,h3,h4,h5,h6{page-break-after:avoid}}</style>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js" integrity="sha256-Uv3H6lx7dJmRfRvH8TH6kJD1TSK1aFcwgx+mdg3epi8=" crossorigin></script>
+<script>window.addEventListener('DOMContentLoaded', () => hljs.initHighlighting())</script>
+</head>
+<body>
+<main>
+<article id="content">
+<header>
+<h1 class="title">Module <code>proes.shells</code></h1>
+</header>
+<section id="section-intro">
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">import sys
+sys.path.append(&#39;.&#39;)
+import numpy as np
+import math
+from random import gauss
+# from statistics import mean
+from photons import Photons
+from protons import Protons
+from astropy.cosmology import Planck18
+import config
+
+&#34;&#34;&#34; Constants &#34;&#34;&#34;
+c = 1
+e_iso_kin = 1e+52
+epsilon_b = 8.333e-2
+epsilon_e = 8.333e-2
+epsilon_p = 8.333e-1
+proton_mass = 0.938
+sigma_th = 66.52e-36    # km^2 $
+
+
+
+class Shell():
+    &#34;&#34;&#34;
+    A class for storing information regarding a singular spherical shell of matter.
+
+    --------------------------------------------------------------------------------
+                                Parameters contained:
+    --------------------------------------------------------------------------------
+
+    index:      used to store index number of the shell. Higher indices are located
+                closer to the central engine
+
+    gamma:      shell Lorentz factor
+
+    bulk_gamma: shell bulk Lorentz factor
+
+    r0:         initial shell distance from the central engine (units: km)
+
+    radius:     current shell distance from the central engine (units: km)
+
+    l:          shell width (units: km)
+
+    volume:     volume of the spherical shell (units: km^3)
+
+    mass:       shell mass (units: GeV)
+
+    density:    shell density (units: GeV/km^3)
+
+    bulk_e_kin: shell bulk kinetic energy (units: erg)
+
+    --------------------------------------------------------------------------------
+    &#34;&#34;&#34;
+
+    def __init__(self, gamma, radius, l, index):
+        &#34;&#34;&#34;
+        Initialises the Shell object.
+
+        Parameters:
+            gamma (float):     Lorentz factor of the shell
+
+            radius (float):    shell distance from central engine
+
+            l (float):         shell width
+
+            index (int):       index number of shell
+
+        Returns:
+            none
+        &#34;&#34;&#34;
+        self.index = index
+        self.gamma = gamma
+        self.bulk_gamma = math.sqrt(1 - gamma**-2)
+        self.r0 = radius
+        self.radius = radius
+        self.l = l
+        self.volume = 4 * np.pi * radius**2 * l
+        self.mass = (e_iso_kin * 624.15) / (gamma * c**2)
+        self.density = self.mass / self.volume
+        self.bulk_e_kin = self.gamma * (self.mass/624.15) * c**2
+
+    def update_shell(self, t):
+        &#34;&#34;&#34;
+        Updates shell parameters at a point in time.
+
+        Parameters:
+            t (float): simulation time
+
+        Returns:
+            none
+        &#34;&#34;&#34;
+        self.radius = self.radius + (3e+5 * self.bulk_gamma * t)
+        self.volume = 4 * np.pi * self.radius**2 * self.l
+        self.density = self.mass / self.volume
+
+
+class Emitter():
+    &#34;&#34;&#34;
+    A class to represent the central engine of the GRB. This class is used to setup the emitted shells and their collisions.
+
+    --------------------------------------------------------------------------------
+                                Parameters contained:
+    --------------------------------------------------------------------------------
+
+    r_dec:              deceleration radius of the burst (units: km)
+
+    r_n_sh:             distance from innermost shell to central engine (units: km)
+
+    nshells:            initial number of shells emitted
+
+    dt_eng:             downtime of the central engine (units: s)
+
+    shells:             list containing Shell objects of indivial shells
+
+    next_collision_time:    time of next shell collision (units: s).
+                            Default: 0
+
+    t_obs:              collision time in observer&#39;s frame (units: s)
+
+    collision shells:   list containing Shell objects of next two shells to collide
+
+    ncoll:              number of shell collisions occurred
+
+    light_curve:        list of flux values emitted by gamma rays during each
+                        collision. Each entry corresponds to one shell collision
+
+    e_gamma_tot:        total amount of energy released as gamma-rays (units: erg)
+
+    r_coll:             list containing past collision radii of shells
+
+    op_depth:           list containing optical depths of shells
+
+    photo:              number of photospheric contributions to light curve
+
+    subphoto:           number of subphotospheric collisions
+
+    done:               keeps track of whether or not the GRB has finished.
+                        Default: False
+    --------------------------------------------------------------------------------
+    &#34;&#34;&#34;
+
+    def __init__(self, r_dec, rn_sh, nshells, dt_eng, z):
+        &#34;&#34;&#34;
+        Initialises the central engine.
+
+        Parameters:
+            r_dec (float):      deceleration radius of the burst
+
+            rn_sh (float):      distance from innermost shell to central engine
+
+            nshells (int):      initial number of shells emitted
+
+            dt_eng (float):     uptime of the central engine
+
+        Returns:
+            none
+        &#34;&#34;&#34;
+        self.r_dec = r_dec
+        self.r_n_sh = rn_sh
+        self.nshells = nshells
+        self.dt_eng = dt_eng
+        self.z = z
+
+        self.shells = []
+        self.next_collision_time = 0
+        self.t_obs = 0
+        self.collision_shells = []
+        self.ncoll = 0
+        self.light_curve = []
+        self.e_gamma_tot = 0
+        self.r_coll = []
+        self.r_coll_lc = []
+        self.op_depth = []
+        self.e_prot = []
+        self.e_prot_max = []
+        self.e_ind = []
+        self.e_prot_n = []
+        self.e_prot_n_ = []
+        self.photo = 0
+        self.subphoto = 0
+        self.done = False
+
+        self.t_syn = []
+        self.t_dyn = []
+
+        self.shock_rat = []
+        self.shock_rat2 = []
+
+    #---------------------------------------------------------------------------
+    #                       Lorentz factor distributions
+    #---------------------------------------------------------------------------
+
+    def gamma_dist_GRB1(self, gamma0):
+        &#34;&#34;&#34;
+        Lorentz factor distribution for GRB1 of Bustamante et al. (2017). Lorentz factors are randomly samples from a log-normal distribution defined by a characteristic value gamma0.
+
+        Parameters:
+            gamma0 (float): characteristic Lorentz factor of distribution
+
+        Returns:
+            (float) randomly sampled Lorentz factor from distribution
+        &#34;&#34;&#34;
+        return 1 + (gamma0 - 1) * np.exp(gauss(0, 1))
+
+    def gamma_dist_GRB2(self, gamma1, gamma2):
+        a1 = 1
+        a2 = 0.1
+
+        return 1 + (gamma2 - 1) * np.exp(a2*gauss(0, 1))
+
+    def delta_step(self, k, val):
+        &#34;&#34;&#34;
+        Dirac-delta distribution used to define amplitude values for gamma_dist_GRB3.
+
+        Parameters:
+            k:
+
+            val:
+
+        Returns:
+            0 if k &lt; val; else 1
+        &#34;&#34;&#34;
+        if (k &lt; val):
+            return 0
+        else:
+            return 1
+
+    def gamma_dist_GRB3(self, gamma1, gamma2, tp, k):
+        &#34;&#34;&#34;
+        Lorentz factor distribution for GRB3 of Bustamante et al. (2017). Lorentz factors sampled form a sawtooth with narrow distribution and fluctuate between two characteristic values: gamma1 and gamma2.
+
+        Parameters:
+            gamma1 (float):     first characteristic Lorentz factor value
+
+            gamma2 (float):     second characteristic Lorentz factor value
+
+            tp (float):         fraction of total emitted shells
+
+        Returns:
+            (float) randomly sampled Lorentz factor from distribution
+        &#34;&#34;&#34;
+        a = 0.1
+        gamma = ((gamma1 - gamma2)/(self.nshells * tp)) * k + gamma2 - (gamma1 - gamma2) * (self.delta_step(k, self.nshells * tp) + self.delta_step(k, 2*self.nshells*tp))
+        return  1 + (gamma - 1) * np.exp(a * gauss(0, 1))
+
+    #---------------------------------------------------------------------------
+
+    def setup(self, gamma1, gamma2, tp, dist):
+        &#34;&#34;&#34;
+        Sets up the shells emitted by the central engine - assigning indices, Lorentz factors, widths, and distances from central engine.
+
+        Parameters:
+            gamma1 (float): first characteristic Lorentz factor value
+
+            gamma2 (float): second characteristic Lorentz factor value
+
+            tp (float):     fraction of total emitted shells
+
+            dist (int):     type of Lorentz factor distribution for shells. Possible inputs are
+                            1 - profile for GRB1 of Bustamante et al. (2017) (DEFAULT DISTRIBUTION)
+                            3 - profile for GRB3 of Bustamante et al. (2017)
+
+        Returns:
+            none
+        &#34;&#34;&#34;
+
+        if config.VERBOSE:
+            print(&#34;------------------------------------------------------------&#34;)
+            print(&#34;                     SHELL GENERATION&#34;)
+            print(&#34;------------------------------------------------------------&#34;)
+
+        if config.ENABLE_LOGGING:
+            f = open(path.join(config.LOG_PATH, &#39;shells.log&#39;), &#39;w&#39;)
+
+        # initialise shells
+        for i in range(self.nshells):
+
+            # setting up Lorentz factor of shell
+            if (dist == 2):
+                gamma = self.gamma_dist_GRB2(gamma1, gamma2)
+            if (dist == 3):
+                gamma = self.gamma_dist_GRB3(gamma1, gamma2, tp, i)
+            else:
+                gamma = self.gamma_dist_GRB1(gamma1)
+
+            # shell width and distance from central engine
+            # l = c * self.dt_eng
+            l = 3e+5 * self.dt_eng
+            r = self.r_n_sh + ((self.nshells - i) * (2 * l))
+
+            # initialise shell and contain it within central engine&#39;s list of shells
+            shell = Shell(gamma, r, l, i)
+            self.shells.append(shell)
+
+            # log shell parameters
+            if config.ENABLE_LOGGING:
+                lines = [f&#34;shell:: {i}&#34;, f&#34;          gamma: {gamma:.4f}&#34;, f&#34;              l: {l:.4e}&#34;, f&#34;         radius: {r:.4e}&#34;, f&#34;           mass: {shell.mass:.4e}&#34;, &#34;\n&#34;]
+                f.write(&#39;\n&#39;.join(lines))
+                f.close()
+
+        # end of shell initialisation
+
+        if config.VERBOSE:
+            print(&#34;&gt;&gt;&gt;&gt;&gt;&gt;&gt; shells generated&#34;)
+            print(&#34;------------------------------------------------------------&#34;)
+            print()
+
+        self.calculate_collision_times()
+
+    def retrieve_lorentz_factors(self):
+        &#34;&#34;&#34;
+        Function used for plotting Lorentz factors of shells within the GRB. Retrieves the Lorentz factor and distance from the central engine.
+
+        Parameters:
+            none
+
+        Returns:
+            x (list): a list storing the distances from the central engine
+
+            y (list): a list storing the shell Lorentz factors
+        &#34;&#34;&#34;
+        x = []
+        y = []
+
+        for shell in self.shells:
+            x.append(shell.radius)
+            y.append(shell.gamma)
+
+        return x, y
+
+    def retrieve_radii(self):
+        &#34;&#34;&#34;
+        Function used for plotting distance of shells from the central engine of the GRB. Retrieves the shell index and distance from the central engine.
+
+        Parameters:
+            none
+
+        Returns:
+            x (list): a list storing the shell indices
+
+            y (list): a list storing the distances from the central engine
+        &#34;&#34;&#34;
+        x = []
+        y = []
+
+        for shell in self.shells:
+            x.append(shell.index)
+            y.append(shell.radius)
+
+        return x, y
+
+    def calculate_collision_times(self):
+        &#34;&#34;&#34;
+        Calculates collision times of the shells in simulation. Also removes any shells that have passed the GRB&#39;s deceleration radius.
+
+        Parameters:
+            none
+
+        Returns:
+            none
+        &#34;&#34;&#34;
+        self.collision_shells = []
+        count = 0
+        # first, remove any shells past the deceleration radius from simulation
+        for shell in self.shells:
+            if (shell.radius &gt; self.r_dec):
+                self.shells.remove(shell)
+                self.nshells -= 1
+                count += 1
+
+        if config.VERBOSE:
+            print(f&#34;&gt;&gt;&gt;&gt;&gt;&gt;&gt; removed {count} shells from simulation. {len(self.shells)} remaining&#34;)
+            print()
+
+        # make sure there is more than one shell remaining in simulation
+        if (self.nshells &gt; 1):
+
+            # keep a track of shells to collide
+            # first shell in collision is stored, and will be used as an index
+            # to retrive the set of next shells to collide
+            shells_to_collide = []
+            collision_times = []
+
+            for index in (range(len(self.shells)-1)):
+
+                # determine if shell collision parameters
+                shell_separation = self.shells[index].radius - self.shells[index+1].radius - self.shells[index+1].l
+                bdiff = self.shells[index+1].bulk_gamma - self.shells[index].bulk_gamma
+
+                # if no difference in gamma, shells will not collide
+                if (bdiff == 0):
+                    continue
+
+                dt = abs(shell_separation / (3e+5 * bdiff))
+                collision_times.append(dt)
+                shells_to_collide.append(self.shells[index])
+
+            if config.VERBOSE:
+                print(f&#34;number of shells to collide: {len(collision_times)}&#34;)
+                print()
+
+            # if there are collisions to occur, determine time of next collision
+            # and shells to collide
+            if (len(collision_times) &gt; 0):
+                self.next_collision_time = min(collision_times)
+                index_next_collision = collision_times.index(self.next_collision_time)
+                shell = shells_to_collide[index_next_collision]
+                self.collision_shells.append(shell)
+                next_shell = self.shells.index(shell) + 1
+                self.collision_shells.append(self.shells[next_shell])
+
+                if config.VERBOSE:
+                    print(f&#34;no. of shells to collide: {len(self.collision_shells)}&#34;)
+                    print(f&#34;&gt;&gt;&gt;&gt;&gt;&gt;&gt; collision of shells with gamma {self.collision_shells[1].gamma:.2f} and {self.collision_shells[0].gamma:.2f}&#34;)
+                    print(f&#34;&gt;&gt;&gt;&gt;&gt;&gt;&gt; at time interval {self.next_collision_time:.2e} s&#34;)
+                    print()
+
+            # if no more collisions can occur, simulation has finished
+            else:
+                self.done = True
+
+                if config.VERBOSE:
+                    print(&#34;&gt;&gt;&gt;&gt;&gt;&gt;&gt; no more collisions!&#34;)
+
+
+        # if there is only one shell remaining, simulation has finished as no
+        # more shells can collide
+        else:
+            self.done = True
+
+            if config.VERBOSE:
+                print(&#34;&gt;&gt;&gt;&gt;&gt;&gt;&gt; no more collisions!&#34;)
+
+    def collision(self, shell1, shell2):
+        &#34;&#34;&#34;
+        Simulate a collision between two shells (a fast and slow shell). A new merged shell is born and the slow shell is removed from the simulation. During the collision, a pulse of gamma rays is emitted corresponding to the
+        prompt emission phase of the GRB. The flux of the pulse is contained within the light curve.
+
+        Parameters:
+            shell1 (object): first shell to collide
+
+            shell2 (object): second shell to collide
+
+        Returns:
+            (int) 0 if the collision is above the photosphere
+
+            (int) 1 if the collision is subphotospheric
+        &#34;&#34;&#34;
+        # determine which shell is the fast moving shell and which is the slow moving shell
+        if (shell1.gamma &lt; shell2.gamma):
+            slow_shell = shell1
+            fast_shell = shell2
+        else:
+            slow_shell = shell2
+            fast_shell = shell1
+
+        if config.ENABLE_LOGGING:
+            f = open(path.join(config.LOG_PATH, &#39;collision.log&#39;), &#39;a&#39;)
+            lines = [&#34;------------------------------------------------------------&#34;, &#34;                     COLLISION&#34;, f&#34;fast shell::       gamma: {fast_shell.gamma:.4f}&#34;, f&#34;                    mass: {fast_shell.mass:.4e}&#34;, f&#34;                 density: {fast_shell.density:.4e}&#34;, f&#34;                  volume: {fast_shell.volume:.4e}&#34;,f&#34;                       l: {fast_shell.l:.4e}&#34;, f&#34;                  radius: {fast_shell.radius:.4e}&#34;, f&#34;              bulk gamma: {fast_shell.bulk_gamma:.4e}&#34;, &#34; &#34;, f&#34;slow shell::       gamma: {slow_shell.gamma:.4f}&#34;, f&#34;                    mass: {slow_shell.mass:.4e}&#34;, f&#34;                 density: {slow_shell.density:.4e}&#34;, f&#34;                  volume: {slow_shell.volume:.4e}&#34;, f&#34;                       l: {slow_shell.l:.4e}&#34;, f&#34;                  radius: {slow_shell.radius:.4e}&#34;, f&#34;              bulk gamma: {slow_shell.bulk_gamma:.4e}&#34;, &#34; &#34;]
+            f.write(&#39;\n&#39;.join(lines))
+
+        if config.VERBOSE:
+            print(&#34;------------------------------------------------------------&#34;)
+            print(&#34;                     COLLISION&#34;)
+            print(&#34;------------------------------------------------------------&#34;)
+
+
+
+        #-----------------------------------------------------------------------
+        #                  calculate merged shell &amp; shock parameters
+        #                        and create new merged shell
+        #-----------------------------------------------------------------------
+        # merged shell Lorentz factor &amp; bulk Lorentz factor
+        merged_gamma = math.sqrt(((fast_shell.gamma * fast_shell.mass) + (slow_shell.gamma * slow_shell.mass)) / ((fast_shell.mass / fast_shell.gamma) + (slow_shell.mass / slow_shell.gamma)))
+        bulk_gamma_merged = math.sqrt(1 - merged_gamma**-2)
+
+        # forward shock Lorentz factor &amp; bulk Lorentz factor
+        gamma_fs = merged_gamma * math.sqrt((1 + ((2 * merged_gamma) / slow_shell.gamma)) / (2 + (merged_gamma / slow_shell.gamma)))
+        bulk_gamma_fs = math.sqrt(1 - gamma_fs**-2)
+
+        # reverse shock Lorentz factor &amp; bulk Lorentz factor
+        gamma_rs = merged_gamma * math.sqrt((1 + ((2 * merged_gamma) / fast_shell.gamma)) / (2 + (merged_gamma / fast_shell.gamma)))
+        bulk_gamma_rs = math.sqrt(1 - gamma_rs**-2)
+
+        self.shock_rat.append(fast_shell.gamma / slow_shell.gamma)
+        self.shock_rat2.append(gamma_fs / gamma_rs)
+
+        # merged shell width
+        l_merged = slow_shell.l * ((bulk_gamma_fs - bulk_gamma_merged) / (bulk_gamma_fs - slow_shell.bulk_gamma)) + fast_shell.l * ((bulk_gamma_merged - bulk_gamma_rs) / (fast_shell.bulk_gamma - bulk_gamma_rs))
+
+        # merged shell density
+        # density_merged = ((fast_shell.l * fast_shell.density * fast_shell.gamma) + (slow_shell.l * slow_shell.density * slow_shell.gamma)) / (l_merged * merged_gamma)
+        density_merged = ((fast_shell.l * fast_shell.density) + (slow_shell.l * slow_shell.density)) / l_merged
+
+        # create new merged shell
+        merged_shell = Shell(merged_gamma, slow_shell.radius, l_merged, slow_shell.index)
+
+        # merged shell mass
+        merged_mass = merged_shell.volume * density_merged
+
+        # merged shell internal energy - to be radiated away
+        e_iso_coll = (((fast_shell.gamma * (fast_shell.mass/624.15)) + (slow_shell.gamma * (slow_shell.mass/624.15))) * c**2) - (merged_gamma * ((slow_shell.mass/624.15) + (fast_shell.mass/624.15)) * c**2)
+
+        # calculate energy dissipated in photons
+        e_gamma_k = epsilon_e * e_iso_coll
+        self.e_gamma_tot += e_gamma_k
+
+        # calculate energy dissipated in protons
+        e_proton_k = epsilon_p * e_iso_coll
+        n_prot = merged_mass / proton_mass
+
+        # merged shell kinetic energy
+        e_kin_merged = (merged_gamma * (merged_mass/624.15) * c**2) #- e_iso_coll
+
+        # update merged shell parameters
+        merged_shell.mass = merged_mass
+        merged_shell.density = density_merged
+        merged_shell.bulk_e_kin = e_kin_merged
+
+        if config.ENABLE_LOGGING:
+            lines = [f&#34;merged shell::     gamma: {merged_shell.gamma:.4f}&#34;, f&#34;               mass (kg): {merged_shell.mass:.4e}&#34;, f&#34;                 density: {merged_shell.density:.4e}&#34;, f&#34;                  volume: {merged_shell.volume:.4e}&#34;, f&#34;                       l: {merged_shell.l:.4e}&#34;, f&#34;                  E_coll: {e_iso_coll:.4e}&#34;, f&#34;                   E_kin: {e_kin_merged:.4e}&#34;, f&#34;                  radius: {merged_shell.radius:.4e}&#34;, &#34; &#34;]
+            f.write(&#39;\n&#39;.join(lines))
+
+            lines = [f&#34;forward shock::        gamma: {gamma_fs:.4f}&#34;, f&#34;                  bulk gamma: {bulk_gamma_fs:.4f}&#34;, &#34; &#34;, f&#34;reverse shock::        gamma: {gamma_rs:.4f}&#34;, f&#34;                  bulk gamma: {bulk_gamma_rs:.4e}&#34;, &#34; &#34;]
+            f.write(&#39;\n&#39;.join(lines))
+
+        # record collision radius, optical depth
+        self.r_coll.append(merged_shell.radius)
+        self.op_depth.append(self.calculate_thomson_optical_depth(merged_shell))
+
+        if config.ENABLE_LOGGING:
+            lines = [&#34;------------------------------------------------------------&#34;, f&#34;optical depth: {self.calculate_thomson_optical_depth(merged_shell):.4f}&#34;, f&#34;collision radius: {merged_shell.radius:.4e}&#34;, &#34; &#34;]
+            f.write(&#39;\n&#39;.join(lines))
+            f.close()
+
+        photons = Photons(self.t_obs, merged_shell.r0, fast_shell.l, fast_shell.bulk_gamma, bulk_gamma_rs, merged_shell.gamma, e_gamma_k, merged_shell.volume, self.z)
+
+        if config.PROTON_PHYSICS:
+            protons = Protons(e_proton_k, merged_mass, merged_gamma, gamma_fs, bulk_gamma_fs, e_gamma_k, merged_shell.radius, merged_shell.r0, photons)
+            p, n_p, e_p, e_p_n = protons.generate_proton_spectrum()
+        # self.e_prot.append(protons.emax)
+            self.e_prot_max.append(protons.emax)
+            self.e_prot.append(e_p)
+            self.e_prot_n.append(n_p)
+            self.e_ind.append(e_p_n)
+            self.e_prot_n_.append(p)
+
+        self.t_syn.append(protons.t_syn)
+        self.t_dyn.append(protons.t_dyn)
+
+        # if the collision is above the photosphere, generate the light curve and
+        # finish off the collision
+        if (self.calculate_thomson_optical_depth(merged_shell) &lt;= 1):
+            self.photo += 1
+            #-----------------------------------------------------------------------
+            #                  generate synthetic light curve
+            #-----------------------------------------------------------------------
+
+            # generate light curve
+            lc = photons.to_GeV_s_cm(photons.parametrise_luminosity())
+            self.light_curve.append(lc)
+            self.r_coll_lc.append(merged_shell.radius)
+
+            if config.VERBOSE:
+                print(f&#39;flux = {lc:.4e} GeV/s/cm2&#39;)
+
+
+            #-----------------------------------------------------------------------
+            #                        finish off collision
+            #-----------------------------------------------------------------------
+            # collision efficiency
+            eff = 1 - ((slow_shell.mass + fast_shell.mass) / np.sqrt(slow_shell.mass**2 + fast_shell.mass**2 + (slow_shell.mass * fast_shell.mass * ((fast_shell.gamma / slow_shell.gamma) + (slow_shell.gamma / fast_shell.gamma)))))
+
+            if config.VERBOSE:
+                print(f&#34;shock efficiency = {eff:.4e}&#34;)
+
+            # fast shell is removed from the simulation
+            self.shells.remove(fast_shell)
+
+            # replace slow shell with merged shell
+            i = self.shells.index(slow_shell)
+            self.shells[i] = merged_shell
+
+            # update nshells and ncoll
+            self.nshells -= 1
+            self.ncoll += 1
+
+            # compute next collision time
+            self.collision_shells = []
+            self.calculate_collision_times()
+            return 0
+
+        # collision is subphotospheric; do not generate the light curve but finish
+        # off the collision
+        else:
+            self.subphoto += 1
+            #-----------------------------------------------------------------------
+            #                        finish off collision
+            #-----------------------------------------------------------------------
+            # collision efficiency
+            eff = 1 - ((slow_shell.mass + fast_shell.mass) / np.sqrt(slow_shell.mass**2 + fast_shell.mass**2 + (slow_shell.mass * fast_shell.mass * ((fast_shell.gamma / slow_shell.gamma) + (slow_shell.gamma / fast_shell.gamma)))))
+
+            if config.VERBOSE:
+                print(f&#34;shock efficiency = {eff:.4e}&#34;)
+
+            # fast shell is removed from the simulation
+            self.shells.remove(fast_shell)
+
+            # replace slow shell with merged shell
+            i = self.shells.index(slow_shell)
+            self.shells[i] = merged_shell
+
+            # update nshells and ncoll
+            self.nshells -= 1
+            self.ncoll += 1
+
+            # compute next collision time
+            self.collision_shells = []
+            self.calculate_collision_times()
+            return 1
+
+    def calculate_thomson_optical_depth(self, shell):
+        &#34;&#34;&#34;
+        Calculates the optical depth to Thomson scattering for a shell
+
+        Parameters:
+            shell (object):  input shell
+
+        Returns:
+            t_obs (float): optical depth to Thomson scattering
+        &#34;&#34;&#34;
+        electron_density = shell.mass / (proton_mass * shell.volume)
+        return 1 / (electron_density * sigma_th * shell.l)
+
+    def update_tobs(self, tobs):
+        &#34;&#34;&#34;
+        Update observer time.
+
+        Parameters:
+            tobs (float):  observer time (s)
+
+        Returns:
+            none
+        &#34;&#34;&#34;
+        self.t_obs = tobs
+
+    def calculate_t90(self, time):
+        &#34;&#34;&#34;
+        Calculates T90 (the time elapsed between the detection of 5% and 95% of the total gamma-ray energy)
+
+        Parameters:
+            time (list):  a list containing the observed time of gamma-ray energy
+
+        Returns:
+            t90 (float):  the T90 value of the burst
+        &#34;&#34;&#34;
+        # sorts the light curve and time in ascending order by time
+        tup = sorted(list(zip(time, self.light_curve)))
+        x, y = zip(*tup)
+
+        # determine total energy of the burst by summing up the light curve
+        total_energy = 0
+        for i in y:
+            total_energy += i
+
+        # calculations of 5% and 95% of the total energy
+        e5 = 0.05 * total_energy
+        e95 = 0.95 * total_energy
+
+        if config.VERBOSE:
+            print(f&#34;e5: {e5:.4e}&#34;)
+            print(f&#34;e95: {e95:.4e}&#34;)
+
+        # determine the time in which 5% of the total energy is observed
+        e = 0
+        index = 0
+        for i in y:
+            e += i
+            if (e &gt;= e5):
+                index = y.index(i)
+                break
+        t5 = x[index]
+
+        # determine the time in which 95% of the total energy is observed
+        e = 0
+        index = 0
+        for i in y:
+            e += i
+            if (e &gt;= e95):
+                index = y.index(i)
+                break
+        t95 = x[index]
+
+        # calculate T90
+        t90 = t95 - t5
+        return t90
+
+    def calculate_tv(self, t90):
+        &#34;&#34;&#34;
+        Calculates the variability timescale of the burst (tv).
+
+        Parameters:
+            t90 (float):  the T90 value of the burst (seconds)
+
+        Returns:
+            tv (float):   the variability timescale of the burst (seconds)
+        &#34;&#34;&#34;
+        return t90 / self.ncoll</code></pre>
+</details>
+</section>
+<section>
+</section>
+<section>
+</section>
+<section>
+</section>
+<section>
+<h2 class="section-title" id="header-classes">Classes</h2>
+<dl>
+<dt id="proes.shells.Emitter"><code class="flex name class">
+<span>class <span class="ident">Emitter</span></span>
+<span>(</span><span>r_dec, rn_sh, nshells, dt_eng, z)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>A class to represent the central engine of the GRB. This class is used to setup the emitted shells and their collisions.</p>
+<hr>
+<pre><code>                        Parameters contained:
+</code></pre>
+<hr>
+<p>r_dec:
+deceleration radius of the burst (units: km)</p>
+<p>r_n_sh:
+distance from innermost shell to central engine (units: km)</p>
+<p>nshells:
+initial number of shells emitted</p>
+<p>dt_eng:
+downtime of the central engine (units: s)</p>
+<p>shells:
+list containing Shell objects of indivial shells</p>
+<p>next_collision_time:
+time of next shell collision (units: s).
+Default: 0</p>
+<p>t_obs:
+collision time in observer's frame (units: s)</p>
+<p>collision shells:
+list containing Shell objects of next two shells to collide</p>
+<p>ncoll:
+number of shell collisions occurred</p>
+<p>light_curve:
+list of flux values emitted by gamma rays during each
+collision. Each entry corresponds to one shell collision</p>
+<p>e_gamma_tot:
+total amount of energy released as gamma-rays (units: erg)</p>
+<p>r_coll:
+list containing past collision radii of shells</p>
+<p>op_depth:
+list containing optical depths of shells</p>
+<p>photo:
+number of photospheric contributions to light curve</p>
+<p>subphoto:
+number of subphotospheric collisions</p>
+<p>done:
+keeps track of whether or not the GRB has finished.
+Default: False</p>
+<hr>
+<p>Initialises the central engine.</p>
+<h2 id="parameters">Parameters</h2>
+<p>r_dec (float):
+deceleration radius of the burst</p>
+<p>rn_sh (float):
+distance from innermost shell to central engine</p>
+<p>nshells (int):
+initial number of shells emitted</p>
+<p>dt_eng (float):
+uptime of the central engine</p>
+<h2 id="returns">Returns</h2>
+<p>none</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">class Emitter():
+    &#34;&#34;&#34;
+    A class to represent the central engine of the GRB. This class is used to setup the emitted shells and their collisions.
+
+    --------------------------------------------------------------------------------
+                                Parameters contained:
+    --------------------------------------------------------------------------------
+
+    r_dec:              deceleration radius of the burst (units: km)
+
+    r_n_sh:             distance from innermost shell to central engine (units: km)
+
+    nshells:            initial number of shells emitted
+
+    dt_eng:             downtime of the central engine (units: s)
+
+    shells:             list containing Shell objects of indivial shells
+
+    next_collision_time:    time of next shell collision (units: s).
+                            Default: 0
+
+    t_obs:              collision time in observer&#39;s frame (units: s)
+
+    collision shells:   list containing Shell objects of next two shells to collide
+
+    ncoll:              number of shell collisions occurred
+
+    light_curve:        list of flux values emitted by gamma rays during each
+                        collision. Each entry corresponds to one shell collision
+
+    e_gamma_tot:        total amount of energy released as gamma-rays (units: erg)
+
+    r_coll:             list containing past collision radii of shells
+
+    op_depth:           list containing optical depths of shells
+
+    photo:              number of photospheric contributions to light curve
+
+    subphoto:           number of subphotospheric collisions
+
+    done:               keeps track of whether or not the GRB has finished.
+                        Default: False
+    --------------------------------------------------------------------------------
+    &#34;&#34;&#34;
+
+    def __init__(self, r_dec, rn_sh, nshells, dt_eng, z):
+        &#34;&#34;&#34;
+        Initialises the central engine.
+
+        Parameters:
+            r_dec (float):      deceleration radius of the burst
+
+            rn_sh (float):      distance from innermost shell to central engine
+
+            nshells (int):      initial number of shells emitted
+
+            dt_eng (float):     uptime of the central engine
+
+        Returns:
+            none
+        &#34;&#34;&#34;
+        self.r_dec = r_dec
+        self.r_n_sh = rn_sh
+        self.nshells = nshells
+        self.dt_eng = dt_eng
+        self.z = z
+
+        self.shells = []
+        self.next_collision_time = 0
+        self.t_obs = 0
+        self.collision_shells = []
+        self.ncoll = 0
+        self.light_curve = []
+        self.e_gamma_tot = 0
+        self.r_coll = []
+        self.r_coll_lc = []
+        self.op_depth = []
+        self.e_prot = []
+        self.e_prot_max = []
+        self.e_ind = []
+        self.e_prot_n = []
+        self.e_prot_n_ = []
+        self.photo = 0
+        self.subphoto = 0
+        self.done = False
+
+        self.t_syn = []
+        self.t_dyn = []
+
+        self.shock_rat = []
+        self.shock_rat2 = []
+
+    #---------------------------------------------------------------------------
+    #                       Lorentz factor distributions
+    #---------------------------------------------------------------------------
+
+    def gamma_dist_GRB1(self, gamma0):
+        &#34;&#34;&#34;
+        Lorentz factor distribution for GRB1 of Bustamante et al. (2017). Lorentz factors are randomly samples from a log-normal distribution defined by a characteristic value gamma0.
+
+        Parameters:
+            gamma0 (float): characteristic Lorentz factor of distribution
+
+        Returns:
+            (float) randomly sampled Lorentz factor from distribution
+        &#34;&#34;&#34;
+        return 1 + (gamma0 - 1) * np.exp(gauss(0, 1))
+
+    def gamma_dist_GRB2(self, gamma1, gamma2):
+        a1 = 1
+        a2 = 0.1
+
+        return 1 + (gamma2 - 1) * np.exp(a2*gauss(0, 1))
+
+    def delta_step(self, k, val):
+        &#34;&#34;&#34;
+        Dirac-delta distribution used to define amplitude values for gamma_dist_GRB3.
+
+        Parameters:
+            k:
+
+            val:
+
+        Returns:
+            0 if k &lt; val; else 1
+        &#34;&#34;&#34;
+        if (k &lt; val):
+            return 0
+        else:
+            return 1
+
+    def gamma_dist_GRB3(self, gamma1, gamma2, tp, k):
+        &#34;&#34;&#34;
+        Lorentz factor distribution for GRB3 of Bustamante et al. (2017). Lorentz factors sampled form a sawtooth with narrow distribution and fluctuate between two characteristic values: gamma1 and gamma2.
+
+        Parameters:
+            gamma1 (float):     first characteristic Lorentz factor value
+
+            gamma2 (float):     second characteristic Lorentz factor value
+
+            tp (float):         fraction of total emitted shells
+
+        Returns:
+            (float) randomly sampled Lorentz factor from distribution
+        &#34;&#34;&#34;
+        a = 0.1
+        gamma = ((gamma1 - gamma2)/(self.nshells * tp)) * k + gamma2 - (gamma1 - gamma2) * (self.delta_step(k, self.nshells * tp) + self.delta_step(k, 2*self.nshells*tp))
+        return  1 + (gamma - 1) * np.exp(a * gauss(0, 1))
+
+    #---------------------------------------------------------------------------
+
+    def setup(self, gamma1, gamma2, tp, dist):
+        &#34;&#34;&#34;
+        Sets up the shells emitted by the central engine - assigning indices, Lorentz factors, widths, and distances from central engine.
+
+        Parameters:
+            gamma1 (float): first characteristic Lorentz factor value
+
+            gamma2 (float): second characteristic Lorentz factor value
+
+            tp (float):     fraction of total emitted shells
+
+            dist (int):     type of Lorentz factor distribution for shells. Possible inputs are
+                            1 - profile for GRB1 of Bustamante et al. (2017) (DEFAULT DISTRIBUTION)
+                            3 - profile for GRB3 of Bustamante et al. (2017)
+
+        Returns:
+            none
+        &#34;&#34;&#34;
+
+        if config.VERBOSE:
+            print(&#34;------------------------------------------------------------&#34;)
+            print(&#34;                     SHELL GENERATION&#34;)
+            print(&#34;------------------------------------------------------------&#34;)
+
+        if config.ENABLE_LOGGING:
+            f = open(path.join(config.LOG_PATH, &#39;shells.log&#39;), &#39;w&#39;)
+
+        # initialise shells
+        for i in range(self.nshells):
+
+            # setting up Lorentz factor of shell
+            if (dist == 2):
+                gamma = self.gamma_dist_GRB2(gamma1, gamma2)
+            if (dist == 3):
+                gamma = self.gamma_dist_GRB3(gamma1, gamma2, tp, i)
+            else:
+                gamma = self.gamma_dist_GRB1(gamma1)
+
+            # shell width and distance from central engine
+            # l = c * self.dt_eng
+            l = 3e+5 * self.dt_eng
+            r = self.r_n_sh + ((self.nshells - i) * (2 * l))
+
+            # initialise shell and contain it within central engine&#39;s list of shells
+            shell = Shell(gamma, r, l, i)
+            self.shells.append(shell)
+
+            # log shell parameters
+            if config.ENABLE_LOGGING:
+                lines = [f&#34;shell:: {i}&#34;, f&#34;          gamma: {gamma:.4f}&#34;, f&#34;              l: {l:.4e}&#34;, f&#34;         radius: {r:.4e}&#34;, f&#34;           mass: {shell.mass:.4e}&#34;, &#34;\n&#34;]
+                f.write(&#39;\n&#39;.join(lines))
+                f.close()
+
+        # end of shell initialisation
+
+        if config.VERBOSE:
+            print(&#34;&gt;&gt;&gt;&gt;&gt;&gt;&gt; shells generated&#34;)
+            print(&#34;------------------------------------------------------------&#34;)
+            print()
+
+        self.calculate_collision_times()
+
+    def retrieve_lorentz_factors(self):
+        &#34;&#34;&#34;
+        Function used for plotting Lorentz factors of shells within the GRB. Retrieves the Lorentz factor and distance from the central engine.
+
+        Parameters:
+            none
+
+        Returns:
+            x (list): a list storing the distances from the central engine
+
+            y (list): a list storing the shell Lorentz factors
+        &#34;&#34;&#34;
+        x = []
+        y = []
+
+        for shell in self.shells:
+            x.append(shell.radius)
+            y.append(shell.gamma)
+
+        return x, y
+
+    def retrieve_radii(self):
+        &#34;&#34;&#34;
+        Function used for plotting distance of shells from the central engine of the GRB. Retrieves the shell index and distance from the central engine.
+
+        Parameters:
+            none
+
+        Returns:
+            x (list): a list storing the shell indices
+
+            y (list): a list storing the distances from the central engine
+        &#34;&#34;&#34;
+        x = []
+        y = []
+
+        for shell in self.shells:
+            x.append(shell.index)
+            y.append(shell.radius)
+
+        return x, y
+
+    def calculate_collision_times(self):
+        &#34;&#34;&#34;
+        Calculates collision times of the shells in simulation. Also removes any shells that have passed the GRB&#39;s deceleration radius.
+
+        Parameters:
+            none
+
+        Returns:
+            none
+        &#34;&#34;&#34;
+        self.collision_shells = []
+        count = 0
+        # first, remove any shells past the deceleration radius from simulation
+        for shell in self.shells:
+            if (shell.radius &gt; self.r_dec):
+                self.shells.remove(shell)
+                self.nshells -= 1
+                count += 1
+
+        if config.VERBOSE:
+            print(f&#34;&gt;&gt;&gt;&gt;&gt;&gt;&gt; removed {count} shells from simulation. {len(self.shells)} remaining&#34;)
+            print()
+
+        # make sure there is more than one shell remaining in simulation
+        if (self.nshells &gt; 1):
+
+            # keep a track of shells to collide
+            # first shell in collision is stored, and will be used as an index
+            # to retrive the set of next shells to collide
+            shells_to_collide = []
+            collision_times = []
+
+            for index in (range(len(self.shells)-1)):
+
+                # determine if shell collision parameters
+                shell_separation = self.shells[index].radius - self.shells[index+1].radius - self.shells[index+1].l
+                bdiff = self.shells[index+1].bulk_gamma - self.shells[index].bulk_gamma
+
+                # if no difference in gamma, shells will not collide
+                if (bdiff == 0):
+                    continue
+
+                dt = abs(shell_separation / (3e+5 * bdiff))
+                collision_times.append(dt)
+                shells_to_collide.append(self.shells[index])
+
+            if config.VERBOSE:
+                print(f&#34;number of shells to collide: {len(collision_times)}&#34;)
+                print()
+
+            # if there are collisions to occur, determine time of next collision
+            # and shells to collide
+            if (len(collision_times) &gt; 0):
+                self.next_collision_time = min(collision_times)
+                index_next_collision = collision_times.index(self.next_collision_time)
+                shell = shells_to_collide[index_next_collision]
+                self.collision_shells.append(shell)
+                next_shell = self.shells.index(shell) + 1
+                self.collision_shells.append(self.shells[next_shell])
+
+                if config.VERBOSE:
+                    print(f&#34;no. of shells to collide: {len(self.collision_shells)}&#34;)
+                    print(f&#34;&gt;&gt;&gt;&gt;&gt;&gt;&gt; collision of shells with gamma {self.collision_shells[1].gamma:.2f} and {self.collision_shells[0].gamma:.2f}&#34;)
+                    print(f&#34;&gt;&gt;&gt;&gt;&gt;&gt;&gt; at time interval {self.next_collision_time:.2e} s&#34;)
+                    print()
+
+            # if no more collisions can occur, simulation has finished
+            else:
+                self.done = True
+
+                if config.VERBOSE:
+                    print(&#34;&gt;&gt;&gt;&gt;&gt;&gt;&gt; no more collisions!&#34;)
+
+
+        # if there is only one shell remaining, simulation has finished as no
+        # more shells can collide
+        else:
+            self.done = True
+
+            if config.VERBOSE:
+                print(&#34;&gt;&gt;&gt;&gt;&gt;&gt;&gt; no more collisions!&#34;)
+
+    def collision(self, shell1, shell2):
+        &#34;&#34;&#34;
+        Simulate a collision between two shells (a fast and slow shell). A new merged shell is born and the slow shell is removed from the simulation. During the collision, a pulse of gamma rays is emitted corresponding to the
+        prompt emission phase of the GRB. The flux of the pulse is contained within the light curve.
+
+        Parameters:
+            shell1 (object): first shell to collide
+
+            shell2 (object): second shell to collide
+
+        Returns:
+            (int) 0 if the collision is above the photosphere
+
+            (int) 1 if the collision is subphotospheric
+        &#34;&#34;&#34;
+        # determine which shell is the fast moving shell and which is the slow moving shell
+        if (shell1.gamma &lt; shell2.gamma):
+            slow_shell = shell1
+            fast_shell = shell2
+        else:
+            slow_shell = shell2
+            fast_shell = shell1
+
+        if config.ENABLE_LOGGING:
+            f = open(path.join(config.LOG_PATH, &#39;collision.log&#39;), &#39;a&#39;)
+            lines = [&#34;------------------------------------------------------------&#34;, &#34;                     COLLISION&#34;, f&#34;fast shell::       gamma: {fast_shell.gamma:.4f}&#34;, f&#34;                    mass: {fast_shell.mass:.4e}&#34;, f&#34;                 density: {fast_shell.density:.4e}&#34;, f&#34;                  volume: {fast_shell.volume:.4e}&#34;,f&#34;                       l: {fast_shell.l:.4e}&#34;, f&#34;                  radius: {fast_shell.radius:.4e}&#34;, f&#34;              bulk gamma: {fast_shell.bulk_gamma:.4e}&#34;, &#34; &#34;, f&#34;slow shell::       gamma: {slow_shell.gamma:.4f}&#34;, f&#34;                    mass: {slow_shell.mass:.4e}&#34;, f&#34;                 density: {slow_shell.density:.4e}&#34;, f&#34;                  volume: {slow_shell.volume:.4e}&#34;, f&#34;                       l: {slow_shell.l:.4e}&#34;, f&#34;                  radius: {slow_shell.radius:.4e}&#34;, f&#34;              bulk gamma: {slow_shell.bulk_gamma:.4e}&#34;, &#34; &#34;]
+            f.write(&#39;\n&#39;.join(lines))
+
+        if config.VERBOSE:
+            print(&#34;------------------------------------------------------------&#34;)
+            print(&#34;                     COLLISION&#34;)
+            print(&#34;------------------------------------------------------------&#34;)
+
+
+
+        #-----------------------------------------------------------------------
+        #                  calculate merged shell &amp; shock parameters
+        #                        and create new merged shell
+        #-----------------------------------------------------------------------
+        # merged shell Lorentz factor &amp; bulk Lorentz factor
+        merged_gamma = math.sqrt(((fast_shell.gamma * fast_shell.mass) + (slow_shell.gamma * slow_shell.mass)) / ((fast_shell.mass / fast_shell.gamma) + (slow_shell.mass / slow_shell.gamma)))
+        bulk_gamma_merged = math.sqrt(1 - merged_gamma**-2)
+
+        # forward shock Lorentz factor &amp; bulk Lorentz factor
+        gamma_fs = merged_gamma * math.sqrt((1 + ((2 * merged_gamma) / slow_shell.gamma)) / (2 + (merged_gamma / slow_shell.gamma)))
+        bulk_gamma_fs = math.sqrt(1 - gamma_fs**-2)
+
+        # reverse shock Lorentz factor &amp; bulk Lorentz factor
+        gamma_rs = merged_gamma * math.sqrt((1 + ((2 * merged_gamma) / fast_shell.gamma)) / (2 + (merged_gamma / fast_shell.gamma)))
+        bulk_gamma_rs = math.sqrt(1 - gamma_rs**-2)
+
+        self.shock_rat.append(fast_shell.gamma / slow_shell.gamma)
+        self.shock_rat2.append(gamma_fs / gamma_rs)
+
+        # merged shell width
+        l_merged = slow_shell.l * ((bulk_gamma_fs - bulk_gamma_merged) / (bulk_gamma_fs - slow_shell.bulk_gamma)) + fast_shell.l * ((bulk_gamma_merged - bulk_gamma_rs) / (fast_shell.bulk_gamma - bulk_gamma_rs))
+
+        # merged shell density
+        # density_merged = ((fast_shell.l * fast_shell.density * fast_shell.gamma) + (slow_shell.l * slow_shell.density * slow_shell.gamma)) / (l_merged * merged_gamma)
+        density_merged = ((fast_shell.l * fast_shell.density) + (slow_shell.l * slow_shell.density)) / l_merged
+
+        # create new merged shell
+        merged_shell = Shell(merged_gamma, slow_shell.radius, l_merged, slow_shell.index)
+
+        # merged shell mass
+        merged_mass = merged_shell.volume * density_merged
+
+        # merged shell internal energy - to be radiated away
+        e_iso_coll = (((fast_shell.gamma * (fast_shell.mass/624.15)) + (slow_shell.gamma * (slow_shell.mass/624.15))) * c**2) - (merged_gamma * ((slow_shell.mass/624.15) + (fast_shell.mass/624.15)) * c**2)
+
+        # calculate energy dissipated in photons
+        e_gamma_k = epsilon_e * e_iso_coll
+        self.e_gamma_tot += e_gamma_k
+
+        # calculate energy dissipated in protons
+        e_proton_k = epsilon_p * e_iso_coll
+        n_prot = merged_mass / proton_mass
+
+        # merged shell kinetic energy
+        e_kin_merged = (merged_gamma * (merged_mass/624.15) * c**2) #- e_iso_coll
+
+        # update merged shell parameters
+        merged_shell.mass = merged_mass
+        merged_shell.density = density_merged
+        merged_shell.bulk_e_kin = e_kin_merged
+
+        if config.ENABLE_LOGGING:
+            lines = [f&#34;merged shell::     gamma: {merged_shell.gamma:.4f}&#34;, f&#34;               mass (kg): {merged_shell.mass:.4e}&#34;, f&#34;                 density: {merged_shell.density:.4e}&#34;, f&#34;                  volume: {merged_shell.volume:.4e}&#34;, f&#34;                       l: {merged_shell.l:.4e}&#34;, f&#34;                  E_coll: {e_iso_coll:.4e}&#34;, f&#34;                   E_kin: {e_kin_merged:.4e}&#34;, f&#34;                  radius: {merged_shell.radius:.4e}&#34;, &#34; &#34;]
+            f.write(&#39;\n&#39;.join(lines))
+
+            lines = [f&#34;forward shock::        gamma: {gamma_fs:.4f}&#34;, f&#34;                  bulk gamma: {bulk_gamma_fs:.4f}&#34;, &#34; &#34;, f&#34;reverse shock::        gamma: {gamma_rs:.4f}&#34;, f&#34;                  bulk gamma: {bulk_gamma_rs:.4e}&#34;, &#34; &#34;]
+            f.write(&#39;\n&#39;.join(lines))
+
+        # record collision radius, optical depth
+        self.r_coll.append(merged_shell.radius)
+        self.op_depth.append(self.calculate_thomson_optical_depth(merged_shell))
+
+        if config.ENABLE_LOGGING:
+            lines = [&#34;------------------------------------------------------------&#34;, f&#34;optical depth: {self.calculate_thomson_optical_depth(merged_shell):.4f}&#34;, f&#34;collision radius: {merged_shell.radius:.4e}&#34;, &#34; &#34;]
+            f.write(&#39;\n&#39;.join(lines))
+            f.close()
+
+        photons = Photons(self.t_obs, merged_shell.r0, fast_shell.l, fast_shell.bulk_gamma, bulk_gamma_rs, merged_shell.gamma, e_gamma_k, merged_shell.volume, self.z)
+
+        if config.PROTON_PHYSICS:
+            protons = Protons(e_proton_k, merged_mass, merged_gamma, gamma_fs, bulk_gamma_fs, e_gamma_k, merged_shell.radius, merged_shell.r0, photons)
+            p, n_p, e_p, e_p_n = protons.generate_proton_spectrum()
+        # self.e_prot.append(protons.emax)
+            self.e_prot_max.append(protons.emax)
+            self.e_prot.append(e_p)
+            self.e_prot_n.append(n_p)
+            self.e_ind.append(e_p_n)
+            self.e_prot_n_.append(p)
+
+        self.t_syn.append(protons.t_syn)
+        self.t_dyn.append(protons.t_dyn)
+
+        # if the collision is above the photosphere, generate the light curve and
+        # finish off the collision
+        if (self.calculate_thomson_optical_depth(merged_shell) &lt;= 1):
+            self.photo += 1
+            #-----------------------------------------------------------------------
+            #                  generate synthetic light curve
+            #-----------------------------------------------------------------------
+
+            # generate light curve
+            lc = photons.to_GeV_s_cm(photons.parametrise_luminosity())
+            self.light_curve.append(lc)
+            self.r_coll_lc.append(merged_shell.radius)
+
+            if config.VERBOSE:
+                print(f&#39;flux = {lc:.4e} GeV/s/cm2&#39;)
+
+
+            #-----------------------------------------------------------------------
+            #                        finish off collision
+            #-----------------------------------------------------------------------
+            # collision efficiency
+            eff = 1 - ((slow_shell.mass + fast_shell.mass) / np.sqrt(slow_shell.mass**2 + fast_shell.mass**2 + (slow_shell.mass * fast_shell.mass * ((fast_shell.gamma / slow_shell.gamma) + (slow_shell.gamma / fast_shell.gamma)))))
+
+            if config.VERBOSE:
+                print(f&#34;shock efficiency = {eff:.4e}&#34;)
+
+            # fast shell is removed from the simulation
+            self.shells.remove(fast_shell)
+
+            # replace slow shell with merged shell
+            i = self.shells.index(slow_shell)
+            self.shells[i] = merged_shell
+
+            # update nshells and ncoll
+            self.nshells -= 1
+            self.ncoll += 1
+
+            # compute next collision time
+            self.collision_shells = []
+            self.calculate_collision_times()
+            return 0
+
+        # collision is subphotospheric; do not generate the light curve but finish
+        # off the collision
+        else:
+            self.subphoto += 1
+            #-----------------------------------------------------------------------
+            #                        finish off collision
+            #-----------------------------------------------------------------------
+            # collision efficiency
+            eff = 1 - ((slow_shell.mass + fast_shell.mass) / np.sqrt(slow_shell.mass**2 + fast_shell.mass**2 + (slow_shell.mass * fast_shell.mass * ((fast_shell.gamma / slow_shell.gamma) + (slow_shell.gamma / fast_shell.gamma)))))
+
+            if config.VERBOSE:
+                print(f&#34;shock efficiency = {eff:.4e}&#34;)
+
+            # fast shell is removed from the simulation
+            self.shells.remove(fast_shell)
+
+            # replace slow shell with merged shell
+            i = self.shells.index(slow_shell)
+            self.shells[i] = merged_shell
+
+            # update nshells and ncoll
+            self.nshells -= 1
+            self.ncoll += 1
+
+            # compute next collision time
+            self.collision_shells = []
+            self.calculate_collision_times()
+            return 1
+
+    def calculate_thomson_optical_depth(self, shell):
+        &#34;&#34;&#34;
+        Calculates the optical depth to Thomson scattering for a shell
+
+        Parameters:
+            shell (object):  input shell
+
+        Returns:
+            t_obs (float): optical depth to Thomson scattering
+        &#34;&#34;&#34;
+        electron_density = shell.mass / (proton_mass * shell.volume)
+        return 1 / (electron_density * sigma_th * shell.l)
+
+    def update_tobs(self, tobs):
+        &#34;&#34;&#34;
+        Update observer time.
+
+        Parameters:
+            tobs (float):  observer time (s)
+
+        Returns:
+            none
+        &#34;&#34;&#34;
+        self.t_obs = tobs
+
+    def calculate_t90(self, time):
+        &#34;&#34;&#34;
+        Calculates T90 (the time elapsed between the detection of 5% and 95% of the total gamma-ray energy)
+
+        Parameters:
+            time (list):  a list containing the observed time of gamma-ray energy
+
+        Returns:
+            t90 (float):  the T90 value of the burst
+        &#34;&#34;&#34;
+        # sorts the light curve and time in ascending order by time
+        tup = sorted(list(zip(time, self.light_curve)))
+        x, y = zip(*tup)
+
+        # determine total energy of the burst by summing up the light curve
+        total_energy = 0
+        for i in y:
+            total_energy += i
+
+        # calculations of 5% and 95% of the total energy
+        e5 = 0.05 * total_energy
+        e95 = 0.95 * total_energy
+
+        if config.VERBOSE:
+            print(f&#34;e5: {e5:.4e}&#34;)
+            print(f&#34;e95: {e95:.4e}&#34;)
+
+        # determine the time in which 5% of the total energy is observed
+        e = 0
+        index = 0
+        for i in y:
+            e += i
+            if (e &gt;= e5):
+                index = y.index(i)
+                break
+        t5 = x[index]
+
+        # determine the time in which 95% of the total energy is observed
+        e = 0
+        index = 0
+        for i in y:
+            e += i
+            if (e &gt;= e95):
+                index = y.index(i)
+                break
+        t95 = x[index]
+
+        # calculate T90
+        t90 = t95 - t5
+        return t90
+
+    def calculate_tv(self, t90):
+        &#34;&#34;&#34;
+        Calculates the variability timescale of the burst (tv).
+
+        Parameters:
+            t90 (float):  the T90 value of the burst (seconds)
+
+        Returns:
+            tv (float):   the variability timescale of the burst (seconds)
+        &#34;&#34;&#34;
+        return t90 / self.ncoll</code></pre>
+</details>
+<h3>Methods</h3>
+<dl>
+<dt id="proes.shells.Emitter.calculate_collision_times"><code class="name flex">
+<span>def <span class="ident">calculate_collision_times</span></span>(<span>self)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Calculates collision times of the shells in simulation. Also removes any shells that have passed the GRB's deceleration radius.</p>
+<h2 id="parameters">Parameters</h2>
+<p>none</p>
+<h2 id="returns">Returns</h2>
+<p>none</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def calculate_collision_times(self):
+    &#34;&#34;&#34;
+    Calculates collision times of the shells in simulation. Also removes any shells that have passed the GRB&#39;s deceleration radius.
+
+    Parameters:
+        none
+
+    Returns:
+        none
+    &#34;&#34;&#34;
+    self.collision_shells = []
+    count = 0
+    # first, remove any shells past the deceleration radius from simulation
+    for shell in self.shells:
+        if (shell.radius &gt; self.r_dec):
+            self.shells.remove(shell)
+            self.nshells -= 1
+            count += 1
+
+    if config.VERBOSE:
+        print(f&#34;&gt;&gt;&gt;&gt;&gt;&gt;&gt; removed {count} shells from simulation. {len(self.shells)} remaining&#34;)
+        print()
+
+    # make sure there is more than one shell remaining in simulation
+    if (self.nshells &gt; 1):
+
+        # keep a track of shells to collide
+        # first shell in collision is stored, and will be used as an index
+        # to retrive the set of next shells to collide
+        shells_to_collide = []
+        collision_times = []
+
+        for index in (range(len(self.shells)-1)):
+
+            # determine if shell collision parameters
+            shell_separation = self.shells[index].radius - self.shells[index+1].radius - self.shells[index+1].l
+            bdiff = self.shells[index+1].bulk_gamma - self.shells[index].bulk_gamma
+
+            # if no difference in gamma, shells will not collide
+            if (bdiff == 0):
+                continue
+
+            dt = abs(shell_separation / (3e+5 * bdiff))
+            collision_times.append(dt)
+            shells_to_collide.append(self.shells[index])
+
+        if config.VERBOSE:
+            print(f&#34;number of shells to collide: {len(collision_times)}&#34;)
+            print()
+
+        # if there are collisions to occur, determine time of next collision
+        # and shells to collide
+        if (len(collision_times) &gt; 0):
+            self.next_collision_time = min(collision_times)
+            index_next_collision = collision_times.index(self.next_collision_time)
+            shell = shells_to_collide[index_next_collision]
+            self.collision_shells.append(shell)
+            next_shell = self.shells.index(shell) + 1
+            self.collision_shells.append(self.shells[next_shell])
+
+            if config.VERBOSE:
+                print(f&#34;no. of shells to collide: {len(self.collision_shells)}&#34;)
+                print(f&#34;&gt;&gt;&gt;&gt;&gt;&gt;&gt; collision of shells with gamma {self.collision_shells[1].gamma:.2f} and {self.collision_shells[0].gamma:.2f}&#34;)
+                print(f&#34;&gt;&gt;&gt;&gt;&gt;&gt;&gt; at time interval {self.next_collision_time:.2e} s&#34;)
+                print()
+
+        # if no more collisions can occur, simulation has finished
+        else:
+            self.done = True
+
+            if config.VERBOSE:
+                print(&#34;&gt;&gt;&gt;&gt;&gt;&gt;&gt; no more collisions!&#34;)
+
+
+    # if there is only one shell remaining, simulation has finished as no
+    # more shells can collide
+    else:
+        self.done = True
+
+        if config.VERBOSE:
+            print(&#34;&gt;&gt;&gt;&gt;&gt;&gt;&gt; no more collisions!&#34;)</code></pre>
+</details>
+</dd>
+<dt id="proes.shells.Emitter.calculate_t90"><code class="name flex">
+<span>def <span class="ident">calculate_t90</span></span>(<span>self, time)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Calculates T90 (the time elapsed between the detection of 5% and 95% of the total gamma-ray energy)</p>
+<h2 id="parameters">Parameters</h2>
+<p>time (list):
+a list containing the observed time of gamma-ray energy</p>
+<h2 id="returns">Returns</h2>
+<p>t90 (float):
+the T90 value of the burst</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def calculate_t90(self, time):
+    &#34;&#34;&#34;
+    Calculates T90 (the time elapsed between the detection of 5% and 95% of the total gamma-ray energy)
+
+    Parameters:
+        time (list):  a list containing the observed time of gamma-ray energy
+
+    Returns:
+        t90 (float):  the T90 value of the burst
+    &#34;&#34;&#34;
+    # sorts the light curve and time in ascending order by time
+    tup = sorted(list(zip(time, self.light_curve)))
+    x, y = zip(*tup)
+
+    # determine total energy of the burst by summing up the light curve
+    total_energy = 0
+    for i in y:
+        total_energy += i
+
+    # calculations of 5% and 95% of the total energy
+    e5 = 0.05 * total_energy
+    e95 = 0.95 * total_energy
+
+    if config.VERBOSE:
+        print(f&#34;e5: {e5:.4e}&#34;)
+        print(f&#34;e95: {e95:.4e}&#34;)
+
+    # determine the time in which 5% of the total energy is observed
+    e = 0
+    index = 0
+    for i in y:
+        e += i
+        if (e &gt;= e5):
+            index = y.index(i)
+            break
+    t5 = x[index]
+
+    # determine the time in which 95% of the total energy is observed
+    e = 0
+    index = 0
+    for i in y:
+        e += i
+        if (e &gt;= e95):
+            index = y.index(i)
+            break
+    t95 = x[index]
+
+    # calculate T90
+    t90 = t95 - t5
+    return t90</code></pre>
+</details>
+</dd>
+<dt id="proes.shells.Emitter.calculate_thomson_optical_depth"><code class="name flex">
+<span>def <span class="ident">calculate_thomson_optical_depth</span></span>(<span>self, shell)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Calculates the optical depth to Thomson scattering for a shell</p>
+<h2 id="parameters">Parameters</h2>
+<p>shell (object):
+input shell</p>
+<h2 id="returns">Returns</h2>
+<p>t_obs (float): optical depth to Thomson scattering</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def calculate_thomson_optical_depth(self, shell):
+    &#34;&#34;&#34;
+    Calculates the optical depth to Thomson scattering for a shell
+
+    Parameters:
+        shell (object):  input shell
+
+    Returns:
+        t_obs (float): optical depth to Thomson scattering
+    &#34;&#34;&#34;
+    electron_density = shell.mass / (proton_mass * shell.volume)
+    return 1 / (electron_density * sigma_th * shell.l)</code></pre>
+</details>
+</dd>
+<dt id="proes.shells.Emitter.calculate_tv"><code class="name flex">
+<span>def <span class="ident">calculate_tv</span></span>(<span>self, t90)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Calculates the variability timescale of the burst (tv).</p>
+<h2 id="parameters">Parameters</h2>
+<p>t90 (float):
+the T90 value of the burst (seconds)</p>
+<h2 id="returns">Returns</h2>
+<p>tv (float):
+the variability timescale of the burst (seconds)</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def calculate_tv(self, t90):
+    &#34;&#34;&#34;
+    Calculates the variability timescale of the burst (tv).
+
+    Parameters:
+        t90 (float):  the T90 value of the burst (seconds)
+
+    Returns:
+        tv (float):   the variability timescale of the burst (seconds)
+    &#34;&#34;&#34;
+    return t90 / self.ncoll</code></pre>
+</details>
+</dd>
+<dt id="proes.shells.Emitter.collision"><code class="name flex">
+<span>def <span class="ident">collision</span></span>(<span>self, shell1, shell2)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Simulate a collision between two shells (a fast and slow shell). A new merged shell is born and the slow shell is removed from the simulation. During the collision, a pulse of gamma rays is emitted corresponding to the
+prompt emission phase of the GRB. The flux of the pulse is contained within the light curve.</p>
+<h2 id="parameters">Parameters</h2>
+<p>shell1 (object): first shell to collide</p>
+<p>shell2 (object): second shell to collide</p>
+<h2 id="returns">Returns</h2>
+<p>(int) 0 if the collision is above the photosphere</p>
+<p>(int) 1 if the collision is subphotospheric</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def collision(self, shell1, shell2):
+    &#34;&#34;&#34;
+    Simulate a collision between two shells (a fast and slow shell). A new merged shell is born and the slow shell is removed from the simulation. During the collision, a pulse of gamma rays is emitted corresponding to the
+    prompt emission phase of the GRB. The flux of the pulse is contained within the light curve.
+
+    Parameters:
+        shell1 (object): first shell to collide
+
+        shell2 (object): second shell to collide
+
+    Returns:
+        (int) 0 if the collision is above the photosphere
+
+        (int) 1 if the collision is subphotospheric
+    &#34;&#34;&#34;
+    # determine which shell is the fast moving shell and which is the slow moving shell
+    if (shell1.gamma &lt; shell2.gamma):
+        slow_shell = shell1
+        fast_shell = shell2
+    else:
+        slow_shell = shell2
+        fast_shell = shell1
+
+    if config.ENABLE_LOGGING:
+        f = open(path.join(config.LOG_PATH, &#39;collision.log&#39;), &#39;a&#39;)
+        lines = [&#34;------------------------------------------------------------&#34;, &#34;                     COLLISION&#34;, f&#34;fast shell::       gamma: {fast_shell.gamma:.4f}&#34;, f&#34;                    mass: {fast_shell.mass:.4e}&#34;, f&#34;                 density: {fast_shell.density:.4e}&#34;, f&#34;                  volume: {fast_shell.volume:.4e}&#34;,f&#34;                       l: {fast_shell.l:.4e}&#34;, f&#34;                  radius: {fast_shell.radius:.4e}&#34;, f&#34;              bulk gamma: {fast_shell.bulk_gamma:.4e}&#34;, &#34; &#34;, f&#34;slow shell::       gamma: {slow_shell.gamma:.4f}&#34;, f&#34;                    mass: {slow_shell.mass:.4e}&#34;, f&#34;                 density: {slow_shell.density:.4e}&#34;, f&#34;                  volume: {slow_shell.volume:.4e}&#34;, f&#34;                       l: {slow_shell.l:.4e}&#34;, f&#34;                  radius: {slow_shell.radius:.4e}&#34;, f&#34;              bulk gamma: {slow_shell.bulk_gamma:.4e}&#34;, &#34; &#34;]
+        f.write(&#39;\n&#39;.join(lines))
+
+    if config.VERBOSE:
+        print(&#34;------------------------------------------------------------&#34;)
+        print(&#34;                     COLLISION&#34;)
+        print(&#34;------------------------------------------------------------&#34;)
+
+
+
+    #-----------------------------------------------------------------------
+    #                  calculate merged shell &amp; shock parameters
+    #                        and create new merged shell
+    #-----------------------------------------------------------------------
+    # merged shell Lorentz factor &amp; bulk Lorentz factor
+    merged_gamma = math.sqrt(((fast_shell.gamma * fast_shell.mass) + (slow_shell.gamma * slow_shell.mass)) / ((fast_shell.mass / fast_shell.gamma) + (slow_shell.mass / slow_shell.gamma)))
+    bulk_gamma_merged = math.sqrt(1 - merged_gamma**-2)
+
+    # forward shock Lorentz factor &amp; bulk Lorentz factor
+    gamma_fs = merged_gamma * math.sqrt((1 + ((2 * merged_gamma) / slow_shell.gamma)) / (2 + (merged_gamma / slow_shell.gamma)))
+    bulk_gamma_fs = math.sqrt(1 - gamma_fs**-2)
+
+    # reverse shock Lorentz factor &amp; bulk Lorentz factor
+    gamma_rs = merged_gamma * math.sqrt((1 + ((2 * merged_gamma) / fast_shell.gamma)) / (2 + (merged_gamma / fast_shell.gamma)))
+    bulk_gamma_rs = math.sqrt(1 - gamma_rs**-2)
+
+    self.shock_rat.append(fast_shell.gamma / slow_shell.gamma)
+    self.shock_rat2.append(gamma_fs / gamma_rs)
+
+    # merged shell width
+    l_merged = slow_shell.l * ((bulk_gamma_fs - bulk_gamma_merged) / (bulk_gamma_fs - slow_shell.bulk_gamma)) + fast_shell.l * ((bulk_gamma_merged - bulk_gamma_rs) / (fast_shell.bulk_gamma - bulk_gamma_rs))
+
+    # merged shell density
+    # density_merged = ((fast_shell.l * fast_shell.density * fast_shell.gamma) + (slow_shell.l * slow_shell.density * slow_shell.gamma)) / (l_merged * merged_gamma)
+    density_merged = ((fast_shell.l * fast_shell.density) + (slow_shell.l * slow_shell.density)) / l_merged
+
+    # create new merged shell
+    merged_shell = Shell(merged_gamma, slow_shell.radius, l_merged, slow_shell.index)
+
+    # merged shell mass
+    merged_mass = merged_shell.volume * density_merged
+
+    # merged shell internal energy - to be radiated away
+    e_iso_coll = (((fast_shell.gamma * (fast_shell.mass/624.15)) + (slow_shell.gamma * (slow_shell.mass/624.15))) * c**2) - (merged_gamma * ((slow_shell.mass/624.15) + (fast_shell.mass/624.15)) * c**2)
+
+    # calculate energy dissipated in photons
+    e_gamma_k = epsilon_e * e_iso_coll
+    self.e_gamma_tot += e_gamma_k
+
+    # calculate energy dissipated in protons
+    e_proton_k = epsilon_p * e_iso_coll
+    n_prot = merged_mass / proton_mass
+
+    # merged shell kinetic energy
+    e_kin_merged = (merged_gamma * (merged_mass/624.15) * c**2) #- e_iso_coll
+
+    # update merged shell parameters
+    merged_shell.mass = merged_mass
+    merged_shell.density = density_merged
+    merged_shell.bulk_e_kin = e_kin_merged
+
+    if config.ENABLE_LOGGING:
+        lines = [f&#34;merged shell::     gamma: {merged_shell.gamma:.4f}&#34;, f&#34;               mass (kg): {merged_shell.mass:.4e}&#34;, f&#34;                 density: {merged_shell.density:.4e}&#34;, f&#34;                  volume: {merged_shell.volume:.4e}&#34;, f&#34;                       l: {merged_shell.l:.4e}&#34;, f&#34;                  E_coll: {e_iso_coll:.4e}&#34;, f&#34;                   E_kin: {e_kin_merged:.4e}&#34;, f&#34;                  radius: {merged_shell.radius:.4e}&#34;, &#34; &#34;]
+        f.write(&#39;\n&#39;.join(lines))
+
+        lines = [f&#34;forward shock::        gamma: {gamma_fs:.4f}&#34;, f&#34;                  bulk gamma: {bulk_gamma_fs:.4f}&#34;, &#34; &#34;, f&#34;reverse shock::        gamma: {gamma_rs:.4f}&#34;, f&#34;                  bulk gamma: {bulk_gamma_rs:.4e}&#34;, &#34; &#34;]
+        f.write(&#39;\n&#39;.join(lines))
+
+    # record collision radius, optical depth
+    self.r_coll.append(merged_shell.radius)
+    self.op_depth.append(self.calculate_thomson_optical_depth(merged_shell))
+
+    if config.ENABLE_LOGGING:
+        lines = [&#34;------------------------------------------------------------&#34;, f&#34;optical depth: {self.calculate_thomson_optical_depth(merged_shell):.4f}&#34;, f&#34;collision radius: {merged_shell.radius:.4e}&#34;, &#34; &#34;]
+        f.write(&#39;\n&#39;.join(lines))
+        f.close()
+
+    photons = Photons(self.t_obs, merged_shell.r0, fast_shell.l, fast_shell.bulk_gamma, bulk_gamma_rs, merged_shell.gamma, e_gamma_k, merged_shell.volume, self.z)
+
+    if config.PROTON_PHYSICS:
+        protons = Protons(e_proton_k, merged_mass, merged_gamma, gamma_fs, bulk_gamma_fs, e_gamma_k, merged_shell.radius, merged_shell.r0, photons)
+        p, n_p, e_p, e_p_n = protons.generate_proton_spectrum()
+    # self.e_prot.append(protons.emax)
+        self.e_prot_max.append(protons.emax)
+        self.e_prot.append(e_p)
+        self.e_prot_n.append(n_p)
+        self.e_ind.append(e_p_n)
+        self.e_prot_n_.append(p)
+
+    self.t_syn.append(protons.t_syn)
+    self.t_dyn.append(protons.t_dyn)
+
+    # if the collision is above the photosphere, generate the light curve and
+    # finish off the collision
+    if (self.calculate_thomson_optical_depth(merged_shell) &lt;= 1):
+        self.photo += 1
+        #-----------------------------------------------------------------------
+        #                  generate synthetic light curve
+        #-----------------------------------------------------------------------
+
+        # generate light curve
+        lc = photons.to_GeV_s_cm(photons.parametrise_luminosity())
+        self.light_curve.append(lc)
+        self.r_coll_lc.append(merged_shell.radius)
+
+        if config.VERBOSE:
+            print(f&#39;flux = {lc:.4e} GeV/s/cm2&#39;)
+
+
+        #-----------------------------------------------------------------------
+        #                        finish off collision
+        #-----------------------------------------------------------------------
+        # collision efficiency
+        eff = 1 - ((slow_shell.mass + fast_shell.mass) / np.sqrt(slow_shell.mass**2 + fast_shell.mass**2 + (slow_shell.mass * fast_shell.mass * ((fast_shell.gamma / slow_shell.gamma) + (slow_shell.gamma / fast_shell.gamma)))))
+
+        if config.VERBOSE:
+            print(f&#34;shock efficiency = {eff:.4e}&#34;)
+
+        # fast shell is removed from the simulation
+        self.shells.remove(fast_shell)
+
+        # replace slow shell with merged shell
+        i = self.shells.index(slow_shell)
+        self.shells[i] = merged_shell
+
+        # update nshells and ncoll
+        self.nshells -= 1
+        self.ncoll += 1
+
+        # compute next collision time
+        self.collision_shells = []
+        self.calculate_collision_times()
+        return 0
+
+    # collision is subphotospheric; do not generate the light curve but finish
+    # off the collision
+    else:
+        self.subphoto += 1
+        #-----------------------------------------------------------------------
+        #                        finish off collision
+        #-----------------------------------------------------------------------
+        # collision efficiency
+        eff = 1 - ((slow_shell.mass + fast_shell.mass) / np.sqrt(slow_shell.mass**2 + fast_shell.mass**2 + (slow_shell.mass * fast_shell.mass * ((fast_shell.gamma / slow_shell.gamma) + (slow_shell.gamma / fast_shell.gamma)))))
+
+        if config.VERBOSE:
+            print(f&#34;shock efficiency = {eff:.4e}&#34;)
+
+        # fast shell is removed from the simulation
+        self.shells.remove(fast_shell)
+
+        # replace slow shell with merged shell
+        i = self.shells.index(slow_shell)
+        self.shells[i] = merged_shell
+
+        # update nshells and ncoll
+        self.nshells -= 1
+        self.ncoll += 1
+
+        # compute next collision time
+        self.collision_shells = []
+        self.calculate_collision_times()
+        return 1</code></pre>
+</details>
+</dd>
+<dt id="proes.shells.Emitter.delta_step"><code class="name flex">
+<span>def <span class="ident">delta_step</span></span>(<span>self, k, val)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Dirac-delta distribution used to define amplitude values for gamma_dist_GRB3.</p>
+<h2 id="parameters">Parameters</h2>
+<p>k:</p>
+<p>val:</p>
+<h2 id="returns">Returns</h2>
+<p>0 if k &lt; val; else 1</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def delta_step(self, k, val):
+    &#34;&#34;&#34;
+    Dirac-delta distribution used to define amplitude values for gamma_dist_GRB3.
+
+    Parameters:
+        k:
+
+        val:
+
+    Returns:
+        0 if k &lt; val; else 1
+    &#34;&#34;&#34;
+    if (k &lt; val):
+        return 0
+    else:
+        return 1</code></pre>
+</details>
+</dd>
+<dt id="proes.shells.Emitter.gamma_dist_GRB1"><code class="name flex">
+<span>def <span class="ident">gamma_dist_GRB1</span></span>(<span>self, gamma0)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Lorentz factor distribution for GRB1 of Bustamante et al. (2017). Lorentz factors are randomly samples from a log-normal distribution defined by a characteristic value gamma0.</p>
+<h2 id="parameters">Parameters</h2>
+<p>gamma0 (float): characteristic Lorentz factor of distribution</p>
+<h2 id="returns">Returns</h2>
+<p>(float) randomly sampled Lorentz factor from distribution</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def gamma_dist_GRB1(self, gamma0):
+    &#34;&#34;&#34;
+    Lorentz factor distribution for GRB1 of Bustamante et al. (2017). Lorentz factors are randomly samples from a log-normal distribution defined by a characteristic value gamma0.
+
+    Parameters:
+        gamma0 (float): characteristic Lorentz factor of distribution
+
+    Returns:
+        (float) randomly sampled Lorentz factor from distribution
+    &#34;&#34;&#34;
+    return 1 + (gamma0 - 1) * np.exp(gauss(0, 1))</code></pre>
+</details>
+</dd>
+<dt id="proes.shells.Emitter.gamma_dist_GRB2"><code class="name flex">
+<span>def <span class="ident">gamma_dist_GRB2</span></span>(<span>self, gamma1, gamma2)</span>
+</code></dt>
+<dd>
+<div class="desc"></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def gamma_dist_GRB2(self, gamma1, gamma2):
+    a1 = 1
+    a2 = 0.1
+
+    return 1 + (gamma2 - 1) * np.exp(a2*gauss(0, 1))</code></pre>
+</details>
+</dd>
+<dt id="proes.shells.Emitter.gamma_dist_GRB3"><code class="name flex">
+<span>def <span class="ident">gamma_dist_GRB3</span></span>(<span>self, gamma1, gamma2, tp, k)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Lorentz factor distribution for GRB3 of Bustamante et al. (2017). Lorentz factors sampled form a sawtooth with narrow distribution and fluctuate between two characteristic values: gamma1 and gamma2.</p>
+<h2 id="parameters">Parameters</h2>
+<p>gamma1 (float):
+first characteristic Lorentz factor value</p>
+<p>gamma2 (float):
+second characteristic Lorentz factor value</p>
+<p>tp (float):
+fraction of total emitted shells</p>
+<h2 id="returns">Returns</h2>
+<p>(float) randomly sampled Lorentz factor from distribution</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def gamma_dist_GRB3(self, gamma1, gamma2, tp, k):
+    &#34;&#34;&#34;
+    Lorentz factor distribution for GRB3 of Bustamante et al. (2017). Lorentz factors sampled form a sawtooth with narrow distribution and fluctuate between two characteristic values: gamma1 and gamma2.
+
+    Parameters:
+        gamma1 (float):     first characteristic Lorentz factor value
+
+        gamma2 (float):     second characteristic Lorentz factor value
+
+        tp (float):         fraction of total emitted shells
+
+    Returns:
+        (float) randomly sampled Lorentz factor from distribution
+    &#34;&#34;&#34;
+    a = 0.1
+    gamma = ((gamma1 - gamma2)/(self.nshells * tp)) * k + gamma2 - (gamma1 - gamma2) * (self.delta_step(k, self.nshells * tp) + self.delta_step(k, 2*self.nshells*tp))
+    return  1 + (gamma - 1) * np.exp(a * gauss(0, 1))</code></pre>
+</details>
+</dd>
+<dt id="proes.shells.Emitter.retrieve_lorentz_factors"><code class="name flex">
+<span>def <span class="ident">retrieve_lorentz_factors</span></span>(<span>self)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Function used for plotting Lorentz factors of shells within the GRB. Retrieves the Lorentz factor and distance from the central engine.</p>
+<h2 id="parameters">Parameters</h2>
+<p>none</p>
+<h2 id="returns">Returns</h2>
+<p>x (list): a list storing the distances from the central engine</p>
+<p>y (list): a list storing the shell Lorentz factors</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def retrieve_lorentz_factors(self):
+    &#34;&#34;&#34;
+    Function used for plotting Lorentz factors of shells within the GRB. Retrieves the Lorentz factor and distance from the central engine.
+
+    Parameters:
+        none
+
+    Returns:
+        x (list): a list storing the distances from the central engine
+
+        y (list): a list storing the shell Lorentz factors
+    &#34;&#34;&#34;
+    x = []
+    y = []
+
+    for shell in self.shells:
+        x.append(shell.radius)
+        y.append(shell.gamma)
+
+    return x, y</code></pre>
+</details>
+</dd>
+<dt id="proes.shells.Emitter.retrieve_radii"><code class="name flex">
+<span>def <span class="ident">retrieve_radii</span></span>(<span>self)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Function used for plotting distance of shells from the central engine of the GRB. Retrieves the shell index and distance from the central engine.</p>
+<h2 id="parameters">Parameters</h2>
+<p>none</p>
+<h2 id="returns">Returns</h2>
+<p>x (list): a list storing the shell indices</p>
+<p>y (list): a list storing the distances from the central engine</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def retrieve_radii(self):
+    &#34;&#34;&#34;
+    Function used for plotting distance of shells from the central engine of the GRB. Retrieves the shell index and distance from the central engine.
+
+    Parameters:
+        none
+
+    Returns:
+        x (list): a list storing the shell indices
+
+        y (list): a list storing the distances from the central engine
+    &#34;&#34;&#34;
+    x = []
+    y = []
+
+    for shell in self.shells:
+        x.append(shell.index)
+        y.append(shell.radius)
+
+    return x, y</code></pre>
+</details>
+</dd>
+<dt id="proes.shells.Emitter.setup"><code class="name flex">
+<span>def <span class="ident">setup</span></span>(<span>self, gamma1, gamma2, tp, dist)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Sets up the shells emitted by the central engine - assigning indices, Lorentz factors, widths, and distances from central engine.</p>
+<h2 id="parameters">Parameters</h2>
+<p>gamma1 (float): first characteristic Lorentz factor value</p>
+<p>gamma2 (float): second characteristic Lorentz factor value</p>
+<p>tp (float):
+fraction of total emitted shells</p>
+<p>dist (int):
+type of Lorentz factor distribution for shells. Possible inputs are
+1 - profile for GRB1 of Bustamante et al. (2017) (DEFAULT DISTRIBUTION)
+3 - profile for GRB3 of Bustamante et al. (2017)</p>
+<h2 id="returns">Returns</h2>
+<p>none</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def setup(self, gamma1, gamma2, tp, dist):
+    &#34;&#34;&#34;
+    Sets up the shells emitted by the central engine - assigning indices, Lorentz factors, widths, and distances from central engine.
+
+    Parameters:
+        gamma1 (float): first characteristic Lorentz factor value
+
+        gamma2 (float): second characteristic Lorentz factor value
+
+        tp (float):     fraction of total emitted shells
+
+        dist (int):     type of Lorentz factor distribution for shells. Possible inputs are
+                        1 - profile for GRB1 of Bustamante et al. (2017) (DEFAULT DISTRIBUTION)
+                        3 - profile for GRB3 of Bustamante et al. (2017)
+
+    Returns:
+        none
+    &#34;&#34;&#34;
+
+    if config.VERBOSE:
+        print(&#34;------------------------------------------------------------&#34;)
+        print(&#34;                     SHELL GENERATION&#34;)
+        print(&#34;------------------------------------------------------------&#34;)
+
+    if config.ENABLE_LOGGING:
+        f = open(path.join(config.LOG_PATH, &#39;shells.log&#39;), &#39;w&#39;)
+
+    # initialise shells
+    for i in range(self.nshells):
+
+        # setting up Lorentz factor of shell
+        if (dist == 2):
+            gamma = self.gamma_dist_GRB2(gamma1, gamma2)
+        if (dist == 3):
+            gamma = self.gamma_dist_GRB3(gamma1, gamma2, tp, i)
+        else:
+            gamma = self.gamma_dist_GRB1(gamma1)
+
+        # shell width and distance from central engine
+        # l = c * self.dt_eng
+        l = 3e+5 * self.dt_eng
+        r = self.r_n_sh + ((self.nshells - i) * (2 * l))
+
+        # initialise shell and contain it within central engine&#39;s list of shells
+        shell = Shell(gamma, r, l, i)
+        self.shells.append(shell)
+
+        # log shell parameters
+        if config.ENABLE_LOGGING:
+            lines = [f&#34;shell:: {i}&#34;, f&#34;          gamma: {gamma:.4f}&#34;, f&#34;              l: {l:.4e}&#34;, f&#34;         radius: {r:.4e}&#34;, f&#34;           mass: {shell.mass:.4e}&#34;, &#34;\n&#34;]
+            f.write(&#39;\n&#39;.join(lines))
+            f.close()
+
+    # end of shell initialisation
+
+    if config.VERBOSE:
+        print(&#34;&gt;&gt;&gt;&gt;&gt;&gt;&gt; shells generated&#34;)
+        print(&#34;------------------------------------------------------------&#34;)
+        print()
+
+    self.calculate_collision_times()</code></pre>
+</details>
+</dd>
+<dt id="proes.shells.Emitter.update_tobs"><code class="name flex">
+<span>def <span class="ident">update_tobs</span></span>(<span>self, tobs)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Update observer time.</p>
+<h2 id="parameters">Parameters</h2>
+<p>tobs (float):
+observer time (s)</p>
+<h2 id="returns">Returns</h2>
+<p>none</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def update_tobs(self, tobs):
+    &#34;&#34;&#34;
+    Update observer time.
+
+    Parameters:
+        tobs (float):  observer time (s)
+
+    Returns:
+        none
+    &#34;&#34;&#34;
+    self.t_obs = tobs</code></pre>
+</details>
+</dd>
+</dl>
+</dd>
+<dt id="proes.shells.Shell"><code class="flex name class">
+<span>class <span class="ident">Shell</span></span>
+<span>(</span><span>gamma, radius, l, index)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>A class for storing information regarding a singular spherical shell of matter.</p>
+<hr>
+<pre><code>                        Parameters contained:
+</code></pre>
+<hr>
+<p>index:
+used to store index number of the shell. Higher indices are located
+closer to the central engine</p>
+<p>gamma:
+shell Lorentz factor</p>
+<p>bulk_gamma: shell bulk Lorentz factor</p>
+<p>r0:
+initial shell distance from the central engine (units: km)</p>
+<p>radius:
+current shell distance from the central engine (units: km)</p>
+<p>l:
+shell width (units: km)</p>
+<p>volume:
+volume of the spherical shell (units: km^3)</p>
+<p>mass:
+shell mass (units: GeV)</p>
+<p>density:
+shell density (units: GeV/km^3)</p>
+<p>bulk_e_kin: shell bulk kinetic energy (units: erg)</p>
+<hr>
+<p>Initialises the Shell object.</p>
+<h2 id="parameters">Parameters</h2>
+<p>gamma (float):
+Lorentz factor of the shell</p>
+<p>radius (float):
+shell distance from central engine</p>
+<p>l (float):
+shell width</p>
+<p>index (int):
+index number of shell</p>
+<h2 id="returns">Returns</h2>
+<p>none</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">class Shell():
+    &#34;&#34;&#34;
+    A class for storing information regarding a singular spherical shell of matter.
+
+    --------------------------------------------------------------------------------
+                                Parameters contained:
+    --------------------------------------------------------------------------------
+
+    index:      used to store index number of the shell. Higher indices are located
+                closer to the central engine
+
+    gamma:      shell Lorentz factor
+
+    bulk_gamma: shell bulk Lorentz factor
+
+    r0:         initial shell distance from the central engine (units: km)
+
+    radius:     current shell distance from the central engine (units: km)
+
+    l:          shell width (units: km)
+
+    volume:     volume of the spherical shell (units: km^3)
+
+    mass:       shell mass (units: GeV)
+
+    density:    shell density (units: GeV/km^3)
+
+    bulk_e_kin: shell bulk kinetic energy (units: erg)
+
+    --------------------------------------------------------------------------------
+    &#34;&#34;&#34;
+
+    def __init__(self, gamma, radius, l, index):
+        &#34;&#34;&#34;
+        Initialises the Shell object.
+
+        Parameters:
+            gamma (float):     Lorentz factor of the shell
+
+            radius (float):    shell distance from central engine
+
+            l (float):         shell width
+
+            index (int):       index number of shell
+
+        Returns:
+            none
+        &#34;&#34;&#34;
+        self.index = index
+        self.gamma = gamma
+        self.bulk_gamma = math.sqrt(1 - gamma**-2)
+        self.r0 = radius
+        self.radius = radius
+        self.l = l
+        self.volume = 4 * np.pi * radius**2 * l
+        self.mass = (e_iso_kin * 624.15) / (gamma * c**2)
+        self.density = self.mass / self.volume
+        self.bulk_e_kin = self.gamma * (self.mass/624.15) * c**2
+
+    def update_shell(self, t):
+        &#34;&#34;&#34;
+        Updates shell parameters at a point in time.
+
+        Parameters:
+            t (float): simulation time
+
+        Returns:
+            none
+        &#34;&#34;&#34;
+        self.radius = self.radius + (3e+5 * self.bulk_gamma * t)
+        self.volume = 4 * np.pi * self.radius**2 * self.l
+        self.density = self.mass / self.volume</code></pre>
+</details>
+<h3>Methods</h3>
+<dl>
+<dt id="proes.shells.Shell.update_shell"><code class="name flex">
+<span>def <span class="ident">update_shell</span></span>(<span>self, t)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Updates shell parameters at a point in time.</p>
+<h2 id="parameters">Parameters</h2>
+<p>t (float): simulation time</p>
+<h2 id="returns">Returns</h2>
+<p>none</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def update_shell(self, t):
+    &#34;&#34;&#34;
+    Updates shell parameters at a point in time.
+
+    Parameters:
+        t (float): simulation time
+
+    Returns:
+        none
+    &#34;&#34;&#34;
+    self.radius = self.radius + (3e+5 * self.bulk_gamma * t)
+    self.volume = 4 * np.pi * self.radius**2 * self.l
+    self.density = self.mass / self.volume</code></pre>
+</details>
+</dd>
+</dl>
+</dd>
+</dl>
+</section>
+</article>
+<nav id="sidebar">
+<h1>Index</h1>
+<div class="toc">
+<ul></ul>
+</div>
+<ul id="index">
+<li><h3>Super-module</h3>
+<ul>
+<li><code><a title="proes" href="index.html">proes</a></code></li>
+</ul>
+</li>
+<li><h3><a href="#header-classes">Classes</a></h3>
+<ul>
+<li>
+<h4><code><a title="proes.shells.Emitter" href="#proes.shells.Emitter">Emitter</a></code></h4>
+<ul class="">
+<li><code><a title="proes.shells.Emitter.calculate_collision_times" href="#proes.shells.Emitter.calculate_collision_times">calculate_collision_times</a></code></li>
+<li><code><a title="proes.shells.Emitter.calculate_t90" href="#proes.shells.Emitter.calculate_t90">calculate_t90</a></code></li>
+<li><code><a title="proes.shells.Emitter.calculate_thomson_optical_depth" href="#proes.shells.Emitter.calculate_thomson_optical_depth">calculate_thomson_optical_depth</a></code></li>
+<li><code><a title="proes.shells.Emitter.calculate_tv" href="#proes.shells.Emitter.calculate_tv">calculate_tv</a></code></li>
+<li><code><a title="proes.shells.Emitter.collision" href="#proes.shells.Emitter.collision">collision</a></code></li>
+<li><code><a title="proes.shells.Emitter.delta_step" href="#proes.shells.Emitter.delta_step">delta_step</a></code></li>
+<li><code><a title="proes.shells.Emitter.gamma_dist_GRB1" href="#proes.shells.Emitter.gamma_dist_GRB1">gamma_dist_GRB1</a></code></li>
+<li><code><a title="proes.shells.Emitter.gamma_dist_GRB2" href="#proes.shells.Emitter.gamma_dist_GRB2">gamma_dist_GRB2</a></code></li>
+<li><code><a title="proes.shells.Emitter.gamma_dist_GRB3" href="#proes.shells.Emitter.gamma_dist_GRB3">gamma_dist_GRB3</a></code></li>
+<li><code><a title="proes.shells.Emitter.retrieve_lorentz_factors" href="#proes.shells.Emitter.retrieve_lorentz_factors">retrieve_lorentz_factors</a></code></li>
+<li><code><a title="proes.shells.Emitter.retrieve_radii" href="#proes.shells.Emitter.retrieve_radii">retrieve_radii</a></code></li>
+<li><code><a title="proes.shells.Emitter.setup" href="#proes.shells.Emitter.setup">setup</a></code></li>
+<li><code><a title="proes.shells.Emitter.update_tobs" href="#proes.shells.Emitter.update_tobs">update_tobs</a></code></li>
+</ul>
+</li>
+<li>
+<h4><code><a title="proes.shells.Shell" href="#proes.shells.Shell">Shell</a></code></h4>
+<ul class="">
+<li><code><a title="proes.shells.Shell.update_shell" href="#proes.shells.Shell.update_shell">update_shell</a></code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</nav>
+</main>
+<footer id="footer">
+<p>Generated by <a href="https://pdoc3.github.io/pdoc" title="pdoc: Python API documentation generator"><cite>pdoc</cite> 0.10.0</a>.</p>
+</footer>
+</body>
+</html>

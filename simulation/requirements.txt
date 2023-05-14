@@ -1,0 +1,8 @@
+##################### Requirements #######################
+
+numpy,
+matplotlib,
+math,
+random,
+astropy,
+os
