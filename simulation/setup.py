@@ -15,9 +15,9 @@ setup(
     name='proes',
     version=__version__,
     author='Eloise Moore',
-    author_email='22684463@student.uwa.edu.au'
+    author_email='22684463@student.uwa.edu.au',
     # url=''
-    license='MIT'
+    license='MIT',
     description='Gamma-ray burst PROmpt Emission Simulator',
     packages=['proes'],
     install_requires=[
